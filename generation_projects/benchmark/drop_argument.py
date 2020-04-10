@@ -36,3 +36,4 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
 generator = CSCGenerator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
 
+TEST EDIT
