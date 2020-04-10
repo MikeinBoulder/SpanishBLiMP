@@ -50,7 +50,6 @@ binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl"
 
 
 
-EDIT TEST
 
 
 
