@@ -30,15 +30,15 @@ class Generator:
     def make_metadata_dict(self):
         return {}
 
-    def make_logger(self, metadata):
+ #   def make_logger(self, metadata):
         """
         creates a logger for the generation project
         :param metadata: metadata dict for the generation project
         :return: None
         """
-        project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
-        log_name = 'generation-%s-%s.log' % (metadata["UID"], str(datetime.datetime.now()))
-        logging.basicConfig(filename=os.path.join(project_root, "logs/benchmark", log_name), level=logging.DEBUG)
+ #       project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
+ #       log_name = 'generation-%s-%s.log' % (metadata["UID"], str(datetime.datetime.now()))
+ #      logging.basicConfig(filename=os.path.join(project_root, "logs/benchmark", log_name), level=logging.DEBUG)
 
     def log_exception(self, e):
         logging.debug(self.get_stack_trace(e) + "\n")
@@ -46,7 +46,7 @@ class Generator:
     def get_stack_trace(self, e):
         return "".join(traceback.format_tb(e.__traceback__)) + str(e)
 
-    def generate_paradigm(self, number_to_generate=1000, rel_output_path=None, absolute_path=None):
+    def generate_paradigm(self, number_to_generate=100, rel_output_path=None, absolute_path=None):
         """
         Contains the main loop for generating a full dataset for a given paradigm.
         Also contains exception handling: some exceptions are tolerated because sometimes no matching arguments can be found,
@@ -70,7 +70,7 @@ class Generator:
         error_counter = 0
         constant_data = self.make_metadata_dict()
         print("Generating data for " + constant_data["UID"])
-        self.make_logger(constant_data)
+        # self.make_logger(constant_data)
         output_writer = jsonlines.Writer(output, flush=True)
         while len(past_sentences) < number_to_generate:
             try:
