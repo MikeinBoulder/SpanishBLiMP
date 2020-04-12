@@ -1,0 +1,120 @@
+from vocab_sets import *
+from randomize import *
+import random
+
+
+
+#FLOATS IN all_refl_preds?????
+#Getting error about floats and strings being incompatible
+#all_refl_preds = le.fit_transform(all_refl_preds.astype(str))
+all_singular_reflexive_predicates = np.setdiff1d(all_refl_preds, all_strictly_plural_transitive_verbs)
+all_plural_reflexive_predicates = np.setdiff1d(all_refl_preds, all_strictly_singular_transitive_verbs)
+print(all_plural_reflexive_predicates)
+all_singular_reflexives = ["a sí mismo", "a sí misma"]
+plural_reflexive = ["a sí mismos", "a sí mismas"]
+
+if random.choice([True, False]):
+        V1 = choice(all_plural_reflexive_predicates)
+        #to make it easier to read
+        print(V1)
+        #N1_helper = V1.loc[(V1["arg_2"] == all_safe_plural_nouns["arg_2"])]
+        print('##############################')
+        #N1 = choice(get_matches_of(V1, "arg_1", get_matches_of(V1, "arg_2", all_safe_plural_nouns)))
+        refl_mismatch = choice(all_singular_reflexives)
+else:
+        V1 = choice(all_singular_reflexive_predicates)
+        print(V1)
+        #N1 = choice(get_matches_of(V1, "arg_1", get_matches_of(V1, "arg_2", all_safe_singular_nouns)))
+        refl_mismatch = plural_reflexive
+N1 = N_to_DP_mutate(N1)
+refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
+V1 = conjugate(V1, N1)
+data = {
+            "sentence_good": "%s %s %s." % (N1[0], V1[0], refl_match[0]),
+            "sentence_bad": "%s %s %s." % (N1[0], V1[0], refl_mismatch[0]),
+            "one_prefix_prefix": "%s %s" % (N1[0], V1[0]),
+            "one_prefix_word_good": refl_match[0],
+            "one_prefix_word_bad": refl_mismatch[0]
+        }
+
+print(data)
+
+'''
+
+def sample(self):
+        # The boy knows himself
+        # N1      V1    refl_match
+        # The boy knows themselves
+        # N1      V1    refl_mismatch
+
+        if random.choice([True, False]):
+            V1 = choice(self.all_plural_reflexive_predicates)
+            N1 = choice(get_matches_of(V1, "arg_1", get_matches_of(V1, "arg_2", self.all_safe_plural_nouns)))
+            refl_mismatch = choice(self.all_singular_reflexives)
+        else:
+            V1 = choice(self.all_singular_reflexive_predicates)
+            N1 = choice(get_matches_of(V1, "arg_1", get_matches_of(V1, "arg_2", self.all_safe_singular_nouns)))
+            refl_mismatch = self.plural_reflexive
+        N1 = N_to_DP_mutate(N1)
+        refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
+
+        V1 = conjugate(V1, N1)
+
+        data = {
+            "sentence_good": "%s %s %s." % (N1[0], V1[0], refl_match[0]),
+            "sentence_bad": "%s %s %s." % (N1[0], V1[0], refl_mismatch[0]),
+            "one_prefix_prefix": "%s %s" % (N1[0], V1[0]),
+            "one_prefix_word_good": refl_match[0],
+            "one_prefix_word_bad": refl_mismatch[0]
+        }
+        return data, data["sentence_good"]
+
+
+#binding_generator = AnaphorGenerator()
+#binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
+
+'''
+
+
+'''
+
+
+vocab = pd.read_csv('new_combined.csv')
+
+# all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
+all_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1)]
+
+
+# all_singular_nouns = get_all("sg", "1", all_nouns)
+all_singular_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['sg'] == 1)]
+
+#This only has 3 things in it
+all_singular_neuter_animate_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['sg'] ==1) & (vocab['animate'] ==1) & (vocab['gender'] == 'n')]
+
+all_plural_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['pl'] == 1)]
+
+###################################################################################################
+all_verbs = vocab['expression'].loc[(vocab['pos'] == 'V')]
+print(len(all_verbs))
+
+
+all_transitive_verbs = vocab['expression'].loc[(vocab['category_2'] == "TV")& (vocab['category'] == "(S\\NP)/NP")]
+
+print(len(all_transitive_verbs))
+
+
+all_strictly_plural_verbs = vocab['expression'].loc[(vocab["tense"] == "PRS") & (vocab["mood"] == "IND") & (vocab["person"] == "3") & (vocab['number'] == "PL")]
+
+
+
+all_strictly_singular_verbs = vocab['expression'].loc[(vocab["tense"] == "PRS") & (vocab["mood"] == "IND") & (vocab['person'] == "3") & (vocab['number'] == "SG")]
+all_anim_anim_verbs = vocab['expression'].loc[(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]
+all_doc_doc_verbs = vocab['expression'].loc[(vocab['arg_1'].str.contains('document=1')==True) & (vocab['arg_2'].str.contains('document=1')==True)]
+all_refl_preds = pd.concat([all_anim_anim_verbs, all_doc_doc_verbs]).drop_duplicates().reset_index(drop=True)
+all_strictly_plural_transitive_verbs = pd.Series(list(set(all_transitive_verbs).intersection(set(all_strictly_plural_verbs))))
+all_strictly_singular_transitive_verbs = pd.Series(list(set(all_transitive_verbs).intersection(set(all_strictly_singular_verbs))))
+#########################################################################################
+all_safe_singular_nouns = np.setdiff1d(all_singular_nouns, all_singular_neuter_animate_nouns)
+all_safe_plural_nouns = np.setdiff1d(all_plural_nouns, all_singular_neuter_animate_nouns)
+
+'''
