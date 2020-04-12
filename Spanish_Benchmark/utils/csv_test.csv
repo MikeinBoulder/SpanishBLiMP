@@ -1,0 +1,565 @@
+Infinitive,CONJ,POS,Reflexive,Mood,Tense,Person,Number,Aspect,Gender,category,category_2,arg_1,arg_2,arg_3,root,wh_np_verb,responsive,passive,strict_intrans,strict_trans,causative,spray_load,inchoative,agentive,frontable,irr_verb,negated,arg_clause,homophonous,v_embed_sc,change_of_state,initial_state,change_arg
+abrazar,abracéis,V,,SBJV,PRS,2,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abracemos,V,,POS,IMP,1,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abracemos,V,,SBJV,PRS,1,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abracen,,,POS,IMP,3,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abracen,V,,SBJV,PRS,3,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abraces,V,,SBJV,PRS,2,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abracé,V,,IND,PST,1,SG,PFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrace,V,,POS,IMP,3,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrace,V,,SBJV,PRS,1,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrace,V,,SBJV,PRS,3,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazabais,V,,IND,PST,2,PL,IPFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazábamos,V,,IND,PST,1,PL,IPFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaban,V,,IND,PST,3,PL,IPFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazabas,V,,IND,PST,2,SG,IPFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaba,V,,IND,PST,1,SG,IPFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaba,V,,IND,PST,3,SG,IPFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazad,V,,POS,IMP,2,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazáis,V,,IND,PRS,2,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazamos,V,,IND,PRS,1,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazamos,V,,IND,PST,1,PL,PFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazando,V.CVB,,PRS,,,,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazan,V,,IND,PRS,3,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazarais,V,,SBJV,PST,2,PL,LGSPEC1,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazáramos,V,,SBJV,PST,1,PL,LGSPEC1,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazarán,V,,IND,FUT,3,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaran,V,,SBJV,PST,3,PL,LGSPEC1,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazarás,V,,IND,FUT,2,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaras,V,,SBJV,PST,2,SG,LGSPEC1,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazará,V,,IND,FUT,3,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazara,V,,SBJV,PST,1,SG,LGSPEC1,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazara,V,,SBJV,PST,3,SG,LGSPEC1,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaréis,V,,IND,FUT,2,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazareis,V,,SBJV,FUT,2,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaremos,V,,IND,FUT,1,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazáremos,V,,SBJV,FUT,1,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaren,V,,SBJV,FUT,3,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazares,V,,SBJV,FUT,2,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaré,V,,IND,FUT,1,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazare,V,,SBJV,FUT,1,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazare,V,,SBJV,FUT,3,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaron,V,,IND,PST,3,PL,PFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazar,V,,NFIN,,,,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaseis,V,,SBJV,PST,2,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazásemos,V,,SBJV,PST,1,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazasen,V,,SBJV,PST,3,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazases,V,,SBJV,PST,2,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazase,V,,SBJV,PST,1,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazase,V,,SBJV,PST,3,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazasteis,V,,IND,PST,2,PL,PFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaste,V,,IND,PST,2,SG,PFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazas,V,,IND,PRS,2,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abraza,V,,IND,PRS,3,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abraza,V,,POS,IMP,2,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazo,V,,IND,PRS,1,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazó,V,,IND,PST,3,SG,PFV,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,no abracéis,V,,NEG,IMP,2,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,no abracemos,V,,NEG,IMP,1,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,no abracen,V,,NEG,IMP,3,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,no abraces,V,,NEG,IMP,2,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,no abrace,V,,NEG,IMP,3,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaríais,V,,COND,,2,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaríamos,V,,COND,,1,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazarían,V,,COND,,3,PL,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazarías,V,,COND,,2,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaría,V,,COND,,1,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazaría,V,,COND,,3,SG,,,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazadas,V.PTCP,,PST,,,PL,,FEM,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazada,V.PTCP,,PST,,,SG,,FEM,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazados,V.PTCP,,PST,,,PL,,MASC,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrazar,abrazado,V.PTCP,,PST,,,SG,,MASC,(S\NP)/NP,TV,animate=1,clothing=1,,wear_(S\NP)/NP,,,1,,1,,,0,1,,1,,,,,,,
+abrir,abráis,V,,SBJV,PRS,2,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abramos,V,,POS,IMP,1,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abramos,V,,SBJV,PRS,1,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abran,V,,POS,IMP,3,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abran,V,,SBJV,PRS,3,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abras,V,,SBJV,PRS,2,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abra,V,,POS,IMP,3,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abra,V,,SBJV,PRS,1,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abra,V,,SBJV,PRS,3,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abren,V,,IND,PRS,3,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abres,V,,IND,PRS,2,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abre,V,,IND,PRS,3,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abre,V,,POS,IMP,2,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abríais,V,,IND,PST,2,PL,IPFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abríamos,V,,IND,PST,1,PL,IPFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrían,V,,IND,PST,3,PL,IPFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrías,V,,IND,PST,2,SG,IPFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abría,V,,IND,PST,1,SG,IPFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abría,V,,IND,PST,3,SG,IPFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrid,V,,POS,IMP,2,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriendo,V.CVB,,PRS,,,,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrierais,V,,SBJV,PST,2,PL,LGSPEC1,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriéramos,V,,SBJV,PST,1,PL,LGSPEC1,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrieran,V,,SBJV,PST,3,PL,LGSPEC1,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrieras,V,,SBJV,PST,2,SG,LGSPEC1,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriera,V,,SBJV,PST,1,SG,LGSPEC1,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriera,V,,SBJV,PST,3,SG,LGSPEC1,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriereis,V,,SBJV,FUT,2,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriéremos,V,,SBJV,FUT,1,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrieren,V,,SBJV,FUT,3,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrieres,V,,SBJV,FUT,2,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriere,V,,SBJV,FUT,1,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriere,V,,SBJV,FUT,3,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrieron,V,,IND,PST,3,PL,PFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrieseis,V,,SBJV,PST,2,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriésemos,V,,SBJV,PST,1,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriesen,V,,SBJV,PST,3,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrieses,V,,SBJV,PST,2,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriese,V,,SBJV,PST,1,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriese,V,,SBJV,PST,3,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrimos,V,,IND,PRS,1,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrimos,V,,IND,PST,1,PL,PFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrió,V,,IND,PST,3,SG,PFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrirán,V,,IND,FUT,3,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrirás,V,,IND,FUT,2,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrirá,V,,IND,FUT,3,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriréis,V,,IND,FUT,2,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriremos,V,,IND,FUT,1,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriré,V,,IND,FUT,1,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrir,V,,NFIN,,,,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abristeis,V,,IND,PST,2,PL,PFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriste,V,,IND,PST,2,SG,PFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrís,V,,IND,PRS,2,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrí,V,,IND,PST,1,SG,PFV,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abro,V,,IND,PRS,1,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,no abráis,V,,NEG,IMP,2,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,no abramos,V,,NEG,IMP,1,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,no abran,V,,NEG,IMP,3,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,no abras,V,,NEG,IMP,2,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,no abra,V,,NEG,IMP,3,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriríais,V,,COND,,2,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriríamos,V,,COND,,1,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrirían,V,,COND,,3,PL,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abrirías,V,,COND,,2,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriría,V,,COND,,1,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abriría,V,,COND,,3,SG,,,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abiertas,V.PTCP,,PST,,,PL,,FEM,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abierta,V.PTCP,,PST,,,SG,,FEM,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abiertos,V.PTCP,,PST,,,PL,,MASC,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrir,abierto,V.PTCP,,PST,,,SG,,MASC,S\NP,TV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,abrámonos,V,1,POS,IMP,1,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,ábranse,V,1,POS,IMP,3,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,ábrase,V,1,POS,IMP,3,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,ábrete,V,1,POS,IMP,2,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,abriéndose,V.CVB,1,PRS,,,,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,abríos,V,1,POS,IMP,2,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,abrirse,V,1,NFIN,,,,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,me abra,V,1,SBJV,PRS,1,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,me abría,V,1,IND,PST,1,SG,IPFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,me abriera,V,1,SBJV,PST,1,SG,LGSPEC1,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,me abriere,V,1,SBJV,FUT,1,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,me abriese,V,1,SBJV,PST,1,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,me abriré,V,1,IND,FUT,1,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,me abrí,V,1,IND,PST,1,SG,PFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,me abro,V,1,IND,PRS,1,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,no nos abramos,V,1,NEG,IMP,1,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,no os abráis,V,1,NEG,IMP,2,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,nos abramos,V,1,SBJV,PRS,1,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,nos abríamos,V,1,IND,PST,1,PL,IPFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,nos abriéramos,V,1,SBJV,PST,1,PL,LGSPEC1,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,nos abriéremos,V,1,SBJV,FUT,1,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,nos abriésemos,V,1,SBJV,PST,1,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,nos abrimos,V,1,IND,PRS,1,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,nos abrimos,V,1,IND,PST,1,PL,PFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,nos abriremos,V,1,IND,FUT,1,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,no se abran,V,1,NEG,IMP,3,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,no se abra,V,1,NEG,IMP,3,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,no te abras,V,1,NEG,IMP,2,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,os abráis,V,1,SBJV,PRS,2,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,os abríais,V,1,IND,PST,2,PL,IPFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,os abrierais,V,1,SBJV,PST,2,PL,LGSPEC1,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,os abriereis,V,1,SBJV,FUT,2,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,os abrieseis,V,1,SBJV,PST,2,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,os abriréis,V,1,IND,FUT,2,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,os abristeis,V,1,IND,PST,2,PL,PFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,os abrís,V,1,IND,PRS,2,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abran,V,1,SBJV,PRS,3,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abra,V,1,SBJV,PRS,3,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abren,V,1,IND,PRS,3,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abre,V,1,IND,PRS,3,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abrían,V,1,IND,PST,3,PL,IPFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abría,V,1,IND,PST,3,SG,IPFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abrieran,V,1,SBJV,PST,3,PL,LGSPEC1,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abriera,V,1,SBJV,PST,3,SG,LGSPEC1,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abrieren,V,1,SBJV,FUT,3,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abriere,V,1,SBJV,FUT,3,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abrieron,V,1,IND,PST,3,PL,PFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abriesen,V,1,SBJV,PST,3,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abriese,V,1,SBJV,PST,3,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abrió,V,1,IND,PST,3,SG,PFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abrirán,V,1,IND,FUT,3,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abrirá,V,1,IND,FUT,3,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,te abras,V,1,SBJV,PRS,2,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,te abres,V,1,IND,PRS,2,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,te abrías,V,1,IND,PST,2,SG,IPFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,te abrieras,V,1,SBJV,PST,2,SG,LGSPEC1,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,te abrieres,V,1,SBJV,FUT,2,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,te abrieses,V,1,SBJV,PST,2,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,te abrirás,V,1,IND,FUT,2,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,te abriste,V,1,IND,PST,2,SG,PFV,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,me abriría,V,1,COND,,1,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,nos abriríamos,V,1,COND,,1,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,os abriríais,V,1,COND,,2,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abrirían,V,1,COND,,3,PL,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,se abriría,V,1,COND,,3,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,te abrirías,V,1,COND,,2,SG,,,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,abiertas,V.PTCP,1,PST,,,PL,,FEM,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,abierta,V.PTCP,1,PST,,,SG,,FEM,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,abiertos,V.PTCP,1,PST,,,PL,,MASC,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrirse,abierto,V.PTCP,1,PST,,,SG,,MASC,S\NP,IV,openable=1,,,open_S\NP,,,,0,,1,,,,,,,,,,1,expression=closed,1
+abrobar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+abrobarse,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aburrir,aburráis,V,,SBJV,PRS,2,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburramos,V,,POS,IMP,1,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburramos,V,,SBJV,PRS,1,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburran,V,,POS,IMP,3,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburran,V,,SBJV,PRS,3,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburras,V,,SBJV,PRS,2,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburra,V,,POS,IMP,3,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburra,V,,SBJV,PRS,1,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburra,V,,SBJV,PRS,3,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburren,V,,IND,PRS,3,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburres,V,,IND,PRS,2,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburre,V,,IND,PRS,3,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburre,V,,POS,IMP,2,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburríais,V,,IND,PST,2,PL,IPFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburríamos,V,,IND,PST,1,PL,IPFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrían,V,,IND,PST,3,PL,IPFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrías,V,,IND,PST,2,SG,IPFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburría,V,,IND,PST,1,SG,IPFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburría,V,,IND,PST,3,SG,IPFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrid,V,,POS,IMP,2,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriendo,V.CVB,,PRS,,,,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrierais,V,,SBJV,PST,2,PL,LGSPEC1,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriéramos,V,,SBJV,PST,1,PL,LGSPEC1,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrieran,V,,SBJV,PST,3,PL,LGSPEC1,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrieras,V,,SBJV,PST,2,SG,LGSPEC1,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriera,V,,SBJV,PST,1,SG,LGSPEC1,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriera,V,,SBJV,PST,3,SG,LGSPEC1,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriereis,V,,SBJV,FUT,2,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriéremos,V,,SBJV,FUT,1,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrieren,V,,SBJV,FUT,3,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrieres,V,,SBJV,FUT,2,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriere,V,,SBJV,FUT,1,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriere,V,,SBJV,FUT,3,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrieron,V,,IND,PST,3,PL,PFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrieseis,V,,SBJV,PST,2,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriésemos,V,,SBJV,PST,1,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriesen,V,,SBJV,PST,3,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrieses,V,,SBJV,PST,2,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriese,V,,SBJV,PST,1,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriese,V,,SBJV,PST,3,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrimos,V,,IND,PRS,1,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrimos,V,,IND,PST,1,PL,PFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrió,V,,IND,PST,3,SG,PFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrirán,V,,IND,FUT,3,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrirás,V,,IND,FUT,2,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrirá,V,,IND,FUT,3,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriréis,V,,IND,FUT,2,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriremos,V,,IND,FUT,1,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriré,V,,IND,FUT,1,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrir,V,,NFIN,,,,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburristeis,V,,IND,PST,2,PL,PFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriste,V,,IND,PST,2,SG,PFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrís,V,,IND,PRS,2,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrí,V,,IND,PST,1,SG,PFV,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburro,V,,IND,PRS,1,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,no aburráis,V,,NEG,IMP,2,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,no aburramos,V,,NEG,IMP,1,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,no aburran,V,,NEG,IMP,3,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,no aburras,V,,NEG,IMP,2,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,no aburra,V,,NEG,IMP,3,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriríais,V,,COND,,2,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriríamos,V,,COND,,1,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrirían,V,,COND,,3,PL,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrirías,V,,COND,,2,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriría,V,,COND,,1,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburriría,V,,COND,,3,SG,,,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburridas,V.PTCP,,PST,,,PL,,FEM,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrida,V.PTCP,,PST,,,SG,,FEM,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburridos,V.PTCP,,PST,,,PL,,MASC,(S\NP)/NP,TV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrir,aburrido,V.PTCP,,PST,,,SG,,MASC,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,aburrámonos,V,1,POS,IMP,1,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,abúrranse,V,1,POS,IMP,3,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,abúrrase,V,1,POS,IMP,3,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,abúrrete,V,1,POS,IMP,2,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,aburriéndose,V.CVB,1,PRS,,,,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,aburríos,V,1,POS,IMP,2,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,aburrirse,V,1,NFIN,,,,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,me aburra,V,1,SBJV,PRS,1,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,me aburría,V,1,IND,PST,1,SG,IPFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,me aburriera,V,1,SBJV,PST,1,SG,LGSPEC1,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,me aburriere,V,1,SBJV,FUT,1,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,me aburriese,V,1,SBJV,PST,1,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,me aburriré,V,1,IND,FUT,1,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,me aburrí,V,1,IND,PST,1,SG,PFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,me aburro,V,1,IND,PRS,1,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,no nos aburramos,V,1,NEG,IMP,1,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,no os aburráis,V,1,NEG,IMP,2,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,nos aburramos,V,1,SBJV,PRS,1,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,nos aburríamos,V,1,IND,PST,1,PL,IPFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,nos aburriéramos,V,1,SBJV,PST,1,PL,LGSPEC1,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,nos aburriéremos,V,1,SBJV,FUT,1,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,nos aburriésemos,V,1,SBJV,PST,1,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,nos aburrimos,V,1,IND,PRS,1,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,nos aburrimos,V,1,IND,PST,1,PL,PFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,nos aburriremos,V,1,IND,FUT,1,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,no se aburran,V,1,NEG,IMP,3,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,no se aburra,V,1,NEG,IMP,3,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,no te aburras,V,1,NEG,IMP,2,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,os aburráis,V,1,SBJV,PRS,2,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,os aburríais,V,1,IND,PST,2,PL,IPFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,os aburrierais,V,1,SBJV,PST,2,PL,LGSPEC1,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,os aburriereis,V,1,SBJV,FUT,2,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,os aburrieseis,V,1,SBJV,PST,2,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,os aburriréis,V,1,IND,FUT,2,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,os aburristeis,V,1,IND,PST,2,PL,PFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,os aburrís,V,1,IND,PRS,2,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburran,V,1,SBJV,PRS,3,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburra,V,1,SBJV,PRS,3,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburren,V,1,IND,PRS,3,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburre,V,1,IND,PRS,3,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburrían,V,1,IND,PST,3,PL,IPFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburría,V,1,IND,PST,3,SG,IPFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburrieran,V,1,SBJV,PST,3,PL,LGSPEC1,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburriera,V,1,SBJV,PST,3,SG,LGSPEC1,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburrieren,V,1,SBJV,FUT,3,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburriere,V,1,SBJV,FUT,3,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburrieron,V,1,IND,PST,3,PL,PFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburriesen,V,1,SBJV,PST,3,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburriese,V,1,SBJV,PST,3,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburrió,V,1,IND,PST,3,SG,PFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburrirán,V,1,IND,FUT,3,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburrirá,V,1,IND,FUT,3,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,te aburras,V,1,SBJV,PRS,2,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,te aburres,V,1,IND,PRS,2,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,te aburrías,V,1,IND,PST,2,SG,IPFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,te aburrieras,V,1,SBJV,PST,2,SG,LGSPEC1,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,te aburrieres,V,1,SBJV,FUT,2,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,te aburrieses,V,1,SBJV,PST,2,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,te aburrirás,V,1,IND,FUT,2,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,te aburriste,V,1,IND,PST,2,SG,PFV,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,me aburriría,V,1,COND,,1,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,nos aburriríamos,V,1,COND,,1,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,os aburriríais,V,1,COND,,2,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburrirían,V,1,COND,,3,PL,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,se aburriría,V,1,COND,,3,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,te aburrirías,V,1,COND,,2,SG,,,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,aburridas,V.PTCP,1,PST,,,PL,,FEM,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,aburrida,V.PTCP,1,PST,,,SG,,FEM,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,aburridos,V.PTCP,1,PST,,,PL,,MASC,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+aburrirse,aburrido,V.PTCP,1,PST,,,SG,,MASC,(S\NP)/NP,IV,animate=0;animate=1,animate=1,,bore_(S\NP)/NP,,,1,,,,,0,1,,,,,,,,,
+acelerar,acelerabais,V,,IND,PST,2,PL,IPFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerábamos,V,,IND,PST,1,PL,IPFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraban,V,,IND,PST,3,PL,IPFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerabas,V,,IND,PST,2,SG,IPFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraba,V,,IND,PST,1,SG,IPFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraba,V,,IND,PST,3,SG,IPFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerad,V,,POS,IMP,2,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleráis,V,,IND,PRS,2,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleramos,V,,IND,PRS,1,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleramos,V,,IND,PST,1,PL,PFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerando,V.CVB,,PRS,,,,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleran,V,,IND,PRS,3,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerarais,V,,SBJV,PST,2,PL,LGSPEC1,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleráramos,V,,SBJV,PST,1,PL,LGSPEC1,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerarán,V,,IND,FUT,3,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraran,V,,SBJV,PST,3,PL,LGSPEC1,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerarás,V,,IND,FUT,2,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraras,V,,SBJV,PST,2,SG,LGSPEC1,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerará,V,,IND,FUT,3,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerara,V,,SBJV,PST,1,SG,LGSPEC1,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerara,V,,SBJV,PST,3,SG,LGSPEC1,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraréis,V,,IND,FUT,2,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerareis,V,,SBJV,FUT,2,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraremos,V,,IND,FUT,1,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleráremos,V,,SBJV,FUT,1,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraren,V,,SBJV,FUT,3,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerares,V,,SBJV,FUT,2,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraré,V,,IND,FUT,1,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerare,V,,SBJV,FUT,1,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerare,V,,SBJV,FUT,3,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraron,V,,IND,PST,3,PL,PFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerar,V,,NFIN,,,,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraseis,V,,SBJV,PST,2,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerásemos,V,,SBJV,PST,1,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerasen,V,,SBJV,PST,3,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerases,V,,SBJV,PST,2,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerase,V,,SBJV,PST,1,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerase,V,,SBJV,PST,3,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerasteis,V,,IND,PST,2,PL,PFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraste,V,,IND,PST,2,SG,PFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleras,V,,IND,PRS,2,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelera,V,,IND,PRS,3,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelera,V,,POS,IMP,2,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleréis,V,,SBJV,PRS,2,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleremos,V,,POS,IMP,1,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleremos,V,,SBJV,PRS,1,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleren,V,,POS,IMP,3,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleren,V,,SBJV,PRS,3,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleres,V,,SBJV,PRS,2,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleré,V,,IND,PST,1,SG,PFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelere,V,,POS,IMP,3,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelere,V,,SBJV,PRS,1,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelere,V,,SBJV,PRS,3,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelero,V,,IND,PRS,1,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleró,V,,IND,PST,3,SG,PFV,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,no aceleréis,V,,NEG,IMP,2,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,no aceleremos,V,,NEG,IMP,1,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,no aceleren,V,,NEG,IMP,3,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,no aceleres,V,,NEG,IMP,2,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,no acelere,V,,NEG,IMP,3,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraríais,V,,COND,,2,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraríamos,V,,COND,,1,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerarían,V,,COND,,3,PL,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerarías,V,,COND,,2,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraría,V,,COND,,1,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleraría,V,,COND,,3,SG,,,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,aceleradas,V.PTCP,,PST,,,PL,,FEM,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerada,V.PTCP,,PST,,,SG,,FEM,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerados,V.PTCP,,PST,,,PL,,MASC,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerar,acelerado,V.PTCP,,PST,,,SG,,MASC,S\NP,IV,vehicle=1,,,accelerate_S\NP,,,,0,,1,,,,,,,,,,,,
+acelerarse,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aceptar,aceptabais,V,,IND,PST,2,PL,IPFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptábamos,V,,IND,PST,1,PL,IPFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaban,V,,IND,PST,3,PL,IPFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptabas,V,,IND,PST,2,SG,IPFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaba,V,,IND,PST,1,SG,IPFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaba,V,,IND,PST,3,SG,IPFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptad,V,,POS,IMP,2,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptáis,V,,IND,PRS,2,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptamos,V,,IND,PRS,1,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptamos,V,,IND,PST,1,PL,PFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptando,V.CVB,,PRS,,,,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptan,V,,IND,PRS,3,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptarais,V,,SBJV,PST,2,PL,LGSPEC1,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptáramos,V,,SBJV,PST,1,PL,LGSPEC1,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptarán,V,,IND,FUT,3,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaran,V,,SBJV,PST,3,PL,LGSPEC1,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptarás,V,,IND,FUT,2,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaras,V,,SBJV,PST,2,SG,LGSPEC1,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptará,V,,IND,FUT,3,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptara,V,,SBJV,PST,1,SG,LGSPEC1,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptara,V,,SBJV,PST,3,SG,LGSPEC1,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaréis,V,,IND,FUT,2,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptareis,V,,SBJV,FUT,2,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaremos,V,,IND,FUT,1,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptáremos,V,,SBJV,FUT,1,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaren,V,,SBJV,FUT,3,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptares,V,,SBJV,FUT,2,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaré,V,,IND,FUT,1,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptare,V,,SBJV,FUT,1,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptare,V,,SBJV,FUT,3,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaron,V,,IND,PST,3,PL,PFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptar,V,,NFIN,,,,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaseis,V,,SBJV,PST,2,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptásemos,V,,SBJV,PST,1,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptasen,V,,SBJV,PST,3,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptases,V,,SBJV,PST,2,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptase,V,,SBJV,PST,1,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptase,V,,SBJV,PST,3,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptasteis,V,,IND,PST,2,PL,PFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaste,V,,IND,PST,2,SG,PFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptas,V,,IND,PRS,2,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,acepta,V,,IND,PRS,3,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,acepta,V,,POS,IMP,2,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptéis,V,,SBJV,PRS,2,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptemos,V,,POS,IMP,1,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptemos,V,,SBJV,PRS,1,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,acepten,V,,POS,IMP,3,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,acepten,V,,SBJV,PRS,3,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptes,V,,SBJV,PRS,2,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,acepté,V,,IND,PST,1,SG,PFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,acepte,V,,POS,IMP,3,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,acepte,V,,SBJV,PRS,1,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,acepte,V,,SBJV,PRS,3,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,acepto,V,,IND,PRS,1,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptó,V,,IND,PST,3,SG,PFV,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,no aceptéis,V,,NEG,IMP,2,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,no aceptemos,V,,NEG,IMP,1,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,no acepten,V,,NEG,IMP,3,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,no aceptes,V,,NEG,IMP,2,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,no acepte,V,,NEG,IMP,3,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaríais,V,,COND,,2,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaríamos,V,,COND,,1,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptarían,V,,COND,,3,PL,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptarías,V,,COND,,2,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaría,V,,COND,,1,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptaría,V,,COND,,3,SG,,,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptadas,V.PTCP,,PST,,,PL,,FEM,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptada,V.PTCP,,PST,,,SG,,FEM,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptados,V.PTCP,,PST,,,PL,,MASC,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptar,aceptado,V.PTCP,,PST,,,SG,,MASC,S\NP,IV_ag_pl,animate=1,,,embrace_S\NP,,,,0,,0,,,1,,,,,,1,,,
+aceptarse,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+acercarse,acercándose,V.CVB,1,PRS,,,,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,acercaos,V,1,POS,IMP,2,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,acercarse,V,1,NFIN,,,,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,acércate,V,1,POS,IMP,2,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,acerquémonos,V,1,POS,IMP,1,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,acérquense,V,1,POS,IMP,3,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,acérquese,V,1,POS,IMP,3,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,me acercaba,V,1,IND,PST,1,SG,IPFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,me acercara,V,1,SBJV,PST,1,SG,LGSPEC1,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,me acercaré,V,1,IND,FUT,1,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,me acercare,V,1,SBJV,FUT,1,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,me acercase,V,1,SBJV,PST,1,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,me acerco,V,1,IND,PRS,1,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,me acerqué,V,1,IND,PST,1,SG,PFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,me acerque,V,1,SBJV,PRS,1,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,no nos acerquemos,V,1,NEG,IMP,1,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,no os acerquéis,V,1,NEG,IMP,2,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,nos acercábamos,V,1,IND,PST,1,PL,IPFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,nos acercamos,V,1,IND,PRS,1,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,nos acercamos,V,1,IND,PST,1,PL,PFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,nos acercáramos,V,1,SBJV,PST,1,PL,LGSPEC1,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,nos acercaremos,V,1,IND,FUT,1,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,nos acercáremos,V,1,SBJV,FUT,1,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,nos acercásemos,V,1,SBJV,PST,1,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,nos acerquemos,V,1,SBJV,PRS,1,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,no se acerquen,V,1,NEG,IMP,3,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,no se acerque,V,1,NEG,IMP,3,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,no te acerques,V,1,NEG,IMP,2,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,os acercabais,V,1,IND,PST,2,PL,IPFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,os acercáis,V,1,IND,PRS,2,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,os acercarais,V,1,SBJV,PST,2,PL,LGSPEC1,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,os acercaréis,V,1,IND,FUT,2,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,os acercareis,V,1,SBJV,FUT,2,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,os acercaseis,V,1,SBJV,PST,2,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,os acercasteis,V,1,IND,PST,2,PL,PFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,os acerquéis,V,1,SBJV,PRS,2,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercaban,V,1,IND,PST,3,PL,IPFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercaba,V,1,IND,PST,3,SG,IPFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercan,V,1,IND,PRS,3,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercarán,V,1,IND,FUT,3,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercaran,V,1,SBJV,PST,3,PL,LGSPEC1,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercará,V,1,IND,FUT,3,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercara,V,1,SBJV,PST,3,SG,LGSPEC1,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercaren,V,1,SBJV,FUT,3,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercare,V,1,SBJV,FUT,3,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercaron,V,1,IND,PST,3,PL,PFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercasen,V,1,SBJV,PST,3,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercase,V,1,SBJV,PST,3,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acerca,V,1,IND,PRS,3,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercó,V,1,IND,PST,3,SG,PFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acerquen,V,1,SBJV,PRS,3,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acerque,V,1,SBJV,PRS,3,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,te acercabas,V,1,IND,PST,2,SG,IPFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,te acercarás,V,1,IND,FUT,2,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,te acercaras,V,1,SBJV,PST,2,SG,LGSPEC1,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,te acercares,V,1,SBJV,FUT,2,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,te acercases,V,1,SBJV,PST,2,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,te acercaste,V,1,IND,PST,2,SG,PFV,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,te acercas,V,1,IND,PRS,2,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,te acerques,V,1,SBJV,PRS,2,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,me acercaría,V,1,COND,,1,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,nos acercaríamos,V,1,COND,,1,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,os acercaríais,V,1,COND,,2,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercarían,V,1,COND,,3,PL,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,se acercaría,V,1,COND,,3,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,te acercarías,V,1,COND,,2,SG,,,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,acercadas,V.PTCP,1,PST,,,PL,,FEM,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,acercada,V.PTCP,1,PST,,,SG,,FEM,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,acercados,V.PTCP,1,PST,,,PL,,MASC,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
+acercarse,acercado,V.PTCP,1,PST,,,SG,,MASC,(S\NP)/NP,TV,animate=1,animate=1,,approach_(S\NP)/NP,,,1,,0,,,0,1,,,,,,,,,
