@@ -1,74 +1,88 @@
-from Spanish_Utils import data_generator
-from Spanish_Utils.constituent_building import *
-from Spanish_Utils.conjugate import *
-from Spanish_Utils.randomize import choice
-from functools import reduce
-from Spanish_Utils.verb_vocab_sets import *
+from Spanish_Utils.vocab_sets import *
+import pandas as pd
+import numpy as np
+from Spanish_Utils.randomize import *
+#from constituent_building import *
+import random
 
+'''
+vocab = pd.read_csv("./Spanish_Utils/new_combined.csv")
+verbs_p3is = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG')]
+verbs_p3ip = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL')]
+n_fem_pl = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['gender'] == 'f') & (vocab['pl'] == 1)]
+n_fem_sg = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['gender'] == 'f') & (vocab['sg'] == 1)]
+n_masc_pl = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['gender'] == 'm') & (vocab['pl'] == 1)]
+n_masc_sg = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['gender'] == 'm') & (vocab['sg'] == 1)]
+d_masc_pl = ['los','unos']
+d_masc_sg = ['el','un']
+d_fem_pl = ['las','unas']
+d_fem_sg = ['la','una']
+all_reflexives = ["a sí mismo", "a sí misma","a sí mismos", "a sí mismas"]
+sg_reflexives = ["a sí mismo", "a sí misma"]
+pl_reflexives = ["a sí mismos", "a sí mismas"]
 
-class AnaphorGenerator(data_generator.BenchmarkGenerator):
-    def __init__(self):
-        super().__init__(field="morphology",
-                         linguistics="anaphor_agreement",
-                         uid="anaphor_number_agreement",
-                         simple_lm_method=True,
-                         one_prefix_method=True,
-                         two_prefix_method=False,
-                         lexically_identical=True)
-        self.all_safe_singular_nouns = np.setdiff1d(all_singular_nouns, all_singular_neuter_animate_nouns)
-        self.all_safe_plural_nouns = np.setdiff1d(all_plural_nouns, all_singular_neuter_animate_nouns)
+'''
 
-        self.all_singular_reflexive_predicates = np.setdiff1d(all_refl_preds, all_strictly_plural_transitive_verbs)
-        self.all_plural_reflexive_predicates = np.setdiff1d(all_refl_preds, all_strictly_singular_transitive_verbs)
-        self.all_singular_reflexives = reduce(np.union1d, (get_all("expression", "himself"),
-                                                           get_all("expression", "herself"),
-                                                           get_all("expression", "itself")))
-        self.plural_reflexive = get_all("expression", "themselves")[0]
+def sample(max_iter):
+        for i in range(max_iter):
+                #plural verb
+                if random.choice([True, False]):
+                        V = np.random.choice(verbs_p3ip)
+                        #fem pl noun
+                        if np.random.choice([True,False]):
+                                D = random.choice(d_fem_pl)
+                                N = np.random.choice(n_fem_pl)
+                                rp_good = pl_reflexives[1]
+                                #all_reflexives.remove(rp_good)
+                                rp_bad = sg_reflexives[1]
+                                #all_reflexives.insert(3, rp_good)
+                        else:
+                                D = random.choice(d_masc_pl)
+                                N = np.random.choice(n_masc_pl)
+                                rp_good = pl_reflexives[0]
+                                #all_reflexives.remove(rp_good)
+                                rp_bad = sg_reflexives[0]
+                                #all_reflexives.insert(2, rp_good)
 
-    def sample(self):
-        # The boy knows himself
-        # N1      V1    refl_match
-        # The boy knows themselves
-        # N1      V1    refl_mismatch
+                #singular verb
+                else:
+        
+                        V = np.random.choice(verbs_p3is)
+                        #fem sg noun
+                        if np.random.choice([True,False]):
+                                D = random.choice(d_fem_sg)
+                                N = np.random.choice(n_fem_sg)
+                                rp_good = sg_reflexives[1]
+                                #all_reflexives.remove(rp_good)
+                                rp_bad = pl_reflexives[1]
+                                #all_reflexives.insert(1, rp_good)
+                        else:
+                                D = random.choice(d_masc_sg)
+                                N = np.random.choice(n_masc_sg)
+                                rp_good = sg_reflexives[0]
+                                #all_reflexives.remove(rp_good)
+                                rp_bad = pl_reflexives[0]
+                                #all_reflexives.insert(0,rp_good)
+                                                               
+                #Verb fix
+                if not V.startswith('se', 0, 2):
+                        V = 'se ' + V
+                                        
+                                        
+                                        
+                if N[0] >= 'A' and N[0] <= 'Z':
+                        data = {
+                                "sentence_good": "%s %s %s." % (N, V, rp_good),
+                                "sentence_bad": "%s %s %s." % (N, V, rp_bad)
+                        }
+                else:
+                        data = {
+                                "sentence_good": "%s %s %s %s." % (D, N, V, rp_good),
+                                "sentence_bad": "%s %s %s %s." % (D, N, V, rp_bad)
+                        }
+                print(data)
 
-        if random.choice([True, False]):
-            V1 = choice(self.all_plural_reflexive_predicates)
-            N1 = choice(get_matches_of(V1, "arg_1", get_matches_of(V1, "arg_2", self.all_safe_plural_nouns)))
-            refl_mismatch = choice(self.all_singular_reflexives)
-        else:
-            V1 = choice(self.all_singular_reflexive_predicates)
-            N1 = choice(get_matches_of(V1, "arg_1", get_matches_of(V1, "arg_2", self.all_safe_singular_nouns)))
-            refl_mismatch = self.plural_reflexive
-        N1 = N_to_DP_mutate(N1)
-        refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
-
-        V1 = conjugate(V1, N1)
-
-        data = {
-            "sentence_good": "%s %s %s." % (N1[0], V1[0], refl_match[0]),
-            "sentence_bad": "%s %s %s." % (N1[0], V1[0], refl_mismatch[0]),
-            "one_prefix_prefix": "%s %s" % (N1[0], V1[0]),
-            "one_prefix_word_good": refl_match[0],
-            "one_prefix_word_bad": refl_mismatch[0]
-        }
-        return data, data["sentence_good"]
-
-
-binding_generator = AnaphorGenerator()
-binding_generator.generate_paradigm(number_to_generate = 10, rel_output_path="./test_ana.jsonl")
-
-
-
-                                    #"outputs/benchmark/%s.jsonl" % binding_generator.uid)
-
-
-
-
-
-
-
-
-
+sample(10)
 
 
 

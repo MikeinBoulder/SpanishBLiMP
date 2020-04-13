@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 from Spanish_Utils.vocab_sets import *
 from Spanish_Utils.randomize import *
-from Spanish_Utils.string_utils import verb_cleanup 
 import random
 
 '''
@@ -32,7 +31,7 @@ def sample(max_iter):
         # N1   V1      Dem  N2_mismatch
     for i in range(max_iter):
         #plural verb
-        V = verb_cleanup(choice(all_trans_p3is))
+        V = choice(all_trans_p3is)
         N1 = choice(all_proper_nouns)
         #fem sg
         n_choice = choice(['nfsg','nfpl','nmsg','nmpl'])

@@ -1,10 +1,10 @@
-from randomize import *
-from functools import reduce
+#from randomize import *
+#from functools import reduce
 import numpy as np
 import pandas as pd
-import numpy as np
 
-vocab = pd.read_csv('new_combined.csv')
+
+vocab = pd.read_csv('./Spanish_Utils/new_combined.csv')
 
 #NOUNS
 all_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1)]
@@ -25,6 +25,18 @@ all_nominals = vocab['expression'].loc[(vocab['noun'] == 1) & (vocab['frequent']
 all_relational_poss_nouns = vocab['expression'].loc[(vocab['category'] == 'N\\NP[poss]')& (vocab['sg'] ==1)]
 all_proper_nouns = vocab['expression'].loc[(vocab['properNoun'] == 1)]
 all_animate_proper_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['properNoun'] == 1) & (vocab['animate'] ==1)]
+all_null_plural_nouns = vocab['expression'].loc[(vocab['sgequalspl'] == 1)]
+n_fem_pl = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['gender'] == 'f') & (vocab['pl'] == 1)]
+n_fem_sg = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['gender'] == 'f') & (vocab['sg'] == 1)]
+n_masc_pl = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['gender'] == 'm') & (vocab['pl'] == 1)]
+n_masc_sg = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['gender'] == 'm') & (vocab['sg'] == 1)]
+d_masc_pl = ['los','unos']
+d_masc_sg = ['el','un']
+d_fem_pl = ['las','unas']
+d_fem_sg = ['la','una']
+all_reflexives = ["a sí mismo", "a sí misma","a sí mismos", "a sí mismas"]
+sg_reflexives = ["a sí mismo", "a sí misma"]
+pl_reflexives = ["a sí mismos", "a sí mismas"]
 
 #VERBS
 
@@ -71,6 +83,9 @@ all_negated_auxs = vocab['expression'].loc[(vocab['negated'] == "1") & (vocab['c
 all_non_negated_auxs = vocab['expression'].loc[(vocab['category_2'] == 'aux') & (vocab['negated']== "0")]
 all_copulas = vocab['expression'].loc[vocab["category_2"] == "copula"]
 all_finite_copulas = vocab['expression'].loc[(vocab["bare"]== "1") & (vocab['category_2'] == 'aux')]
+
+verbs_p3is = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG')]
+verbs_p3ip = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL')]
 
 #NOT SURE ABOUT SOME OF THESE TAGS
 

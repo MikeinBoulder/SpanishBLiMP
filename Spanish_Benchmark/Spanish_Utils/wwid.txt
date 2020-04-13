@@ -1,0 +1,4 @@
+Almost done withg new vocab sets. Start at the verb sets like strictly singular and the ones around that.
+
+Then see if there are more sets from Alex's code that you may need
+ - Adjectives?
