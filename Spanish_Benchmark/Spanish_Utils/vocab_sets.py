@@ -40,6 +40,8 @@ pl_reflexives = ["a sí mismos", "a sí mismas"]
 all_irrpl = vocab['expression'].loc[vocab['irrpl'] == 1]
 proper_nouns_fem = vocab['expression'].loc[(vocab['properNoun'] == 1 ) & (vocab['gender'] == 'f')]
 proper_nouns_masc = vocab['expression'].loc[(vocab['properNoun'] == 1 ) & (vocab['gender'] == 'm')]
+
+
 #VERBS
 
 all_verbs = vocab['expression'].loc[(vocab['pos'] == "V")]
@@ -89,6 +91,14 @@ verbs_p3is = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 
 verbs_p3ip = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL')]
 all_trans_p3ip =  vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL') & (vocab['category_2'] == 'TV') ]
 all_trans_p3is = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') ]
+all_intransitive_verbs_p3is = vocab['expression'].loc[(vocab['pos'] == 'V') & ((vocab['category_2'] == "IV") | (vocab['category_2'] == 'IV_ag')) & (vocab['person'] == 3) & (vocab['tense'] == 'PRS') & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG')]
+all_inchoative_p3is = vocab['expression'].loc[(vocab['inchoative'] == 1) & (vocab['person'] == 3) & (vocab['tense'] == 'PRS') & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG')]
+all_causative_p3is = vocab['expression'].loc[(vocab['causative'] == 1) & (vocab['person'] == 3) & (vocab['tense'] == 'PRS') & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG')]
+alternating_verbs = np.union1d(all_inchoative_p3is, all_causative_p3is)
+all_trans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP') & (vocab['gender'] == 'm') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['category'] == '(S\\NP)/NP')]
+all_intrans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP') & (vocab['gender'] == 'm') & (vocab['number'] == 'SG') & (vocab['category'] == 'S\\NP') & ((vocab['category_2'] == 'IV') | (vocab['category_2'] =='IV_sg'))]
+
+
 #NOT SURE ABOUT SOME OF THESE TAGS
 
 # all_rogatives = get_all("category", "(S\\NP)/Q")
