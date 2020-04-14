@@ -11,7 +11,11 @@ all_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequen
 all_singular_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['sg'] == 1)] 
 all_singular_count_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['sg'] == 1) & (vocab['mass'] == 0)]
 all_animate_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['animate'] ==1)]
+all_animate_sg_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['sg'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==1)]
+all_animate_pl_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['pl'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==1)]
 all_inanimate_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['animate'] ==0)]
+all_inanimate_sg_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['sg'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==0)]
+all_inanimate_pl_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['pl'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==0)]
 all_documents = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['document'] ==1)]
 all_gendered_nouns = vocab['expression'].loc[(vocab['gender'] == 'm') | (vocab['gender'] == 'f')]
 all_singular_neuter_animate_nouns = all_documents = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['sg'] ==1) & (vocab['animate'] ==1) & (vocab['gender'] == 'n')]
@@ -60,6 +64,8 @@ all_non_finite_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['m
 # all_ing_verbs = get_all("ing", "1", all_verbs)
 # all_en_verbs = get_all("en", "1", all_verbs)
 #all_bare_verbs = get_all("bare", "1", all_verbs)
+all_p3ip_anim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL') & (vocab['category_2'] == 'TV') & (vocab['arg_1'].str.contains('animate=1')==True)]
+all_p3is_anim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['arg_1'].str.contains('animate=1')==True)]
 all_anim_anim_verbs = vocab['expression'].loc[(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]# & ((vocab['past']==1)|(vocab['ing']==1))]
 all_doc_doc_verbs = vocab['expression'].loc[(vocab['arg_1'].str.contains('document=1')==True) & (vocab['arg_2'].str.contains('document=1')==True)]#& ((vocab['past']==1)|(vocab['ing']==1))]
 all_refl_nonverbal_predicates = vocab[vocab['arg_1'] == vocab['arg_2']]
@@ -272,3 +278,4 @@ all_adjectives = np.append(get_all("category_2", "adjective"), get_all("category
 all_frequent = get_all("frequent", "1")
 
 '''
+print(all_p3is_anim_subj_allowing_verbs)
