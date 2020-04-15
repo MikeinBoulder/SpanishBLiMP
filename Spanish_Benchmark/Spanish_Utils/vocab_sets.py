@@ -12,7 +12,11 @@ all_singular_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab
 all_singular_count_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['sg'] == 1) & (vocab['mass'] == 0)]
 all_animate_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['animate'] ==1)]
 all_animate_sg_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['sg'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==1)]
+all_animate_sg_nouns_f = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['sg'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==1) & (vocab['gender'] == 'f')]
+all_animate_sg_nouns_m = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['sg'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==1) & (vocab['gender'] == 'm')]
 all_animate_pl_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['pl'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==1)]
+all_animate_pl_nouns_f = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['pl'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==1) & (vocab['gender'] == 'f')]
+all_animate_pl_nouns_m = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['pl'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==1) & (vocab['gender'] == 'm')]
 all_inanimate_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['animate'] ==0)]
 all_inanimate_sg_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['sg'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==0)]
 all_inanimate_pl_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['pl'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==0)]
@@ -26,7 +30,7 @@ all_animate_common_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & 
 all_singular_animate_common_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['properNoun'] == 0) & (vocab['animate'] ==1) & (vocab['sg'] ==1)]
 all_relational_nouns = vocab['expression'].loc[(vocab['category'] == 'N/NP')]
 all_nominals = vocab['expression'].loc[(vocab['noun'] == 1) & (vocab['frequent'] ==1)]
-all_relational_poss_nouns = vocab['expression'].loc[(vocab['category'] == 'N\\NP[poss]')& (vocab['sg'] ==1)]
+all_relational_poss_nouns = vocab['expression'].loc[(vocab['category'] == 'N\\NP[poss]') & (vocab['sg'] ==1)]
 all_proper_nouns = vocab['expression'].loc[(vocab['properNoun'] == 1)]
 all_animate_proper_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['properNoun'] == 1) & (vocab['animate'] ==1)]
 all_null_plural_nouns = vocab['expression'].loc[(vocab['sgequalspl'] == 1)]
@@ -288,4 +292,3 @@ all_adjectives = np.append(get_all("category_2", "adjective"), get_all("category
 all_frequent = get_all("frequent", "1")
 
 '''
-print(all_p3is_anim_subj_allowing_verbs)

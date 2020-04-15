@@ -1,7 +1,8 @@
 from Spanish_Utils.vocab_sets import *
+from Spanish_Utils.randomize import *
+from Spanish_Utils.string_utils import *
 import pandas as pd
 import numpy as np
-from Spanish_Utils.randomize import *
 import random
 
 
@@ -39,8 +40,7 @@ def sample(max_iter):
       
 
         data = {
-           "sentence_good": "%s %s %s." % (N1_good, V, N2),
-           "sentence_bad": "%s %s %s." % (N1_bad, V, N2),
+           "sentence_good": string_beautify("%s %s %s." % (N1_good, V, N2)),           "sentence_bad": string_beautify("%s %s %s." % (N1_bad, V, N2)),
             }
         print(data)
         
