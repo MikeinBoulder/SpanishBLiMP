@@ -1,7 +1,14 @@
-from utils import data_generator
-from utils.constituent_building import *
-from utils.conjugate import *
-from utils.randomize import choice
+from Spanish_Utils.string_utils import *
+from Spanish_Utils.randomize import choice
+from Spanish_Utils.vocab_sets import *
+import numpy as np
+import random
+
+que = 'Qué'
+
+def sample(max_iter):
+    for i in range(max_iter):
+        
 
 class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):

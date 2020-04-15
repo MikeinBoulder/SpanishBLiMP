@@ -107,8 +107,7 @@ all_causative_p3is = vocab['expression'].loc[(vocab['causative'] == 1) & (vocab[
 alternating_verbs = np.union1d(all_inchoative_p3is, all_causative_p3is)
 all_trans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP') & (vocab['gender'] == 'm') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['category'] == '(S\\NP)/NP')]
 all_intrans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP') & (vocab['gender'] == 'm') & (vocab['number'] == 'SG') & (vocab['category'] == 'S\\NP') & ((vocab['category_2'] == 'IV') | (vocab['category_2'] =='IV_sg'))]
-
-
+past_pret_3s = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] == 'IND') & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['number'] == 'SG') & (vocab['aspect'] == 'PFV')]
 #NOT SURE ABOUT SOME OF THESE TAGS
 
 # all_rogatives = get_all("category", "(S\\NP)/Q")
@@ -121,7 +120,7 @@ all_intrans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP
 
 
 #OTHERS
-
+que_quien = ['qué','quién']
 # all_quantifiers = get_all("category", "(S/(S\\NP))/N")
 all_quantifiers = vocab['expression'].loc[vocab['category'] == "(S/(S\\NP))/N"]
 # all_frequent_quantifiers = get_all("frequent", "1", all_quantifiers)
@@ -140,6 +139,7 @@ all_ACCpronouns = vocab['expression'].loc[vocab['category_2'] == "proNOM"]
 all_embedding_verbs = vocab['expression'].loc[vocab['category_2'] == "V_embedding"]
 # all_wh_words = get_all("category", "NP_wh")
 all_wh_words =vocab['expression'].loc[vocab['category'] == "NP_wh"]
+
 # all_demonstratives = np.append(get_all("expression", "this"), np.append(get_all_conjunctive([("category_2", "D"),("expression", "that")]),np.append(get_all("expression", "these"), get_all("expression", "those"))))
 all_demonstratives = vocab['expression'].loc[(vocab['category_2'] == "D")]
 all_demonstratives_masc_sg = vocab['expression'].loc[(vocab['category_2'] == "D") & (vocab['sg'] == 1) & (vocab['gender'] == 'm')]
