@@ -61,6 +61,8 @@ all_action_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['bare'
 #all_coverb = vocab['expression'].loc[(vocab['coverb'] == 1)]
 all_verbs_bare = vocab['expression'].loc[(vocab['pos'] == 1) & (vocab['bare']==1)]
 all_transitive_verbs = vocab['expression'].loc[(vocab['category_2'] == "TV")& (vocab['category'] == "(S\\NP)/NP")]#& ((vocab['past']==1)|(vocab['ing']==1))]
+all_strict_transitive_verbs = vocab['expression'].loc[(vocab['category_2'] == "TV")& (vocab['category'] == "(S\\NP)/NP") & (vocab['strict_trans'] =="1")].dropna
+all_nonstrict_transitive_verbs = vocab['expression'].loc[(vocab['category_2'] == "TV")& (vocab['category'] == "(S\\NP)/NP") & (vocab['strict_trans'] !="1")].dropna  
 all_transitive_verbs_bare = vocab['expression'].loc[(vocab['category_2'] == "TV")&(vocab['category'] == "(S\\NP)/NP")& (vocab['bare']==1)]
 #all_transitive_verbs_bare_VC = vocab['expression'].loc[(vocab['category_2'] == "TV")&(vocab['category'] == "(S\\NP)/NP")& (vocab['bare']==1)]
 all_transitive_verbs_past = vocab['expression'].loc[(vocab['category_2'] == "TV")&(vocab['category'] == "(S\\NP)/NP")& (vocab['past']==1)]
@@ -77,6 +79,7 @@ all_non_finite_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['m
 all_p3ip_anim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL') & (vocab['category_2'] == 'TV') & (vocab['arg_1'].str.contains('animate=1')==True)]
 all_p3is_anim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['arg_1'].str.contains('animate=1')==True)]
 all_anim_anim_verbs = vocab['expression'].loc[(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]# & ((vocab['past']==1)|(vocab['ing']==1))]
+all_p3is_anim_anim_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') &(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]
 all_doc_doc_verbs = vocab['expression'].loc[(vocab['arg_1'].str.contains('document=1')==True) & (vocab['arg_2'].str.contains('document=1')==True)]#& ((vocab['past']==1)|(vocab['ing']==1))]
 all_refl_nonverbal_predicates = vocab[vocab['arg_1'] == vocab['arg_2']]
 all_refl_preds = pd.concat([all_anim_anim_verbs,all_doc_doc_verbs]).drop_duplicates().reset_index(drop=True)
