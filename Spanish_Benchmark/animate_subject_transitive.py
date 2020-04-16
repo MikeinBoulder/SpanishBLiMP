@@ -15,6 +15,12 @@ all_inanimate_pl_nouns_m = vocab['expression'].loc[(vocab['category'] == 'N') & 
 
 all_p3ip_anim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL') & (vocab['category_2'] == 'TV') & (vocab['arg_1'].str.contains('animate=1')==True)]
 all_p3is_anim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['arg_1'].str.contains('animate=1')==True)]
+
+all_p3ip_inanim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL') & (vocab['category_2'] == 'TV') & (vocab['arg_2'].str.contains('inanimate=1')==True)]
+all_p3is_inanim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['arg_2'].str.contains('inanimate=1')==True)]
+
+
+all_p3is_anim_anim_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV')(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]
 """
 
 dets= ['the', 'some']
@@ -30,7 +36,7 @@ def sample(max_iter):
 
         #plural verb
         if choice([True, False]):       
-            V = choice(all_p3ip_anim_subj_allowing_verbs)
+            V = choice(all_p3is_anim_anim_verbs)
             #plural feminine
             if choice([True,False]):
                 D = choice(d_fem_pl)
@@ -43,7 +49,7 @@ def sample(max_iter):
                 N1_bad = choice(all_inanimate_pl_nouns_m)
         #sing verb
         else: 
-            V = choice(all_p3is_anim_subj_allowing_verbs)
+            V = choice(all_p3is_anim_anim_verbs)
             #singular feminine
             if choice([True,False]):
                 D = choice(d_fem_sg)
