@@ -6,6 +6,7 @@ preps = ['antes de','después de','a través de', 'mientras', 'sin']
 could_should = ['podría','podrían','debería','deberían']
 #USE THESE FOR ANIMATE SUBJ TO ANIMATE OBJ
 print(all_anim_anim_verbs_3is_pst)
+print(all_anim_anim_verbs_3ip_pst)
 
 
 
