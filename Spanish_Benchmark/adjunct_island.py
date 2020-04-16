@@ -7,10 +7,26 @@ could_should = ['podría','podrían','debería','deberían']
 #USE THESE FOR ANIMATE SUBJ TO ANIMATE OBJ
 print(all_anim_anim_verbs_3is_pst)
 print(all_anim_anim_verbs_3ip_pst)
+#all_animate_pl_nouns_f, ...
+#d_fem_pl, ...
+#all_p3is_anim_subj_allowing_verbs
+
+        # What did      John read  before filing the book?
+        # que  leyo juan antes de ?? el libro?
+        # que_quien[0] vbpastpret_anim_to_inanim preps vb_tr det noun
+        # Wh   Aux_mat  Subj V_mat ADV    V_emb  Obj
+        # What did      John read  the book before filing?
+        # Wh   Aux_mat  Subj V_mat Obj      ADV    V_emb
 
 
-
+def sample(max_iter):
+    for i in range(max_iter):
+        if np.random.choice([True,False]):
+            q = que_quien[0]
+            V1 = all_
+        
 '''
+
 
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -26,6 +42,10 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         self.adverbs = ["before", "while", "after", "without"]
 
     def sample(self):
+
+
+
+
         # What did      John read  before filing the book?
         # Wh   Aux_mat  Subj V_mat ADV    V_emb  Obj
         # What did      John read  the book before filing?

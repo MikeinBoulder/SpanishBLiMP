@@ -71,6 +71,7 @@ all_intransitive_verbs_past = vocab['expression'].loc[(vocab['category_2'] == "I
 all_non_recursive_verbs = vocab['expression'].loc[(vocab['category'] == "(S\\NP)/NP") | (vocab['category'] == "S\\NP")]
 all_finite_verbs = vocab['expression'].loc[(vocab['verb'] == 1) & (vocab['finite'] == 1)]
 all_non_finite_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['mood'] == 'NFIN')]
+all_non_finite_transitive_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] == 'NFIN') & (vocab[''] =='')]
 # all_ing_verbs = get_all("ing", "1", all_verbs)
 # all_en_verbs = get_all("en", "1", all_verbs)
 #all_bare_verbs = get_all("bare", "1", all_verbs)
