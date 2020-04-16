@@ -1,6 +1,8 @@
 from Spanish_Utils.randomize import choice
 from Spanish_Utils.vocab_sets import *
-print(all_wh_words)
+print(que_quien)
+print('############################')
+print(past_pret_3s)
 
 '''
 class CSCGenerator(data_generator.BenchmarkGenerator):

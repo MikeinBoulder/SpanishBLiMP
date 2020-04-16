@@ -79,7 +79,12 @@ all_non_finite_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['m
 all_p3ip_anim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL') & (vocab['category_2'] == 'TV') & (vocab['arg_1'].str.contains('animate=1')==True)]
 all_p3is_anim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['arg_1'].str.contains('animate=1')==True)]
 all_anim_anim_verbs = vocab['expression'].loc[(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]# & ((vocab['past']==1)|(vocab['ing']==1))]
+<<<<<<< HEAD
 all_p3is_anim_anim_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') &(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]
+=======
+all_anim_anim_verbs_3is_pst = vocab['expression'].loc[(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True) & (vocab['tense'] == 'PST') & (vocab['pos'] == 'V') & (vocab['person'] == 3) & (vocab['number'] =='SG') & (vocab['mood'] == 'IND') & (vocab['aspect'] == 'PFV')]
+all_anim_anim_verbs_3ip_pst = vocab['expression'].loc[(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True) & (vocab['tense'] == 'PST') & (vocab['pos'] == 'V') & (vocab['person'] == 3) & (vocab['number'] =='PL') & (vocab['mood'] == 'IND') & (vocab['aspect'] == 'PFV')]
+>>>>>>> cfbf1fe531a1c127fbb8fb70f6460861bfe2c784
 all_doc_doc_verbs = vocab['expression'].loc[(vocab['arg_1'].str.contains('document=1')==True) & (vocab['arg_2'].str.contains('document=1')==True)]#& ((vocab['past']==1)|(vocab['ing']==1))]
 all_refl_nonverbal_predicates = vocab[vocab['arg_1'] == vocab['arg_2']]
 all_refl_preds = pd.concat([all_anim_anim_verbs,all_doc_doc_verbs]).drop_duplicates().reset_index(drop=True)
@@ -114,8 +119,7 @@ all_causative_p3is = vocab['expression'].loc[(vocab['causative'] == 1) & (vocab[
 alternating_verbs = np.union1d(all_inchoative_p3is, all_causative_p3is)
 all_trans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP') & (vocab['gender'] == 'm') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['category'] == '(S\\NP)/NP')]
 all_intrans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP') & (vocab['gender'] == 'm') & (vocab['number'] == 'SG') & (vocab['category'] == 'S\\NP') & ((vocab['category_2'] == 'IV') | (vocab['category_2'] =='IV_sg'))]
-
-
+past_pret_3s = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] == 'IND') & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['number'] == 'SG') & (vocab['aspect'] == 'PFV')]
 #NOT SURE ABOUT SOME OF THESE TAGS
 
 # all_rogatives = get_all("category", "(S\\NP)/Q")
@@ -128,7 +132,7 @@ all_intrans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP
 
 
 #OTHERS
-
+que_quien = ['qué','quién']
 # all_quantifiers = get_all("category", "(S/(S\\NP))/N")
 all_quantifiers = vocab['expression'].loc[vocab['category'] == "(S/(S\\NP))/N"]
 # all_frequent_quantifiers = get_all("frequent", "1", all_quantifiers)
@@ -147,6 +151,7 @@ all_ACCpronouns = vocab['expression'].loc[vocab['category_2'] == "proNOM"]
 all_embedding_verbs = vocab['expression'].loc[vocab['category_2'] == "V_embedding"]
 # all_wh_words = get_all("category", "NP_wh")
 all_wh_words =vocab['expression'].loc[vocab['category'] == "NP_wh"]
+
 # all_demonstratives = np.append(get_all("expression", "this"), np.append(get_all_conjunctive([("category_2", "D"),("expression", "that")]),np.append(get_all("expression", "these"), get_all("expression", "those"))))
 all_demonstratives = vocab['expression'].loc[(vocab['category_2'] == "D")]
 all_demonstratives_masc_sg = vocab['expression'].loc[(vocab['category_2'] == "D") & (vocab['sg'] == 1) & (vocab['gender'] == 'm')]

@@ -1,8 +1,16 @@
 from Spanish_Utils.randomize import choice
 from Spanish_Utils.vocab_sets import *
-print(all_wh_words)
+
+#preposiciones: after, through, before, while, without
+preps = ['antes de','después de','a través de', 'mientras', 'sin']
+could_should = ['podría','podrían','debería','deberían']
+#USE THESE FOR ANIMATE SUBJ TO ANIMATE OBJ
+print(all_anim_anim_verbs_3is_pst)
+
+
 
 '''
+
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
