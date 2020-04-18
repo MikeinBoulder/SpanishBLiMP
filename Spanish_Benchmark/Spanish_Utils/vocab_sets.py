@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 
-vocab = pd.read_csv('./Spanish_Utils/new_combined.csv')
+vocab = pd.read_csv('./Spanish_Utils/vocab.csv')
 
 #NOUNS
 all_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1)]
@@ -73,19 +73,15 @@ all_intransitive_verbs_past = vocab['expression'].loc[(vocab['category_2'] == "I
 all_non_recursive_verbs = vocab['expression'].loc[(vocab['category'] == "(S\\NP)/NP") | (vocab['category'] == "S\\NP")]
 all_finite_verbs = vocab['expression'].loc[(vocab['verb'] == 1) & (vocab['finite'] == 1)]
 all_non_finite_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['mood'] == 'NFIN')]
-all_non_finite_transitive_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] == 'NFIN') & (vocab[''] =='')]
 # all_ing_verbs = get_all("ing", "1", all_verbs)
 # all_en_verbs = get_all("en", "1", all_verbs)
 #all_bare_verbs = get_all("bare", "1", all_verbs)
 all_p3ip_anim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL') & (vocab['category_2'] == 'TV') & (vocab['arg_1'].str.contains('animate=1')==True)]
 all_p3is_anim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['arg_1'].str.contains('animate=1')==True)]
 all_anim_anim_verbs = vocab['expression'].loc[(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]# & ((vocab['past']==1)|(vocab['ing']==1))]
-<<<<<<< HEAD
 all_p3is_anim_anim_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') &(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]
-=======
 all_anim_anim_verbs_3is_pst = vocab['expression'].loc[(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True) & (vocab['tense'] == 'PST') & (vocab['pos'] == 'V') & (vocab['person'] == 3) & (vocab['number'] =='SG') & (vocab['mood'] == 'IND') & (vocab['aspect'] == 'PFV')]
 all_anim_anim_verbs_3ip_pst = vocab['expression'].loc[(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True) & (vocab['tense'] == 'PST') & (vocab['pos'] == 'V') & (vocab['person'] == 3) & (vocab['number'] =='PL') & (vocab['mood'] == 'IND') & (vocab['aspect'] == 'PFV')]
->>>>>>> cfbf1fe531a1c127fbb8fb70f6460861bfe2c784
 all_doc_doc_verbs = vocab['expression'].loc[(vocab['arg_1'].str.contains('document=1')==True) & (vocab['arg_2'].str.contains('document=1')==True)]#& ((vocab['past']==1)|(vocab['ing']==1))]
 all_refl_nonverbal_predicates = vocab[vocab['arg_1'] == vocab['arg_2']]
 all_refl_preds = pd.concat([all_anim_anim_verbs,all_doc_doc_verbs]).drop_duplicates().reset_index(drop=True)
@@ -96,8 +92,8 @@ all_strictly_plural_transitive_verbs = vocab['expression'].loc[(vocab['tense'] =
 all_strictly_singular_transitive_verbs = vocab['expression'].loc[(vocab['tense'] == "PRS") & (vocab['number'] == 'SG') & (vocab['category_2'] == "TV") & (vocab['category'] == "(S\\NP)/NP")]
 all_possibly_plural_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['tense'] == "PRS") & (vocab['number'] != 'SG')]
 all_possibly_singular_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['tense'] == "PRS") & (vocab['number'] != 'PL')]
-all_non_finite_transitive_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['mood'] == 'NFIN') & (vocab['category_2'] == "TV")& (vocab['category'] == "(S\\NP)/NP")]
-all_non_finite_intransitive_verbs = vocab['expression'].loc[(vocab['category'] == "S\\NP") & (vocab['mood'] != 'NFIN')]
+all_non_finite_transitive_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['mood'] == 'NFIN') & (vocab['category_2'] == 'TV')]
+all_non_finite_intransitive_verbs = vocab['expression'].loc[(vocab['category'] == "S\\NP") & (vocab['mood'] == 'NFIN')]
 all_modals_auxs = vocab['expression'].loc[vocab['category'] == "(S\\NP)/(S[bare]\\NP)"]
 all_modals = vocab['expression'].loc[vocab['category_2'] == "modal"]
 all_negated_modals_auxs = vocab['expression'].loc[(vocab['category'] == "(S\\NP)/(S[bare]\\NP)") & (vocab['negated'] == "1")]
@@ -121,6 +117,8 @@ alternating_verbs = np.union1d(all_inchoative_p3is, all_causative_p3is)
 all_trans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP') & (vocab['gender'] == 'm') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['category'] == '(S\\NP)/NP')]
 all_intrans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP') & (vocab['gender'] == 'm') & (vocab['number'] == 'SG') & (vocab['category'] == 'S\\NP') & ((vocab['category_2'] == 'IV') | (vocab['category_2'] =='IV_sg'))]
 past_pret_3s = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] == 'IND') & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['number'] == 'SG') & (vocab['aspect'] == 'PFV')]
+past_pret_3p = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] == 'IND') & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['number'] == 'PL') & (vocab['aspect'] == 'PFV')]
+
 #NOT SURE ABOUT SOME OF THESE TAGS
 
 # all_rogatives = get_all("category", "(S\\NP)/Q")

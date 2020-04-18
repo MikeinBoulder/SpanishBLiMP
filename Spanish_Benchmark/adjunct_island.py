@@ -3,13 +3,13 @@ from Spanish_Utils.vocab_sets import *
 
 #preposiciones: after, through, before, while, without
 preps = ['antes de','después de','a través de', 'mientras', 'sin']
-could_should = ['podría','podrían','debería','deberían']
-#USE THESE FOR ANIMATE SUBJ TO ANIMATE OBJ
-print(all_anim_anim_verbs_3is_pst)
-print(all_anim_anim_verbs_3ip_pst)
+#could_should = ['podría','podrían','debería','deberían']
+
 #all_animate_pl_nouns_f, ...
 #d_fem_pl, ...
 #all_p3is_anim_subj_allowing_verbs
+
+#FOR QUIEN --> all_anim_anim_verbs_3is(p)_pst
 
         # What did      John read  before filing the book?
         # que  leyo juan antes de ?? el libro?
@@ -21,51 +21,81 @@ print(all_anim_anim_verbs_3ip_pst)
 
 def sample(max_iter):
     for i in range(max_iter):
+        prep = choice(preps)
+        V2 = choice(all_non_finite_transitive_verbs)
+        #quien, needs non-anim to anim verb
         if np.random.choice([True,False]):
+            #plural agent and anim anim verb
+            q = que_quien[1]
+            V1 = choice(all_anim_anim_verbs_3ip_pst)
+            #choose masc/fem agent
+            if np.random.choice([True, False]):
+                #fem pl
+                ag_det = choice(d_fem_pl)
+                ag = choice(n_fem_pl)
+            else:
+                #masc pl
+                ag_det = choice(d_masc_pl)
+                ag = choice(n_masc_pl)
+        elif np.random.choice([True,False]):
+            #singular agent anim anim verb
+            q = que_quien[1]
+            V1 = choice(all_anim_anim_verbs_3is_pst)
+            if np.random.choice([True,False]):
+                #fem sg
+                ag_det = choice(d_fem_sg)
+                ag = choice(n_fem_sg)
+            else:
+                #masc sg
+                ag_det = choice(d_masc_sg)
+                ag = choice(n_masc_sg)
+        elif np.random.choice([True,False]):
+            #plural agent non anim verb
             q = que_quien[0]
-            V1 = all_
-        
-'''
+            V1 = choice(past_pret_3p)
+            #choose masc/fem agent
+            if np.random.choice([True, False]):
+                #fem pl
+                ag_det = choice(d_fem_pl)
+                ag = choice(n_fem_pl)
+            else:
+                #masc pl
+                ag_det = choice(d_masc_pl)
+                ag = choice(n_masc_pl)
+        else:
+            #sg agent non anim verb
+            q = que_quien[0]
+            V1 = choice(past_pret_3s)
+            #choose masc/fem agent
+            if np.random.choice([True, False]):
+                #fem pl
+                ag_det = choice(d_fem_sg)
+                ag = choice(n_fem_sg)
+            else:
+                #masc pl
+                ag_det = choice(d_masc_sg)
+                ag = choice(n_masc_sg)
+        #make pl/sg choice for obj
+        if np.random.choice([True,False]):
+            #plural object
+            if np.random.choice([True,False]):
+                #fem pl
+                obj_det = choice(d_fem_pl)
+                obj = (n_fem_pl)
+            else:
+                #masc pl
+                obj_det = choice(d_masc_pl)
+                obj = choice(n_masc_pl)
+        else:
+            #singular objeCT
+            if np.random.choice([True,False]):
+                #fem sg
+                obj_det = choice(d_fem_sg)
+                obj = (n_fem_sg)
+            else:
+                #masc sg
+                obj_det = choice(d_masc_sg)
+                obj = choice(n_masc_sg)
+    print(q,V1,ag_det,ag,prep,V2,obj_det,obj)
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
-    def __init__(self):
-        super().__init__(field="syntax",
-                         linguistics="island_effects",
-                         uid="adjunct_island",
-                         simple_lm_method=True,
-                         one_prefix_method=False,
-                         two_prefix_method=False,
-                         lexically_identical=True)
-
-        self.all_ing_transitives = np.intersect1d(all_transitive_verbs, all_ing_verbs)
-        self.adverbs = ["before", "while", "after", "without"]
-
-    def sample(self):
-
-
-
-
-        # What did      John read  before filing the book?
-        # Wh   Aux_mat  Subj V_mat ADV    V_emb  Obj
-        # What did      John read  the book before filing?
-        # Wh   Aux_mat  Subj V_mat Obj      ADV    V_emb
-
-        V_mat = choice(all_non_finite_transitive_verbs)
-        Subj = N_to_DP_mutate(choice(get_matches_of(V_mat, "arg_1", all_nouns)))
-        Aux_mat = return_aux(V_mat, Subj, allow_negated=False)
-        Obj = N_to_DP_mutate(choice(get_matches_of(V_mat, "arg_2", all_nouns)))
-        V_emb = choice(get_matched_by(Obj, "arg_2", get_matched_by(Subj, "arg_1", self.all_ing_transitives)))
-        Wh = choice(get_matched_by(Obj, "arg_1", all_wh_words))
-        Adv = choice(self.adverbs)
-
-        data = {
-            "sentence_good": "%s %s %s %s %s %s %s?" % (Wh[0], Aux_mat[0], Subj[0], V_mat[0], Adv, V_emb[0], Obj[0]),
-            "sentence_bad": "%s %s %s %s %s %s %s?" % (Wh[0], Aux_mat[0], Subj[0], V_mat[0], Obj[0], Adv, V_emb[0])
-        }
-        return data, data["sentence_good"]
-
-generator = CSCGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
-
-'''
+sample(1)
