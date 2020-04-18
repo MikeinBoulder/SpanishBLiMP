@@ -1,6 +1,6 @@
-from ..Spanish_Utils.randomize import choice
-from ..Spanish_Utils.vocab_sets import *
-from ..Spanish_Utils.string_utils import *
+from Spanish_Utils.randomize import choice
+from Spanish_Utils.vocab_sets import *
+from Spanish_Utils.string_utils import *
 
 #preposiciones: after, through, before, while, without
 preps = ['antes de','después de','mientras', 'sin']
