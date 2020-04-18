@@ -1,8 +1,9 @@
 from Spanish_Utils.randomize import choice
 from Spanish_Utils.vocab_sets import *
+from Spanish_Utils.string_utils import *
 
 #preposiciones: after, through, before, while, without
-preps = ['antes de','después de','a través de', 'mientras', 'sin']
+preps = ['antes de','después de','mientras', 'sin']
 #could_should = ['podría','podrían','debería','deberían']
 
 #all_animate_pl_nouns_f, ...
@@ -22,7 +23,8 @@ preps = ['antes de','después de','a través de', 'mientras', 'sin']
 def sample(max_iter):
     for i in range(max_iter):
         prep = choice(preps)
-        V2 = choice(all_non_finite_transitive_verbs)
+        V2 = verb_cleanup(choice(all_non_finite_transitive_verbs),remove_se_inf = True)
+        print(V2,len(V2))
         #quien, needs non-anim to anim verb
         if np.random.choice([True,False]):
             #plural agent and anim anim verb
@@ -44,11 +46,11 @@ def sample(max_iter):
             if np.random.choice([True,False]):
                 #fem sg
                 ag_det = choice(d_fem_sg)
-                ag = choice(n_fem_sg)
+                ag = choice(n_fem_sg,all_proper_nouns)
             else:
                 #masc sg
                 ag_det = choice(d_masc_sg)
-                ag = choice(n_masc_sg)
+                ag = choice(n_masc_sg, all_proper_nouns)
         elif np.random.choice([True,False]):
             #plural agent non anim verb
             q = que_quien[0]
@@ -70,18 +72,18 @@ def sample(max_iter):
             if np.random.choice([True, False]):
                 #fem pl
                 ag_det = choice(d_fem_sg)
-                ag = choice(n_fem_sg)
+                ag = choice(n_fem_sg, all_proper_nouns)
             else:
                 #masc pl
                 ag_det = choice(d_masc_sg)
-                ag = choice(n_masc_sg)
+                ag = choice(n_masc_sg,all_proper_nouns)
         #make pl/sg choice for obj
         if np.random.choice([True,False]):
             #plural object
             if np.random.choice([True,False]):
                 #fem pl
                 obj_det = choice(d_fem_pl)
-                obj = (n_fem_pl)
+                obj = choice(n_fem_pl)
             else:
                 #masc pl
                 obj_det = choice(d_masc_pl)
@@ -91,11 +93,15 @@ def sample(max_iter):
             if np.random.choice([True,False]):
                 #fem sg
                 obj_det = choice(d_fem_sg)
-                obj = (n_fem_sg)
+                obj = choice(n_fem_sg,all_proper_nouns)
             else:
                 #masc sg
                 obj_det = choice(d_masc_sg)
-                obj = choice(n_masc_sg)
-    print(q,V1,ag_det,ag,prep,V2,obj_det,obj)
-
-sample(1)
+                obj = choice(n_masc_sg, all_proper_nouns)
+        
+        data = {
+            'sentence_good':string_beautify('%s %s %s %s %s %s %s %s' % (q,V1,ag_det,ag,prep,V2,obj_det,obj), question = True),
+            'sentence_bad':string_beautify('%s %s %s %s %s %s %s %s' % (q,V1,ag_det,ag,obj_det,obj,prep,V2), question = True)
+            }
+        print(data)
+sample(10)
