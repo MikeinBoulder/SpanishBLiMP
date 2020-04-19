@@ -1,16 +1,20 @@
 #from randomize import *
 #from functools import reduce
 import numpy as np
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
 
 
-vocab = pd.read_csv('./Spanish_Utils/vocab.csv')
+vocab = pd.read_csv('./Spanish_Utils/vocab.csv', low_memory=False)
 #FUNCTIONS
 def get_corresponding_pastpret(verb,number):
-    print('verb: ',verb)
     inf = np.random.choice(vocab['infinitive'].loc[(vocab['expression'].str.contains(verb) == True)])
     to_ret = vocab['expression'].loc[(vocab['infinitive'].str.contains(inf) == True) & (vocab['pos'] == 'V') & (vocab['mood'] == 'IND') & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['number'] == number) & (vocab['aspect'] == 'PFV')]
-    print(to_ret)
+    if len(to_ret) > 0:
+        return np.random.choice(to_ret)
+    else:
+        return inf
 
 
 #NOUNS

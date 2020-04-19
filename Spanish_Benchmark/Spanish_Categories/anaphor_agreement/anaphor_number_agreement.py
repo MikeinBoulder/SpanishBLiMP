@@ -3,10 +3,11 @@ import numpy as np
 from Spanish_Utils.randomize import choice
 from Spanish_Utils.string_utils import *
 import random
+import sys
 
 
-def sample(max_iter):
-        for i in range(max_iter):
+def sample(iter,out):
+        for i in range(iter):
                 #plural verb
                 if choice([True, False]):
                         V = choice(verbs_p3ip)
@@ -62,9 +63,15 @@ def sample(max_iter):
                                 "sentence_good": string_beautify("%s %s %s %s." % (D, N, V, rp_good)),
                                 "sentence_bad": string_beautify("%s %s %s %s." % (D, N, V, rp_bad))
                         }
-                print(data)
-
-sample(100)
+                out.write(str(data)+'\n')
+try:
+        iter = int(sys.argv[1])
+        out = sys.argv[2]
+        out = open(out,'w')
+        sample(iter,out)
+except IndexError:
+        print('To run this file use:\npython anaphor_number_agreement.py <# of sentences> <output path>')
+        sys.exit()
 
 
 

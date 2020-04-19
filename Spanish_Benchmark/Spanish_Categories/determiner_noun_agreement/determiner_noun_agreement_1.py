@@ -4,35 +4,13 @@ from Spanish_Utils.vocab_sets import *
 from Spanish_Utils.randomize import *
 from Spanish_Utils.string_utils import * 
 import random
+import sys
 
-'''
 
-class DetNGenerator(data_generator.BenchmarkGenerator):
-    def __init__(self):
-        super().__init__(field="morphology",
-                         linguistics="determiner_noun_agreement",
-                         uid="determiner_noun_agreement_1",
-                         simple_lm_method=True,
-                         one_prefix_method=True,
-                         two_prefix_method=False,
-                         lexically_identical=True)
-        self.all_null_plural_nouns = get_all("sgequalspl", "1")
-        self.all_missingPluralSing_nouns = get_all_conjunctive([("pluralform", ""), ("singularform", "")])
-        self.all_irregular_nouns = get_all("irrpl", "1")
-        self.all_unusable_nouns = np.union1d(self.all_null_plural_nouns, np.union1d(self.all_missingPluralSing_nouns, self.all_irregular_nouns))
-        self.all_pluralizable_nouns = np.setdiff1d(all_common_nouns, self.all_unusable_nouns)
-
-'''
-
-def sample(max_iter):
-        # John cleaned this table.
-        # N1   V1      Dem  N2_match
-
-        # John cleaned this tables.
-        # N1   V1      Dem  N2_mismatch
-    for i in range(max_iter):
+def sample(iter,out):
+    for i in range(iter):
         #plural verb
-        V = verb_cleanup(choice(all_trans_p3is))
+        V = choice(all_trans_p3is)
         N1 = choice(all_proper_nouns)
         #fem sg
         n_choice = choice(['nfsg','nfpl','nmsg','nmpl'])
@@ -55,8 +33,14 @@ def sample(max_iter):
         data = {
             "sentence_good" : string_beautify("%s %s %s %s." % (N1, V, demonst, N2_good)),
             "sentence_bad" : string_beautify("%s %s %s %s." % (N1, V, demonst, N2_bad))
-        } 
-        print(data)
+        }
+        out.write(str(data)+'\n')
 
-sample(100)
+try:
+    iter = int(sys.argv[1])
+    out = open(sys.argv[2],'w')
+    sample(iter,out)
+except IndexError:
+    print('To run this file use:\npython determiner_noun_agreement_1.py <# of sentences> <output path>')
+    sys.exit()
         

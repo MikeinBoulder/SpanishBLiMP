@@ -1,0 +1,100 @@
+{'sentence_good': 'El pulpo se cuida a sí mismo.', 'sentence_bad': 'El pulpo se cuida a sí mismos.'}
+{'sentence_good': 'Las computadoras se cocinan a sí mismas.', 'sentence_bad': 'Las computadoras se cocinan a sí misma.'}
+{'sentence_good': 'Las adultas se ojean a sí mismas.', 'sentence_bad': 'Las adultas se ojean a sí misma.'}
+{'sentence_good': 'Las peatonas se cooperan a sí mismas.', 'sentence_bad': 'Las peatonas se cooperan a sí misma.'}
+{'sentence_good': 'Valentino se atenúa a sí mismo.', 'sentence_bad': 'Valentino se atenúa a sí mismos.'}
+{'sentence_good': 'Unos hospitales se ordenan a sí mismos.', 'sentence_bad': 'Unos hospitales se ordenan a sí mismo.'}
+{'sentence_good': 'Los focos se necesitan a sí mismos.', 'sentence_bad': 'Los focos se necesitan a sí mismo.'}
+{'sentence_good': 'Unos chales se pinchan a sí mismos.', 'sentence_bad': 'Unos chales se pinchan a sí mismo.'}
+{'sentence_good': 'Dylan se pinta a sí mismo.', 'sentence_bad': 'Dylan se pinta a sí mismos.'}
+{'sentence_good': 'Los espejos se consiguen a sí mismos.', 'sentence_bad': 'Los espejos se consiguen a sí mismo.'}
+{'sentence_good': 'Las asociaciones se contratan a sí mismas.', 'sentence_bad': 'Las asociaciones se contratan a sí misma.'}
+{'sentence_good': 'Paulina se agradece a sí misma.', 'sentence_bad': 'Paulina se agradece a sí mismas.'}
+{'sentence_good': 'Las conductoras se contratan a sí mismas.', 'sentence_bad': 'Las conductoras se contratan a sí misma.'}
+{'sentence_good': 'Unas escuelas se admiran a sí mismas.', 'sentence_bad': 'Unas escuelas se admiran a sí misma.'}
+{'sentence_good': 'Los oasis se parecen a sí mismos.', 'sentence_bad': 'Los oasis se parecen a sí mismo.'}
+{'sentence_good': 'Unas legislaturas se pintan a sí mismas.', 'sentence_bad': 'Unas legislaturas se pintan a sí misma.'}
+{'sentence_good': 'Unos pimientos se aceleran a sí mismos.', 'sentence_bad': 'Unos pimientos se aceleran a sí mismo.'}
+{'sentence_good': 'Unas faldas se aman a sí mismas.', 'sentence_bad': 'Unas faldas se aman a sí misma.'}
+{'sentence_good': 'Julia se vende a sí misma.', 'sentence_bad': 'Julia se vende a sí mismas.'}
+{'sentence_good': 'Tomás se acepta a sí mismo.', 'sentence_bad': 'Tomás se acepta a sí mismos.'}
+{'sentence_good': 'Unas bufandas se creen a sí mismas.', 'sentence_bad': 'Unas bufandas se creen a sí misma.'}
+{'sentence_good': 'El pez se ve a sí mismo.', 'sentence_bad': 'El pez se ve a sí mismos.'}
+{'sentence_good': 'Paola se concurre a sí misma.', 'sentence_bad': 'Paola se concurre a sí mismas.'}
+{'sentence_good': 'Unas asociaciones se siguen a sí mismas.', 'sentence_bad': 'Unas asociaciones se siguen a sí misma.'}
+{'sentence_good': 'El folleto se pesca a sí mismo.', 'sentence_bad': 'El folleto se pesca a sí mismos.'}
+{'sentence_good': 'Unos platos se paran a sí mismos.', 'sentence_bad': 'Unos platos se paran a sí mismo.'}
+{'sentence_good': 'Unas medicas se andan a sí mismas.', 'sentence_bad': 'Unas medicas se andan a sí misma.'}
+{'sentence_good': 'Agustina se persuade a sí misma.', 'sentence_bad': 'Agustina se persuade a sí mismas.'}
+{'sentence_good': 'Unas alfombras se contratan a sí mismas.', 'sentence_bad': 'Unas alfombras se contratan a sí misma.'}
+{'sentence_good': 'Un boceto se debe a sí mismo.', 'sentence_bad': 'Un boceto se debe a sí mismos.'}
+{'sentence_good': 'Un medio se sonríe a sí mismo.', 'sentence_bad': 'Un medio se sonríe a sí mismos.'}
+{'sentence_good': 'Unos colegios se necesitan a sí mismos.', 'sentence_bad': 'Unos colegios se necesitan a sí mismo.'}
+{'sentence_good': 'Un caballo se puede a sí mismo.', 'sentence_bad': 'Un caballo se puede a sí mismos.'}
+{'sentence_good': 'El médico se reacciona a sí mismo.', 'sentence_bad': 'El médico se reacciona a sí mismos.'}
+{'sentence_good': 'Rodrigo se sale a sí mismo.', 'sentence_bad': 'Rodrigo se sale a sí mismos.'}
+{'sentence_good': 'Las alfombras se resultan a sí mismas.', 'sentence_bad': 'Las alfombras se resultan a sí misma.'}
+{'sentence_good': 'El restaurante se cae a sí mismo.', 'sentence_bad': 'El restaurante se cae a sí mismos.'}
+{'sentence_good': 'Las carreta se oxidan a sí mismas.', 'sentence_bad': 'Las carreta se oxidan a sí misma.'}
+{'sentence_good': 'Una taza se compra a sí misma.', 'sentence_bad': 'Una taza se compra a sí mismas.'}
+{'sentence_good': 'Juan Felipe se asombra a sí mismo.', 'sentence_bad': 'Juan Felipe se asombra a sí mismos.'}
+{'sentence_good': 'Los dientes se quejan a sí mismos.', 'sentence_bad': 'Los dientes se quejan a sí mismo.'}
+{'sentence_good': 'Unos gansos se quejan a sí mismos.', 'sentence_bad': 'Unos gansos se quejan a sí mismo.'}
+{'sentence_good': 'Un bailarín se compromete a sí mismo.', 'sentence_bad': 'Un bailarín se compromete a sí mismos.'}
+{'sentence_good': 'Unos pepinos se dicen a sí mismos.', 'sentence_bad': 'Unos pepinos se dicen a sí mismo.'}
+{'sentence_good': 'Manuela se reúne a sí misma.', 'sentence_bad': 'Manuela se reúne a sí mismas.'}
+{'sentence_good': 'Nicole se afloja a sí misma.', 'sentence_bad': 'Nicole se afloja a sí mismas.'}
+{'sentence_good': 'Una alfombra se condensa a sí misma.', 'sentence_bad': 'Una alfombra se condensa a sí mismas.'}
+{'sentence_good': 'Un zapato se rinde a sí mismo.', 'sentence_bad': 'Un zapato se rinde a sí mismos.'}
+{'sentence_good': 'Unas adultas se aprenden a sí mismas.', 'sentence_bad': 'Unas adultas se aprenden a sí misma.'}
+{'sentence_good': 'El chico se cree a sí mismo.', 'sentence_bad': 'El chico se cree a sí mismos.'}
+{'sentence_good': 'Juan Sebastián se rasca a sí mismo.', 'sentence_bad': 'Juan Sebastián se rasca a sí mismos.'}
+{'sentence_good': 'Un buey se acelera a sí mismo.', 'sentence_bad': 'Un buey se acelera a sí mismos.'}
+{'sentence_good': 'Unas berenjenas se preven a sí mismas.', 'sentence_bad': 'Unas berenjenas se preven a sí misma.'}
+{'sentence_good': 'Un parque público se debe a sí mismo.', 'sentence_bad': 'Un parque público se debe a sí mismos.'}
+{'sentence_good': 'Las muchachas se averiguan a sí mismas.', 'sentence_bad': 'Las muchachas se averiguan a sí misma.'}
+{'sentence_good': 'Juliana se parpadea a sí misma.', 'sentence_bad': 'Juliana se parpadea a sí mismas.'}
+{'sentence_good': 'Unos bailarines se motivan a sí mismos.', 'sentence_bad': 'Unos bailarines se motivan a sí mismo.'}
+{'sentence_good': 'La seta se ama a sí misma.', 'sentence_bad': 'La seta se ama a sí mismas.'}
+{'sentence_good': 'Unas tesis se suspiran a sí mismas.', 'sentence_bad': 'Unas tesis se suspiran a sí misma.'}
+{'sentence_good': 'Andrés se preocupa a sí mismo.', 'sentence_bad': 'Andrés se preocupa a sí mismos.'}
+{'sentence_good': 'El colegio se caza a sí mismo.', 'sentence_bad': 'El colegio se caza a sí mismos.'}
+{'sentence_good': 'Ian se cura a sí mismo.', 'sentence_bad': 'Ian se cura a sí mismos.'}
+{'sentence_good': 'Unos glaciares se cazan a sí mismos.', 'sentence_bad': 'Unos glaciares se cazan a sí mismo.'}
+{'sentence_good': 'Adriana se ordena a sí misma.', 'sentence_bad': 'Adriana se ordena a sí mismas.'}
+{'sentence_good': 'Miranda se cura a sí misma.', 'sentence_bad': 'Miranda se cura a sí mismas.'}
+{'sentence_good': 'Maite se necesita a sí misma.', 'sentence_bad': 'Maite se necesita a sí mismas.'}
+{'sentence_good': 'Los cactus se pasan a sí mismos.', 'sentence_bad': 'Los cactus se pasan a sí mismo.'}
+{'sentence_good': 'Las cazuelas se cambian a sí mismas.', 'sentence_bad': 'Las cazuelas se cambian a sí misma.'}
+{'sentence_good': 'Un portón se comisiona a sí mismo.', 'sentence_bad': 'Un portón se comisiona a sí mismos.'}
+{'sentence_good': 'Unos núcleos se arrollan a sí mismos.', 'sentence_bad': 'Unos núcleos se arrollan a sí mismo.'}
+{'sentence_good': 'Las sillas se consiguen a sí mismas.', 'sentence_bad': 'Las sillas se consiguen a sí misma.'}
+{'sentence_good': 'Victoria se anima a sí misma.', 'sentence_bad': 'Victoria se anima a sí mismas.'}
+{'sentence_good': 'Los bailarines se recuerdan a sí mismos.', 'sentence_bad': 'Los bailarines se recuerdan a sí mismo.'}
+{'sentence_good': 'Unas mujeres se charlan a sí mismas.', 'sentence_bad': 'Unas mujeres se charlan a sí misma.'}
+{'sentence_good': 'Los parques públicos se aguijonean a sí mismos.', 'sentence_bad': 'Los parques públicos se aguijonean a sí mismo.'}
+{'sentence_good': 'Jesús se murmura a sí mismo.', 'sentence_bad': 'Jesús se murmura a sí mismos.'}
+{'sentence_good': 'Daniela se boicotea a sí misma.', 'sentence_bad': 'Daniela se boicotea a sí mismas.'}
+{'sentence_good': 'Las luces se comisionan a sí mismas.', 'sentence_bad': 'Las luces se comisionan a sí misma.'}
+{'sentence_good': 'Unas fotografías se parecen a sí mismas.', 'sentence_bad': 'Unas fotografías se parecen a sí misma.'}
+{'sentence_good': 'Amalia se visita a sí misma.', 'sentence_bad': 'Amalia se visita a sí mismas.'}
+{'sentence_good': 'Diego se ataca a sí mismo.', 'sentence_bad': 'Diego se ataca a sí mismos.'}
+{'sentence_good': 'Las carretillas se ocurren a sí mismas.', 'sentence_bad': 'Las carretillas se ocurren a sí misma.'}
+{'sentence_good': 'Unos bueyes se aceptan a sí mismos.', 'sentence_bad': 'Unos bueyes se aceptan a sí mismo.'}
+{'sentence_good': 'El base se bromea a sí mismo.', 'sentence_bad': 'El base se bromea a sí mismos.'}
+{'sentence_good': 'Unas carretillas se aprietan a sí mismas.', 'sentence_bad': 'Unas carretillas se aprietan a sí misma.'}
+{'sentence_good': 'Las carretillas se animan a sí mismas.', 'sentence_bad': 'Las carretillas se animan a sí misma.'}
+{'sentence_good': 'Los dientes se bromean a sí mismos.', 'sentence_bad': 'Los dientes se bromean a sí mismo.'}
+{'sentence_good': 'Unos caballos se mueven a sí mismos.', 'sentence_bad': 'Unos caballos se mueven a sí mismo.'}
+{'sentence_good': 'Los estímulos se concurren a sí mismos.', 'sentence_bad': 'Los estímulos se concurren a sí mismo.'}
+{'sentence_good': 'Los camiones se aburren a sí mismos.', 'sentence_bad': 'Los camiones se aburren a sí mismo.'}
+{'sentence_good': 'La escalera se pincha a sí misma.', 'sentence_bad': 'La escalera se pincha a sí mismas.'}
+{'sentence_good': 'Unas imágenes se recuerdan a sí mismas.', 'sentence_bad': 'Unas imágenes se recuerdan a sí misma.'}
+{'sentence_good': 'Unos hijos se convencen a sí mismos.', 'sentence_bad': 'Unos hijos se convencen a sí mismo.'}
+{'sentence_good': 'Las alfombras se pescan a sí mismas.', 'sentence_bad': 'Las alfombras se pescan a sí misma.'}
+{'sentence_good': 'Unos cafés se convencen a sí mismos.', 'sentence_bad': 'Unos cafés se convencen a sí mismo.'}
+{'sentence_good': 'Las faldas se parpadean a sí mismas.', 'sentence_bad': 'Las faldas se parpadean a sí misma.'}
+{'sentence_good': 'Una computadora se corretea a sí misma.', 'sentence_bad': 'Una computadora se corretea a sí mismas.'}
+{'sentence_good': 'Paula se responde a sí misma.', 'sentence_bad': 'Paula se responde a sí mismas.'}
+{'sentence_good': 'Los sofás se ven a sí mismos.', 'sentence_bad': 'Los sofás se ven a sí mismo.'}
+{'sentence_good': 'El parque público se cuida a sí mismo.', 'sentence_bad': 'El parque público se cuida a sí mismos.'}

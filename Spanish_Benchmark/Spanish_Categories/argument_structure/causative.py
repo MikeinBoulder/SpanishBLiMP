@@ -3,22 +3,12 @@ from Spanish_Utils.vocab_sets import *
 from Spanish_Utils.string_utils import *
 import numpy as np
 import random
-
-#Need causative verbs
-#Need intransitive verbs
+import sys
 
 haber = ['ha', 'han']
-#all_intransitive_verbs_3pis
-#all_ptcp_for_pres_perf
-#all_proper_nouns
-#all_animate_nouns
-#Need d1(for subj) and d2(for obj)
-#d_masc_pl, d_masc_sg, d_fem_pl, d_fem_sg
-#n_fem_pl...etc
-#all_animate_sg_nouns_f
 
-def sample(max_iter):
-    for i in range(max_iter):
+def sample(iter, out):
+    for i in range(iter):
         ptcp_good = choice(all_trans_ptcp_for_pres_perf)
         ptcp_bad = choice(all_intrans_ptcp_for_pres_perf)
         #plural verb -> han ptcp
@@ -70,6 +60,13 @@ def sample(max_iter):
                 'sentence_good' : string_beautify('%s %s %s %s %s %s.' % (D1, Subj, aux, ptcp_good, D2, Obj)),
                 'sentence_bad' : string_beautify('%s %s %s %s %s.' % (D1, Subj, V_bad, D2, Obj))
             }
-        print(data)
+        out.write(str(data)+'\n')
 
-sample(100)
+try:
+        iter = int(sys.argv[1])
+        out = sys.argv[2]
+        out = open(out,'w')
+        sample(iter,out)
+except IndexError:
+        print('To run this file use:\npython causative.py <# of sentences> <output path>')
+        sys.exit()

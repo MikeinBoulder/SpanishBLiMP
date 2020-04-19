@@ -1,0 +1,100 @@
+{'sentence_good': 'Alexander abraza la vela.', 'sentence_bad': 'Alexander abraza la cuentos.'}
+{'sentence_good': 'Manuela se ve un carne de vaca.', 'sentence_bad': 'Manuela se ve un armarios.'}
+{'sentence_good': 'Natalia critica los hospitales.', 'sentence_bad': 'Natalia critica los cilantro.'}
+{'sentence_good': 'Amalia asusta esta cara.', 'sentence_bad': 'Amalia asusta esta armarios.'}
+{'sentence_good': 'Galileo anda este caballo.', 'sentence_bad': 'Galileo anda este copias.'}
+{'sentence_good': 'Rafaella cuestiona las chaquetas.', 'sentence_bad': 'Rafaella cuestiona las niño.'}
+{'sentence_good': 'Leonardo oculta un ojo.', 'sentence_bad': 'Leonardo oculta un aviones.'}
+{'sentence_good': 'Constanza tiene muchos proyectores.', 'sentence_bad': 'Constanza tiene muchos restaurante.'}
+{'sentence_good': 'Jacobo abre esa computadora.', 'sentence_bad': 'Jacobo abre esa guantes.'}
+{'sentence_good': 'Elena asusta el fenómeno.', 'sentence_bad': 'Elena asusta el bailarines.'}
+{'sentence_good': 'Patricio tiene ese pelo.', 'sentence_bad': 'Patricio tiene ese carámbanos.'}
+{'sentence_good': 'Cristóbal anda ese plato.', 'sentence_bad': 'Cristóbal anda ese monociclos.'}
+{'sentence_good': 'Rebeca se seca este pepino.', 'sentence_bad': 'Rebeca se seca este camiones.'}
+{'sentence_good': 'Mia observa esas empresas.', 'sentence_bad': 'Mia observa esas helado.'}
+{'sentence_good': 'Alessandra se ve eses ex alumnos.', 'sentence_bad': 'Alessandra se ve eses boca.'}
+{'sentence_good': 'Amalia observa ese libro.', 'sentence_bad': 'Amalia observa ese imágenes.'}
+{'sentence_good': 'Ashley oculta ese proyector.', 'sentence_bad': 'Ashley oculta ese proyectores.'}
+{'sentence_good': 'Salome observa aquellas lamparas.', 'sentence_bad': 'Salome observa aquellas guante.'}
+{'sentence_good': 'Gabriel se queja una oveja.', 'sentence_bad': 'Gabriel se queja una pacientes.'}
+{'sentence_good': 'Gerónimo cuida estes glaciares.', 'sentence_bad': 'Gerónimo cuida estes pantalla.'}
+{'sentence_good': 'Lorenzo se vende los sofás.', 'sentence_bad': 'Lorenzo se vende los pastel.'}
+{'sentence_good': 'Carolina boicotea este cilantro.', 'sentence_bad': 'Carolina boicotea este glaciares.'}
+{'sentence_good': 'Amy aburre la pintura.', 'sentence_bad': 'Amy aburre la bailarinas.'}
+{'sentence_good': 'Valentino vende aquellas bufandas.', 'sentence_bad': 'Valentino vende aquellas perro.'}
+{'sentence_good': 'Javier conoce muchas bocas.', 'sentence_bad': 'Javier conoce muchas pantalla.'}
+{'sentence_good': 'Eventos actuales alarma aquellos calcetines.', 'sentence_bad': 'Eventos actuales alarma aquellos arroz.'}
+{'sentence_good': 'Universidad de Harvard anda el hospital.', 'sentence_bad': 'Universidad de Harvard anda el puertas.'}
+{'sentence_good': 'Abigail toma ese pulpo.', 'sentence_bad': 'Abigail toma ese supermercados.'}
+{'sentence_good': 'Luna ayuda esas medicas.', 'sentence_bad': 'Luna ayuda esas conductor.'}
+{'sentence_good': 'Ciencias visita esas pantallas.', 'sentence_bad': 'Ciencias visita esas legislatura.'}
+{'sentence_good': 'Kiara corretea aquellos medicos.', 'sentence_bad': 'Kiara corretea aquellos asociación.'}
+{'sentence_good': 'Isidora sale aquellas sinopsis.', 'sentence_bad': 'Isidora sale aquellas bistec.'}
+{'sentence_good': 'Christopher agrava estas síntesis.', 'sentence_bad': 'Christopher agrava estas carámbano.'}
+{'sentence_good': 'Juan trae el foco.', 'sentence_bad': 'Juan trae el puertas.'}
+{'sentence_good': 'Alma observa eses calcetines.', 'sentence_bad': 'Alma observa eses espejo.'}
+{'sentence_good': 'Florencia asusta esa obra de teatro.', 'sentence_bad': 'Florencia asusta esa monociclos.'}
+{'sentence_good': 'Lucia pasa ese conductor.', 'sentence_bad': 'Lucia pasa ese medicos.'}
+{'sentence_good': 'Ciencias alarma eses ciervo.', 'sentence_bad': 'Ciencias alarma eses biblioteca.'}
+{'sentence_good': 'Monet boicotea ese café.', 'sentence_bad': 'Monet boicotea ese senadoras.'}
+{'sentence_good': 'Juan Sebastián boicotea un cine.', 'sentence_bad': 'Juan Sebastián boicotea un comités.'}
+{'sentence_good': 'Facundo asusta esos carámbanos.', 'sentence_bad': 'Facundo asusta esos bailarina.'}
+{'sentence_good': 'Leonardo conoce esas muchachas.', 'sentence_bad': 'Leonardo conoce esas cilantro.'}
+{'sentence_good': 'Agustín besa aquellos caballos.', 'sentence_bad': 'Agustín besa aquellos pelo.'}
+{'sentence_good': 'Emily toma esos coches.', 'sentence_bad': 'Emily toma esos pintura.'}
+{'sentence_good': 'Facundo se pregunta una escuela.', 'sentence_bad': 'Facundo se pregunta una lentes.'}
+{'sentence_good': 'Lucia observa esta escalera.', 'sentence_bad': 'Lucia observa esta bicicletas.'}
+{'sentence_good': 'Benjamín ojea las bailarinas.', 'sentence_bad': 'Benjamín ojea las bicicleta.'}
+{'sentence_good': 'María Camila se pasa los ex alumnos.', 'sentence_bad': 'María Camila se pasa los conductora.'}
+{'sentence_good': 'Emiliano oculta muchos artículos del periódico.', 'sentence_bad': 'Emiliano oculta muchos camión.'}
+{'sentence_good': 'Martina agrava el perro.', 'sentence_bad': 'Martina agrava el señoras.'}
+{'sentence_good': 'Alessandra afloja esas cazuelas.', 'sentence_bad': 'Alessandra afloja esas ojo.'}
+{'sentence_good': 'Gael pasa eses niños.', 'sentence_bad': 'Gael pasa eses portón.'}
+{'sentence_good': 'Adrián se pinta estas mujeres.', 'sentence_bad': 'Adrián se pinta estas bufanda.'}
+{'sentence_good': 'Maximiliano cuida este piojo.', 'sentence_bad': 'Maximiliano cuida este aviones.'}
+{'sentence_good': 'Josefina oculta ese arroz.', 'sentence_bad': 'Josefina oculta ese ensayos.'}
+{'sentence_good': 'Isaac aprieta estas medicas.', 'sentence_bad': 'Isaac aprieta estas peatón.'}
+{'sentence_good': 'Isabel critica muchas hipótesis.', 'sentence_bad': 'Isabel critica muchas ensayo.'}
+{'sentence_good': 'Rodrigo aburre este calcetín.', 'sentence_bad': 'Rodrigo aburre este camareras.'}
+{'sentence_good': 'Natalia conduce un calcetín.', 'sentence_bad': 'Natalia conduce un montañas.'}
+{'sentence_good': 'Fernando cuida esos pimientos.', 'sentence_bad': 'Fernando cuida esos manzana.'}
+{'sentence_good': 'Gabriela se vende los zapatos.', 'sentence_bad': 'Gabriela se vende los café.'}
+{'sentence_good': 'Dylan agradece muchas sinopsis.', 'sentence_bad': 'Dylan agradece muchas lámpara.'}
+{'sentence_good': 'Martín sale una asociación.', 'sentence_bad': 'Martín sale una platos.'}
+{'sentence_good': 'Luis aprieta esos guantes.', 'sentence_bad': 'Luis aprieta esos escalera.'}
+{'sentence_good': 'Juan Diego se parece este elipsis.', 'sentence_bad': 'Juan Diego se parece este ventanas.'}
+{'sentence_good': 'Alejandro tiene aquellas síntesis.', 'sentence_bad': 'Alejandro tiene aquellas sofá.'}
+{'sentence_good': 'Mariana pasa este análisis.', 'sentence_bad': 'Mariana pasa este fotografías.'}
+{'sentence_good': 'Nicolás agrava muchas adultas.', 'sentence_bad': 'Nicolás agrava muchas pez.'}
+{'sentence_good': 'Elizabeth agradece el vestido.', 'sentence_bad': 'Elizabeth agradece el profesoras.'}
+{'sentence_good': 'Joaquín abraza muchos adultos.', 'sentence_bad': 'Joaquín abraza muchos pescado.'}
+{'sentence_good': 'Rebeca se sienta esas escuelas.', 'sentence_bad': 'Rebeca se sienta esas parque público.'}
+{'sentence_good': 'Antonia se queja esta bufanda.', 'sentence_bad': 'Antonia se queja esta películas.'}
+{'sentence_good': 'Pedro confunde esos hospitales.', 'sentence_bad': 'Pedro confunde esos camisa.'}
+{'sentence_good': 'Alexander toma muchas ventanas.', 'sentence_bad': 'Alexander toma muchas vela.'}
+{'sentence_good': 'Micaela conduce los gansos.', 'sentence_bad': 'Micaela conduce los cuesta.'}
+{'sentence_good': 'Alessandra trae esos perros.', 'sentence_bad': 'Alessandra trae esos paleta de hielo.'}
+{'sentence_good': 'Benjamín cuestiona aquellos ratones.', 'sentence_bad': 'Benjamín cuestiona aquellos artículo de periódico.'}
+{'sentence_good': 'María José critica un piojo.', 'sentence_bad': 'María José critica un camiones.'}
+{'sentence_good': 'Allison trae el hijos.', 'sentence_bad': 'Allison trae el serpientes.'}
+{'sentence_good': 'Luciano boicotea esta manzana.', 'sentence_bad': 'Luciano boicotea esta hamsters.'}
+{'sentence_good': 'Jesús visita esta bufanda.', 'sentence_bad': 'Jesús visita esta cines.'}
+{'sentence_good': 'Micaela vuelve esa sinopsis.', 'sentence_bad': 'Micaela vuelve esa adolescentes.'}
+{'sentence_good': 'Rebeca vende los supermercados.', 'sentence_bad': 'Rebeca vende los florero.'}
+{'sentence_good': 'Constanza afloja este pepino.', 'sentence_bad': 'Constanza afloja este calcetines.'}
+{'sentence_good': 'Rafaella aburre las puertas.', 'sentence_bad': 'Rafaella aburre las vela.'}
+{'sentence_good': 'Christopher cuestiona estas adultas.', 'sentence_bad': 'Christopher cuestiona estas agua.'}
+{'sentence_good': 'Alexander se sienta esas patinetas.', 'sentence_bad': 'Alexander se sienta esas colegio.'}
+{'sentence_good': 'Maite aburre muchos vestidos.', 'sentence_bad': 'Maite aburre muchos senadora.'}
+{'sentence_good': 'Laura se seca estas tesis.', 'sentence_bad': 'Laura se seca estas monociclo.'}
+{'sentence_good': 'Viaje odia muchos camareros.', 'sentence_bad': 'Viaje odia muchos universidad.'}
+{'sentence_good': 'Joaquín abraza esta imagen.', 'sentence_bad': 'Joaquín abraza esta berenjenas.'}
+{'sentence_good': 'Agustina se ve este monociclo.', 'sentence_bad': 'Agustina se ve este camareros.'}
+{'sentence_good': 'Guadalupe conoce estas carretillas.', 'sentence_bad': 'Guadalupe conoce estas organización.'}
+{'sentence_good': 'Monserrat besa un ratón.', 'sentence_bad': 'Monserrat besa un conejos.'}
+{'sentence_good': 'Julieta se sienta ese vestido.', 'sentence_bad': 'Julieta se sienta ese muchachas.'}
+{'sentence_good': 'Elisa vende aquellas universidades.', 'sentence_bad': 'Elisa vende aquellas pez.'}
+{'sentence_good': 'María boicotea ese adulto.', 'sentence_bad': 'María boicotea ese mujeres.'}
+{'sentence_good': 'Isabella besa este café.', 'sentence_bad': 'Isabella besa este colegios.'}
+{'sentence_good': 'Carla conduce ese restaurante.', 'sentence_bad': 'Carla conduce ese imágenes.'}
+{'sentence_good': 'Ángel se vende estes gatos.', 'sentence_bad': 'Ángel se vende estes restaurante.'}

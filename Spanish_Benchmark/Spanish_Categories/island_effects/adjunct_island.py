@@ -1,6 +1,7 @@
 from Spanish_Utils.randomize import choice
 from Spanish_Utils.vocab_sets import *
 from Spanish_Utils.string_utils import *
+import sys
 
 #preposiciones: after, through, before, while, without
 preps = ['antes de','después de','mientras', 'sin']
@@ -20,11 +21,10 @@ preps = ['antes de','después de','mientras', 'sin']
         # Wh   Aux_mat  Subj V_mat Obj      ADV    V_emb
 
 
-def sample(max_iter):
-    for i in range(max_iter):
+def sample(iter,out):
+    for i in range(iter):
         prep = choice(preps)
         V2 = verb_cleanup(choice(all_non_finite_transitive_verbs),remove_se_inf = True)
-        print(V2,len(V2))
         #quien, needs non-anim to anim verb
         if np.random.choice([True,False]):
             #plural agent and anim anim verb
@@ -103,5 +103,12 @@ def sample(max_iter):
             'sentence_good':string_beautify('%s %s %s %s %s %s %s %s' % (q,V1,ag_det,ag,prep,V2,obj_det,obj), question = True),
             'sentence_bad':string_beautify('%s %s %s %s %s %s %s %s' % (q,V1,ag_det,ag,obj_det,obj,prep,V2), question = True)
             }
-        print(data)
-sample(10)
+        out.write(str(data)+'\n')
+try:
+    iter = int(sys.argv[1])
+    out = open(sys.argv[2],'w')
+    sample(iter,out)
+except IndexError:
+        print('To run this file use:\npython adjunct_island.py <# of sentences> <output path>')
+        sys.exit()
+

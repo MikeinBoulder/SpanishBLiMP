@@ -2,7 +2,7 @@ from Spanish_Utils.string_utils import *
 from Spanish_Utils.randomize import choice
 from Spanish_Utils.vocab_sets import *
 import numpy as np
-
+import sys
 
         #Juan se imagina a si mismo viendo Maria
         #Juan se imagina a si mismo vio Maria
@@ -11,8 +11,8 @@ special_verbs_sg = ['se imagina','se está imaginando','se está olvidando de']
 special_verbs_pl = ['se imaginan','se están imaginando','se están olvidando de']
 
 
-def sample(max_iter):
-    for i in range(max_iter):
+def sample(iter,out):
+    for i in range(iter):
         #plural subject
         if choice([True,False]):
             V2_good = choice(all_transitive_gerunds)
@@ -90,5 +90,13 @@ def sample(max_iter):
                     'sentence_good' : string_beautify('%s %s %s %s %s %s.' % (D, Subj,V,V2_good,D_Obj,Obj)),
                     'sentence_bad': string_beautify('%s %s %s %s %s %s.' % (D, Subj, V, V2_bad, D_Obj, Obj))
                 }
-        print(data)
-sample(10)
+        out.write(str(data)+'\n')
+
+try:
+        iter = int(sys.argv[1])
+        out = sys.argv[2]
+        out = open(out,'w')
+        sample(iter,out)
+except IndexError:
+        print('To run this file use:\npython principle_A_case_2.py <# of sentences> <output path>')
+        sys.exit()

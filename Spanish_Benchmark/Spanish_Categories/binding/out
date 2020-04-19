@@ -1,0 +1,100 @@
+{'sentence_good': 'Los chicos se están olvidando de sí mismos escapando unas invitadas.', 'sentence_bad': 'Los chicos se están olvidando de sí mismos escapar unas invitadas.'}
+{'sentence_good': 'Unos medios se están imaginando a sí mismos quejándose la banana.', 'sentence_bad': 'Unos medios se están imaginando a sí mismos quejaron la banana.'}
+{'sentence_good': 'Unas blusas se imaginan a sí mismas llegando Carlos.', 'sentence_bad': 'Unas blusas se imaginan a sí mismas llegar Carlos.'}
+{'sentence_good': 'Unas carreta se están imaginando a sí mismas despidiendo los ojos.', 'sentence_bad': 'Unas carreta se están imaginando a sí mismas despedir los ojos.'}
+{'sentence_good': 'El ex alumno se imagina a sí mismo volviendo unas parálisis.', 'sentence_bad': 'El ex alumno se imagina a sí mismo volvió unas parálisis.'}
+{'sentence_good': 'Unos descapotable se imaginan a sí mismos asombrando unas películas.', 'sentence_bad': 'Unos descapotable se imaginan a sí mismos asombraron unas películas.'}
+{'sentence_good': 'Una parálisis se está olvidando de sí misma empujando la vela.', 'sentence_bad': 'Una parálisis se está olvidando de sí misma empujar la vela.'}
+{'sentence_good': 'Unas organizaciones se imaginan a sí mismas encontrando los artículos del periódico.', 'sentence_bad': 'Unas organizaciones se imaginan a sí mismas encontrar los artículos del periódico.'}
+{'sentence_good': 'Gonzalo se está olvidando de sí mismo saliendo Danna.', 'sentence_bad': 'Gonzalo se está olvidando de sí mismo salió Danna.'}
+{'sentence_good': 'Los camiones se imaginan a sí mismos desvaneciendo unos invitados.', 'sentence_bad': 'Los camiones se imaginan a sí mismos desvanecer unos invitados.'}
+{'sentence_good': 'Unos gobiernos se imaginan a sí mismos aflojando Alejandro.', 'sentence_bad': 'Unos gobiernos se imaginan a sí mismos aflojaron Alejandro.'}
+{'sentence_good': 'Miranda se está olvidando de sí mismo saliendo la lámpara.', 'sentence_bad': 'Miranda se está olvidando de sí mismo salió la lámpara.'}
+{'sentence_good': 'El bistec se está olvidando de sí mismo ocultando unos bailarines.', 'sentence_bad': 'El bistec se está olvidando de sí mismo ocultó unos bailarines.'}
+{'sentence_good': 'Unos serpientes se imaginan a sí mismos encontrando Juan Felipe.', 'sentence_bad': 'Unos serpientes se imaginan a sí mismos encontrar Juan Felipe.'}
+{'sentence_good': 'Unas síntesis se imaginan a sí mismas comprando el café.', 'sentence_bad': 'Unas síntesis se imaginan a sí mismas compraron el café.'}
+{'sentence_good': 'Constanza se está imaginando a sí misma ocultando las bibliotecas.', 'sentence_bad': 'Constanza se está imaginando a sí misma ocultó las bibliotecas.'}
+{'sentence_good': 'Una cajera se está olvidando de sí misma agravando Vicente.', 'sentence_bad': 'Una cajera se está olvidando de sí misma agravó Vicente.'}
+{'sentence_good': 'Unas setas se imaginan a sí mismas besando el fenómeno.', 'sentence_bad': 'Unas setas se imaginan a sí mismas besaron el fenómeno.'}
+{'sentence_good': 'Unas montañas se imaginan a sí mismas pasándose el peatón.', 'sentence_bad': 'Unas montañas se imaginan a sí mismas pasaron el peatón.'}
+{'sentence_good': 'Los núcleos se están imaginando a sí mismos distrayendo unas carretillas.', 'sentence_bad': 'Los núcleos se están imaginando a sí mismos distraer unas carretillas.'}
+{'sentence_good': 'Ana se está imaginando a sí misma llevando un adulto.', 'sentence_bad': 'Ana se está imaginando a sí misma llevar un adulto.'}
+{'sentence_good': 'Unos pies se están imaginando a sí mismos pintándose unos vestidos.', 'sentence_bad': 'Unos pies se están imaginando a sí mismos pintaron unos vestidos.'}
+{'sentence_good': 'Las empresas se imaginan a sí mismas abriendo unos tenedores.', 'sentence_bad': 'Las empresas se imaginan a sí mismas abrieron unos tenedores.'}
+{'sentence_good': 'Julieta se está olvidando de sí misma conociendo Juan Felipe.', 'sentence_bad': 'Julieta se está olvidando de sí misma conoció Juan Felipe.'}
+{'sentence_good': 'Unas carreta se están imaginando a sí mismas ojeando una escalera.', 'sentence_bad': 'Unas carreta se están imaginando a sí mismas ojearon una escalera.'}
+{'sentence_good': 'El comentario se está olvidando de sí mismo andando Constanza.', 'sentence_bad': 'El comentario se está olvidando de sí mismo anduvo Constanza.'}
+{'sentence_good': 'Lucas se imagina a sí misma criticando el análisis.', 'sentence_bad': 'Lucas se imagina a sí misma criticó el análisis.'}
+{'sentence_good': 'Alex se está olvidando de sí mismo explorando unos restaurantes.', 'sentence_bad': 'Alex se está olvidando de sí mismo explorar unos restaurantes.'}
+{'sentence_good': 'Bautista se está olvidando de sí misma describiendo Joaquín.', 'sentence_bad': 'Bautista se está olvidando de sí misma describir Joaquín.'}
+{'sentence_good': 'Las escaleras se están imaginando a sí mismas divorciándose los glaciares.', 'sentence_bad': 'Las escaleras se están imaginando a sí mismas divorciarse los glaciares.'}
+{'sentence_good': 'Los floreros se imaginan a sí mismos discutiendo las berenjenas.', 'sentence_bad': 'Los floreros se imaginan a sí mismos discutir las berenjenas.'}
+{'sentence_good': 'Unas tortugas se están olvidando de sí mismas asombrando las tesis.', 'sentence_bad': 'Unas tortugas se están olvidando de sí mismas asombraron las tesis.'}
+{'sentence_good': 'Las obras de teatro se están olvidando de sí mismas volviendo las montañas.', 'sentence_bad': 'Las obras de teatro se están olvidando de sí mismas volvieron las montañas.'}
+{'sentence_good': 'Victoria se imagina a sí mismo escapando unas mujeres.', 'sentence_bad': 'Victoria se imagina a sí mismo escapar unas mujeres.'}
+{'sentence_good': 'El eventos actuales se imagina a sí mismo mirando Mariana.', 'sentence_bad': 'El eventos actuales se imagina a sí mismo admiró Mariana.'}
+{'sentence_good': 'Un hielo se imagina a sí mismo disgustando un portón.', 'sentence_bad': 'Un hielo se imagina a sí mismo disgustar un portón.'}
+{'sentence_good': 'Unos camiones se están imaginando a sí mismos odiando la obra de teatro.', 'sentence_bad': 'Unos camiones se están imaginando a sí mismos odiaron la obra de teatro.'}
+{'sentence_good': 'Los monociclos se están imaginando a sí mismos secándose Miranda.', 'sentence_bad': 'Los monociclos se están imaginando a sí mismos secaron Miranda.'}
+{'sentence_good': 'Natalia se imagina a sí mismo correteando las montañas.', 'sentence_bad': 'Natalia se imagina a sí mismo correteó las montañas.'}
+{'sentence_good': 'Los peatones se están olvidando de sí mismos comprando los gatos.', 'sentence_bad': 'Los peatones se están olvidando de sí mismos compraron los gatos.'}
+{'sentence_good': 'Amelia se imagina a sí misma alarmando Adrián.', 'sentence_bad': 'Amelia se imagina a sí misma alarmó Adrián.'}
+{'sentence_good': 'Los libros se están imaginando a sí mismos sentándose la fotografía.', 'sentence_bad': 'Los libros se están imaginando a sí mismos sentaron la fotografía.'}
+{'sentence_good': 'Las bocas se están olvidando de sí mismas apretando las adultas.', 'sentence_bad': 'Las bocas se están olvidando de sí mismas apretaron las adultas.'}
+{'sentence_good': 'Una universidad se imagina a sí misma ensayando unas ventanas.', 'sentence_bad': 'Una universidad se imagina a sí misma ensayar unas ventanas.'}
+{'sentence_good': 'El hombre se imagina a sí mismo escapando Ximena/Jimena.', 'sentence_bad': 'El hombre se imagina a sí mismo escapar Ximena/Jimena.'}
+{'sentence_good': 'Unas asociaciones se están imaginando a sí mismas discutiendo las bufandas.', 'sentence_bad': 'Unas asociaciones se están imaginando a sí mismas discutir las bufandas.'}
+{'sentence_good': 'Alex se está olvidando de sí mismo irritando una blusa.', 'sentence_bad': 'Alex se está olvidando de sí mismo irritar una blusa.'}
+{'sentence_good': 'María se está imaginando a sí misma conociendo un plato.', 'sentence_bad': 'María se está imaginando a sí misma conoció un plato.'}
+{'sentence_good': 'Andrés se imagina a sí misma atacando Emilia.', 'sentence_bad': 'Andrés se imagina a sí misma contraatacó Emilia.'}
+{'sentence_good': 'Unas bicicletas se están imaginando a sí mismas ojeando las montañas.', 'sentence_bad': 'Unas bicicletas se están imaginando a sí mismas ojearon las montañas.'}
+{'sentence_good': 'Una bicicleta se está imaginando a sí misma insultando Vanessa.', 'sentence_bad': 'Una bicicleta se está imaginando a sí misma insultar Vanessa.'}
+{'sentence_good': 'Unos paréntesis se imaginan a sí mismos viéndose unas blusas.', 'sentence_bad': 'Unos paréntesis se imaginan a sí mismos vieron unas blusas.'}
+{'sentence_good': 'El diagnóstico se imagina a sí mismo despidiendo Emma.', 'sentence_bad': 'El diagnóstico se imagina a sí mismo despedir Emma.'}
+{'sentence_good': 'El armario se está olvidando de sí mismo molestando Guadalupe.', 'sentence_bad': 'El armario se está olvidando de sí mismo molestar Guadalupe.'}
+{'sentence_good': 'David se imagina a sí mismo besando el perro.', 'sentence_bad': 'David se imagina a sí mismo besó el perro.'}
+{'sentence_good': 'Unas colinas se imaginan a sí mismas asustando Constanza.', 'sentence_bad': 'Unas colinas se imaginan a sí mismas asustaron Constanza.'}
+{'sentence_good': 'Ivanna se está olvidando de sí mismo criticando Ivanna.', 'sentence_bad': 'Ivanna se está olvidando de sí mismo criticó Ivanna.'}
+{'sentence_good': 'Los ciervo se están imaginando a sí mismos distrayendo el pan.', 'sentence_bad': 'Los ciervo se están imaginando a sí mismos distraer el pan.'}
+{'sentence_good': 'Los bocetos se están olvidando de sí mismos pintándose unos pulpos.', 'sentence_bad': 'Los bocetos se están olvidando de sí mismos pintaron unos pulpos.'}
+{'sentence_good': 'Unas setas se están olvidando de sí mismas insultando unos pepinos.', 'sentence_bad': 'Unas setas se están olvidando de sí mismas insultar unos pepinos.'}
+{'sentence_good': 'Las camareras se están imaginando a sí mismas tomando la ex alumna.', 'sentence_bad': 'Las camareras se están imaginando a sí mismas tomaron la ex alumna.'}
+{'sentence_good': 'Martina se está imaginando a sí misma molestando las pantallas.', 'sentence_bad': 'Martina se está imaginando a sí misma molestar las pantallas.'}
+{'sentence_good': 'Gabriel se está imaginando a sí mismo ensayando los libros.', 'sentence_bad': 'Gabriel se está imaginando a sí mismo ensayar los libros.'}
+{'sentence_good': 'Unas setas se imaginan a sí mismas vendiéndose un Ángel.', 'sentence_bad': 'Unas setas se imaginan a sí mismas vendieron un Ángel.'}
+{'sentence_good': 'Los conductores se imaginan a sí mismos hiriendo unas cajas.', 'sentence_bad': 'Los conductores se imaginan a sí mismos herir unas cajas.'}
+{'sentence_good': 'Samantha se está imaginando a sí misma preguntándose una camisa.', 'sentence_bad': 'Samantha se está imaginando a sí misma preguntó una camisa.'}
+{'sentence_good': 'Juan se está olvidando de sí mismo empujando unas pinturas.', 'sentence_bad': 'Juan se está olvidando de sí mismo empujar unas pinturas.'}
+{'sentence_good': 'Luciana se está imaginando a sí mismo conduciendo un coche.', 'sentence_bad': 'Luciana se está imaginando a sí mismo condujo un coche.'}
+{'sentence_good': 'Santino se está imaginando a sí misma ayudando Elena.', 'sentence_bad': 'Santino se está imaginando a sí misma ayudó Elena.'}
+{'sentence_good': 'Los platos se imaginan a sí mismos comprando Juan José.', 'sentence_bad': 'Los platos se imaginan a sí mismos compraron Juan José.'}
+{'sentence_good': 'Antonella se imagina a sí mismo divorciándose unas bibliotecas.', 'sentence_bad': 'Antonella se imagina a sí mismo divorciarse unas bibliotecas.'}
+{'sentence_good': 'Gabriel se está olvidando de sí misma divorciando un gobierno.', 'sentence_bad': 'Gabriel se está olvidando de sí misma divorciar un gobierno.'}
+{'sentence_good': 'Los lentes se están imaginando a sí mismos aflojando las legislaturas.', 'sentence_bad': 'Los lentes se están imaginando a sí mismos aflojaron las legislaturas.'}
+{'sentence_good': 'Los fenómenos se están olvidando de sí mismos conduciendo los hombres.', 'sentence_bad': 'Los fenómenos se están olvidando de sí mismos condujeron los hombres.'}
+{'sentence_good': 'Los pasos se están imaginando a sí mismos apretando unos hongos.', 'sentence_bad': 'Los pasos se están imaginando a sí mismos apretaron unos hongos.'}
+{'sentence_good': 'Unas cazuelas se imaginan a sí mismas sentándose unos folletos.', 'sentence_bad': 'Unas cazuelas se imaginan a sí mismas sentaron unos folletos.'}
+{'sentence_good': 'Los hamsters se están olvidando de sí mismos abrazando los invitados.', 'sentence_bad': 'Los hamsters se están olvidando de sí mismos abrazaron los invitados.'}
+{'sentence_good': 'Un paréntesis se está olvidando de sí mismo apretando unos monociclos.', 'sentence_bad': 'Un paréntesis se está olvidando de sí mismo apretó unos monociclos.'}
+{'sentence_good': 'Magdalena se está olvidando de sí misma vendiendo el pastel.', 'sentence_bad': 'Magdalena se está olvidando de sí misma vendió el pastel.'}
+{'sentence_good': 'Allison se está olvidando de sí mismo cuidando unas computadoras.', 'sentence_bad': 'Allison se está olvidando de sí mismo descuidar unas computadoras.'}
+{'sentence_good': 'Las señoras se están imaginando a sí mismas cuidando unos centros comerciales.', 'sentence_bad': 'Las señoras se están imaginando a sí mismas cuidaron unos centros comerciales.'}
+{'sentence_good': 'Las series se están olvidando de sí mismas encogiendo unos estímulos.', 'sentence_bad': 'Las series se están olvidando de sí mismas encoger unos estímulos.'}
+{'sentence_good': 'Los vestidos se están olvidando de sí mismos escondiendo la asociación.', 'sentence_bad': 'Los vestidos se están olvidando de sí mismos esconder la asociación.'}
+{'sentence_good': 'La cara se imagina a sí misma emprendiendo las empresas.', 'sentence_bad': 'La cara se imagina a sí misma emprender las empresas.'}
+{'sentence_good': 'Elizabeth se está olvidando de sí mismo besando Juan Sebastián.', 'sentence_bad': 'Elizabeth se está olvidando de sí mismo besó Juan Sebastián.'}
+{'sentence_good': 'Máximo se está olvidando de sí mismo tomando Diego.', 'sentence_bad': 'Máximo se está olvidando de sí mismo tomó Diego.'}
+{'sentence_good': 'Los cuentos se están imaginando a sí mismos vendiendo unas bufandas.', 'sentence_bad': 'Los cuentos se están imaginando a sí mismos vendieron unas bufandas.'}
+{'sentence_good': 'El cajero se imagina a sí mismo moviendo unas fotografías.', 'sentence_bad': 'El cajero se imagina a sí mismo movió unas fotografías.'}
+{'sentence_good': 'Las sillas se están olvidando de sí mismas observando un foco.', 'sentence_bad': 'Las sillas se están olvidando de sí mismas observaron un foco.'}
+{'sentence_good': 'Las bibliotecas se están imaginando a sí mismas conduciendo Andrés.', 'sentence_bad': 'Las bibliotecas se están imaginando a sí mismas condujeron Andrés.'}
+{'sentence_good': 'Unos pepinos se están olvidando de sí mismos observando un cactus.', 'sentence_bad': 'Unos pepinos se están olvidando de sí mismos observaron un cactus.'}
+{'sentence_good': 'Gael se imagina a sí misma impresionando un museo.', 'sentence_bad': 'Gael se imagina a sí misma impresionar un museo.'}
+{'sentence_good': 'Mia se imagina a sí mismo acercándose Alex.', 'sentence_bad': 'Mia se imagina a sí mismo acercó Alex.'}
+{'sentence_good': 'La silla se está olvidando de sí misma doliendo unas peatonas.', 'sentence_bad': 'La silla se está olvidando de sí misma doler unas peatonas.'}
+{'sentence_good': 'El pepino se está imaginando a sí mismo atacando Isaac.', 'sentence_bad': 'El pepino se está imaginando a sí mismo atacó Isaac.'}
+{'sentence_good': 'Un ciencias se imagina a sí mismo huyendo Carlos.', 'sentence_bad': 'Un ciencias se imagina a sí mismo huir Carlos.'}
+{'sentence_good': 'María Alejandra se está imaginando a sí misma conociendo Ariana.', 'sentence_bad': 'María Alejandra se está imaginando a sí misma conoció Ariana.'}
+{'sentence_good': 'La imagen se está olvidando de sí misma besando un núcleo.', 'sentence_bad': 'La imagen se está olvidando de sí misma besó un núcleo.'}
+{'sentence_good': 'Los pulpos se están imaginando a sí mismos emprendiendo unos núcleos.', 'sentence_bad': 'Los pulpos se están imaginando a sí mismos emprender unos núcleos.'}
+{'sentence_good': 'Constanza se está olvidando de sí misma describiendo un peatón.', 'sentence_bad': 'Constanza se está olvidando de sí misma describir un peatón.'}
