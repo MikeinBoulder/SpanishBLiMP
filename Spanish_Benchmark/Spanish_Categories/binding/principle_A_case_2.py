@@ -16,7 +16,7 @@ def sample(max_iter):
         #plural subject
         if choice([True,False]):
             V2_good = choice(all_transitive_gerunds)
-            V2_bad = get_corresponding_pastpret(V2_good, 'PL')
+            V2_bad = verb_cleanup(get_corresponding_pastpret(V2_good, 'PL'))
             V = choice(special_verbs_pl)
             if choice([True,False]):
                 #feminine
@@ -34,7 +34,7 @@ def sample(max_iter):
         else:
             V = choice(special_verbs_sg)
             V2_good = choice(all_transitive_gerunds)
-            V2_bad = get_corresponding_pastpret(V2_good, 'SG')
+            V2_bad = verb_cleanup(get_corresponding_pastpret(V2_good, 'SG'))
             if choice([True,False]):
                 #feminine
                 D = choice(d_fem_sg)
@@ -69,26 +69,26 @@ def sample(max_iter):
             #Proper noun subject and object
             if Obj[0] >= 'A' and Obj[0] <= 'Z':
                 data = {
-                    'sentence_good' : string_beautify('%s %s %s %s.') % (Subj,V,V2_good,Obj),
-                    'sentence_bad': string_beautify('%s %s %s %s.') % (Subj,V,V2_bad,Obj)
+                    'sentence_good' : string_beautify('%s %s %s %s.' % (Subj,V,V2_good,Obj)),
+                    'sentence_bad': string_beautify('%s %s %s %s.' % (Subj,V,V2_bad,Obj))
                 }
             else:
                 data = {
-                    'sentence_good' : string_beautify('%s %s %s %s %s.') % (Subj,V,V2_good,D_Obj,Obj),
-                    'sentence_bad': string_beautify('%s %s %s %s %s.') % (Subj, V, V2_bad, D_Obj, Obj)
+                    'sentence_good' : string_beautify('%s %s %s %s %s.' % (Subj,V,V2_good,D_Obj,Obj)),
+                    'sentence_bad': string_beautify('%s %s %s %s %s.' % (Subj, V, V2_bad, D_Obj, Obj))
                 }
         else:
             #non-proper subject proper object
             if Obj[0] >= 'A' and Obj[0] <= 'Z':
                 data = {
-                    'sentence_good' : string_beautify('%s %s %s %s %s.') % (D,Subj,V,V2_good,Obj),
-                    'sentence_bad': string_beautify('%s %s %s %s %s.') % (D,Subj,V,V2_bad,Obj)
+                    'sentence_good' : string_beautify('%s %s %s %s %s.' % (D,Subj,V,V2_good,Obj)),
+                    'sentence_bad': string_beautify('%s %s %s %s %s.' % (D,Subj,V,V2_bad,Obj))
                 }
             else:
                 #non-proper subject and non-proper object
                 data = {
-                    'sentence_good' : string_beautify('%s %s %s %s %s %s.') % (D, Subj,V,V2_good,D_Obj,Obj),
-                    'sentence_bad': string_beautify('%s %s %s %s %s %s.') % (D, Subj, V, V2_bad, D_Obj, Obj)
+                    'sentence_good' : string_beautify('%s %s %s %s %s %s.' % (D, Subj,V,V2_good,D_Obj,Obj)),
+                    'sentence_bad': string_beautify('%s %s %s %s %s %s.' % (D, Subj, V, V2_bad, D_Obj, Obj))
                 }
         print(data)
 sample(10)

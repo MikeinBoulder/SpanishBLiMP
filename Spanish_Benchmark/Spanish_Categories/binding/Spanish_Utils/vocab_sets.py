@@ -7,7 +7,6 @@ import pandas as pd
 vocab = pd.read_csv('./Spanish_Utils/vocab.csv')
 #FUNCTIONS
 def get_corresponding_pastpret(verb,number):
-    print('verb: ',verb)
     inf = np.random.choice(vocab['infinitive'].loc[(vocab['expression'].str.contains(verb) == True)])
     to_ret = vocab['expression'].loc[(vocab['infinitive'].str.contains(inf) == True) & (vocab['pos'] == 'V') & (vocab['mood'] == 'IND') & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['number'] == number) & (vocab['aspect'] == 'PFV')]
     if len(to_ret) > 0:
