@@ -2,6 +2,13 @@
 # Functions for manipulating strings
 import re
 
+def de_a_cleanup(verb, refl):
+    if verb.endswith('de') and refl.startswith('a'):
+        return verb + refl[1:]
+    else:
+        return verb + ' ' + refl
+        
+
 def verb_cleanup(verb, make_reflex = False, remove_se_inf = False):
     if remove_se_inf:
         if verb.endswith('se'):

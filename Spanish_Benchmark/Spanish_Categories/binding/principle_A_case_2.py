@@ -1,47 +1,101 @@
-from utils import data_generator
-from utils.constituent_building import *
-from utils.conjugate import *
-from utils.randomize import choice
-from utils.vocab_sets import *
+from Spanish_Utils.string_utils import *
+from Spanish_Utils.randomize import choice
+from Spanish_Utils.vocab_sets import *
+import numpy as np
 
-class BindingGenerator(data_generator.BenchmarkGenerator):
-    def __init__(self):
-        super().__init__(field="syntax/semantics",
-                         linguistics="binding",
-                         uid="principle_A_case_2",
-                         simple_lm_method=True,
-                         one_prefix_method=True,
-                         two_prefix_method=False,
-                         lexically_identical=False)
-        self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
-        self.special_verbs = np.append(get_all("expression", "imagine"), np.append(get_all("expression", "forget about"), get_all("expression", "think about")))
 
-    def sample(self):
         # John imagines himself       seeing     Mary
         # N1   V1       refl_match    Vembed_ing N2
         # John imagines himself      saw           Mary
         # N1   V1       refl_match   Vembed_finite N2
 
-        special_verbs = choice(self.special_verbs)
-        V1 = choice(get_all("root", special_verbs["root"]))
-        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_nouns)))
-        Vembed_base = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-        Verb_embed = get_all("root", Vembed_base["root"])
-        Vembed_ing = choice(get_all('ing', "1", Verb_embed))
-        Vembed_finite = choice(get_matched_by(N1, "arg_1", get_all('finite', "1", Verb_embed)))
-        refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
-        N2 = N_to_DP_mutate(choice(get_matches_of(Vembed_base, "arg_2", all_nouns)))
+        #Juan se imagina a si mismo viendo Maria
+        #Juan se imagina a si mismo vio Maria
+        
+all_reflexives = ['a sí mismo', 'a sí misma','a sí mismos', 'a sí mismas']
+sg_reflexives = ['a sí mismo', 'a sí misma']
+pl_reflexives = ['a sí mismos', 'a sí mismas']
+special_verbs_sg = ['se imagina','se está imaginando','se está olvidando de']
+special_verbs_pl = ['se imaginan','se están imaginando','se están olvidando de']
+#all_non_finite_transitive_verbs
 
-        V1 = conjugate(V1, N1)
+def sample(max_iter):
+    for i in range(max_iter):
+        V2_good = choice(all_non_finite_transitive_verbs)
+        #plural subject
+        if choice([True,False]):
+            V = choice(special_verbs_pl)
+            V2_bad = get_corresponding_pastpret(V, 'pl')
+            if choice([True,False]):
+                #feminine
+                D = choice(d_fem_pl)
+                Subj = choice(n_fem_pl)
+                refl = pl_reflexives[1]
+                V = de_a_cleanup(V,refl)
+            else:
+                #masc
+                D = choice(d_masc_pl)
+                Subj = choice(n_masc_pl)
+                refl = pl_reflexives[0]
+                V = de_a_cleanup(V,refl)
+        #singular subject
+        else:
+            V = choice(special_verbs_sg)
+            V2_bad = get_corresponding_pastpret(V, 'sg')
+            if choice([True,False]):
+                #feminine
+                D = choice(d_fem_sg)
+                Subj = choice(np.union1d(all_proper_nouns,n_fem_sg))
+                refl = sg_reflexives[1]
+                V = de_a_cleanup(V,refl)
+            else:
+                #masculine
+                D = choice(d_masc_sg)
+                Subj = choice(np.union1d(all_proper_nouns,n_masc_sg))
+                refl = sg_reflexives[0]
+                V = de_a_cleanup(V,refl)
+                
+        if choice([True,False]):
+            #plural onject
+            if choice([True,False]):
+                D_Obj = choice(d_fem_pl)
+                Obj = choice(n_fem_pl)
+            else:
+                D_Obj = choice(d_masc_pl)
+                Obj = choice(n_masc_pl)
+        else:
+            if choice([True,False]):
+                D_Obj = choice(d_fem_sg)
+                Obj = choice(n_fem_sg)
+            else:
+                D_Obj = choice(d_masc_sg)
+                Obj = choice(n_masc_sg)
+        
 
-        data = {
-            "sentence_good": "%s %s %s %s %s." % (N1[0], V1[0], refl_match[0], Vembed_ing[0], N2[0]),
-            "sentence_bad": "%s %s %s %s %s." % (N1[0], V1[0], refl_match[0], Vembed_finite[0], N2[0]),
-            "one_prefix_prefix": "%s %s %s" % (N1[0], V1[0], refl_match[0]),
-            "one_prefix_word_good": Vembed_ing[0],
-            "one_prefix_word_bad": Vembed_finite[0]
-        }
-        return data, data["sentence_good"]
-
-binding_generator = BindingGenerator()
-binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
+        if Subj[0] >= 'A' and Subj[0] <= 'Z':
+            #Proper noun subject and object
+            if Obj[0] >= 'A' and Obj[0] <= 'Z':
+                data = {
+                    'sentence_good' : string_beautify('%s %s %s %s.') % (Subj,V,V2_good,Obj),
+                    'sentence_bad': string_beautify('%s %s %s %s.') % (Subj,V,V2_bad,Obj)
+                }
+            else:
+                data = {
+                    'sentence_good' : string_beautify('%s %s %s %s %s.') % (Subj,V,V2_good,D_Obj,Obj),
+                    'sentence_bad': string_beautify('%s %s %s %s %s.') % (Subj, V, V2_bad, D_Obj, Obj)
+                }
+        else:
+            #non-proper subject proper object
+            if Obj[0] >= 'A' and Obj[0] <= 'Z':
+                data = {
+                    'sentence_good' : string_beautify('%s %s %s %s %s.') % (D,Subj,V,V2_good,Obj),
+                    'sentence_bad': string_beautify('%s %s %s %s %s.') % (D,Subj,V,V2_bad,Obj)
+                }
+            else:
+                #non-proper subject and non-proper object
+                data = {
+                    'sentence_good' : string_beautify('%s %s %s %s %s %s.') % (D, Subj,V,V2_good,D_Obj,Obj),
+                    'sentence_bad': string_beautify('%s %s %s %s %s %s.') % (D, Subj, V, V2_bad, D_Obj, Obj)
+                }
+        print(data)
+sample(10)
