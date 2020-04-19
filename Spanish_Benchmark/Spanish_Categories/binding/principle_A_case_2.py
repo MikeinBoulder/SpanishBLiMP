@@ -4,28 +4,20 @@ from Spanish_Utils.vocab_sets import *
 import numpy as np
 
 
-        # John imagines himself       seeing     Mary
-        # N1   V1       refl_match    Vembed_ing N2
-        # John imagines himself      saw           Mary
-        # N1   V1       refl_match   Vembed_finite N2
-
         #Juan se imagina a si mismo viendo Maria
         #Juan se imagina a si mismo vio Maria
         
-all_reflexives = ['a sí mismo', 'a sí misma','a sí mismos', 'a sí mismas']
-sg_reflexives = ['a sí mismo', 'a sí misma']
-pl_reflexives = ['a sí mismos', 'a sí mismas']
 special_verbs_sg = ['se imagina','se está imaginando','se está olvidando de']
 special_verbs_pl = ['se imaginan','se están imaginando','se están olvidando de']
-#all_non_finite_transitive_verbs
+
 
 def sample(max_iter):
     for i in range(max_iter):
-        V2_good = choice(all_non_finite_transitive_verbs)
         #plural subject
         if choice([True,False]):
+            V2_good = choice(all_transitive_gerunds)
+            V2_bad = get_corresponding_pastpret(V2_good, 'PL')
             V = choice(special_verbs_pl)
-            V2_bad = get_corresponding_pastpret(V, 'pl')
             if choice([True,False]):
                 #feminine
                 D = choice(d_fem_pl)
@@ -41,7 +33,8 @@ def sample(max_iter):
         #singular subject
         else:
             V = choice(special_verbs_sg)
-            V2_bad = get_corresponding_pastpret(V, 'sg')
+            V2_good = choice(all_transitive_gerunds)
+            V2_bad = get_corresponding_pastpret(V2_good, 'SG')
             if choice([True,False]):
                 #feminine
                 D = choice(d_fem_sg)
