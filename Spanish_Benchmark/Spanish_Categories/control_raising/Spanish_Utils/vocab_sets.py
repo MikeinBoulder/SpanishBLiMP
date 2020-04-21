@@ -61,8 +61,7 @@ pl_reflexives = ["a sí mismos", "a sí mismas"]
 all_irrpl = vocab['expression'].loc[vocab['irrpl'] == 1]
 proper_nouns_fem = vocab['expression'].loc[(vocab['properNoun'] == 1 ) & (vocab['gender'] == 'f')]
 proper_nouns_masc = vocab['expression'].loc[(vocab['properNoun'] == 1 ) & (vocab['gender'] == 'm')]
-bad_emb_subj == (all_relational_poss_nouns, all_proper_names)
-safe_emb_subjs = np.setdiff1d(all_nominals, bad_emb_subjs)
+
 
 #VERBS
 
@@ -136,8 +135,6 @@ all_intrans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP
 past_pret_3s = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] == 'IND') & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['number'] == 'SG') & (vocab['aspect'] == 'PFV')]
 past_pret_3p = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] == 'IND') & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['number'] == 'PL') & (vocab['aspect'] == 'PFV')]
 all_transitive_gerunds = vocab['expression'].loc[(vocab['pos'] == "V.CVB") & (vocab['category_2'] == 'TV')]
-past_3is_ipfv_raising_animate_verbs= vocab['expression'].loc[(vocab['category'] == 'V') & (vocab['category_2'] == 'V_raising_object') & (vocab['animate'] ==1) & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['aspect'] == 'IPFV')
-past_3is_ipfv_control_animate_verbs= vocab['expression'].loc[(vocab['category'] == 'V') & (vocab['category_2'] == 'V_control_object') & (vocab['animate'] ==1) & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['aspect'] == 'IPFV')
 
 #NOT SURE ABOUT SOME OF THESE TAGS
 

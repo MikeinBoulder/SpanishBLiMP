@@ -21,9 +21,14 @@ all_p3is_inanim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == '
 
 
 all_p3is_anim_anim_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV')(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]
+
+
+all_p3ip_anim_anim_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL') & (vocab['category_2'] == 'TV')(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]
+
+
 """
 
-print(all_p3is_anim_anim_verbs)
+
 
 dets= ['the', 'some']
 
@@ -38,8 +43,8 @@ def sample(max_iter):
 
         #plural verb
         if choice([True, False]):       
-            Verb = choice(all_p3is_anim_anim_verbs)
-            if Verb=='abraza' or 'aburre':
+            Verb = choice(all_p3ip_anim_anim_verbs)
+            if Verb=='abrazan' or 'aburren':
                     V= Verb + ' a'
             else:
                 V=Verb
@@ -107,7 +112,7 @@ def sample(max_iter):
                        
                         }  
                 
-     #   print(data)
+        print(data)
                             
         
 sample(100)
