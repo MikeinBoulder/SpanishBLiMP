@@ -66,7 +66,6 @@ proper_nouns_masc = vocab['expression'].loc[(vocab['properNoun'] == 1 ) & (vocab
 #VERBS
 
 all_verbs = vocab['expression'].loc[(vocab['pos'] == "V")]
-all_p3is_anim_anim_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV')(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]
 all_action_verbs = vocab['expression'].loc[(vocab['pos'] == "V") & (vocab['bare']==1)]
 #all_coverb = vocab['expression'].loc[(vocab['coverb'] == 1)]
 all_verbs_bare = vocab['expression'].loc[(vocab['pos'] == 1) & (vocab['bare']==1)]

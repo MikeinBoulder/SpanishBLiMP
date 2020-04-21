@@ -23,6 +23,8 @@ all_p3is_inanim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == '
 all_p3is_anim_anim_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV')(vocab['arg_1'].str.contains('animate=1')==True) & (vocab['arg_2'].str.contains('animate=1')==True)]
 """
 
+print(all_p3is_anim_anim_verbs)
+
 dets= ['the', 'some']
 
 
@@ -36,7 +38,11 @@ def sample(max_iter):
 
         #plural verb
         if choice([True, False]):       
-            V = choice(all_p3is_anim_anim_verbs)
+            Verb = choice(all_p3is_anim_anim_verbs)
+            if Verb=='abraza' or 'aburre':
+                    V= Verb + ' a'
+            else:
+                V=Verb
             #plural feminine
             if choice([True,False]):
                 D = choice(d_fem_pl)
@@ -49,7 +55,11 @@ def sample(max_iter):
                 N1_bad = choice(all_inanimate_pl_nouns_m)
         #sing verb
         else: 
-            V = choice(all_p3is_anim_anim_verbs)
+            Verb = choice(all_p3is_anim_anim_verbs)
+            if Verb=='abraza' or 'aburre':
+                    V= Verb + ' a'
+            else:
+                V=Verb
             #singular feminine
             if choice([True,False]):
                 D = choice(d_fem_sg)
@@ -95,10 +105,16 @@ def sample(max_iter):
                                 "sentence_good": string_beautify("%s %s %s %s." % (N1_good, V, D, N2)),
                                 "sentence_bad": string_beautify("%s %s %s %s." % (N1_bad, V, D, N2))  
                        
-                        }   
-        print(data)
+                        }  
+                
+     #   print(data)
                             
         
-sample(10)
+sample(100)
 
-
+"""
+  if Verb == 'abraza' or 'aburre' or 'se acerca' or 'admira' or 'agracece' or 'alarma' or 'asombra' or 'asusta' or 'ataca' or 'ayuda' or 'besa' or 'boicotea' or 'compra' or 'confunde' or 'conmociona' or 'conoce' or 'corretea' or 'cuestiona' or 'cuida' or 'nota' or 'observa' or 'oculta' or 'odia' or 'ojea' or 'pasa' or 'se pasa' or 'se pinta' or 'se queja' or 'sale' or 'trae' or 'vende' or 'se vende' or 'se ve' or 'vuelve'
+  V == Verb+ ' a'
+  
+  
+"""
