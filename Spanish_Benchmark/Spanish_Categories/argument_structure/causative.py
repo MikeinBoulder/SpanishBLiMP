@@ -9,8 +9,8 @@ haber = ['ha', 'han']
 
 def sample(iter, out):
     for i in range(iter):
-        ptcp_good = choice(all_trans_ptcp_for_pres_perf)
-        ptcp_bad = choice(all_intrans_ptcp_for_pres_perf)
+        ptcp = choice(all_trans_ptcp_for_pres_perf)
+        #ptcp_bad = choice(all_intrans_ptcp_for_pres_perf)
         #plural verb -> han ptcp
         if np.random.choice([True, False]):
             aux = haber[1]
@@ -49,15 +49,15 @@ def sample(iter, out):
                 D2 = choice(d_masc_sg)
                 Obj = choice(all_animate_sg_nouns_m, np.union1d(Subj,all_proper_nouns))
 
-        V_bad = verb_cleanup(aux + " " + ptcp_bad, make_reflex = True)
+        V_bad = verb_cleanup(aux + " " + ptcp, make_reflex = True)
         if Subj[0] >= 'A' and Subj[0] <= 'Z':
             data = {
-                'sentence_good' : '%s %s %s %s %s.' % (Subj, aux, ptcp_good, D2, Obj),
+                'sentence_good' : '%s %s %s %s %s.' % (Subj, aux, ptcp, D2, Obj),
                 'sentence_bad' : '%s %s %s %s.' % (Subj, V_bad, D2, Obj)
             }
         else:
             data = {
-                'sentence_good' : string_beautify('%s %s %s %s %s %s.' % (D1, Subj, aux, ptcp_good, D2, Obj)),
+                'sentence_good' : string_beautify('%s %s %s %s %s %s.' % (D1, Subj, aux, ptcp, D2, Obj)),
                 'sentence_bad' : string_beautify('%s %s %s %s %s.' % (D1, Subj, V_bad, D2, Obj))
             }
         out.write(str(data)+'\n')
