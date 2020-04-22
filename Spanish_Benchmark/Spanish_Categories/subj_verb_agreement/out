@@ -1,0 +1,100 @@
+{'sentence_good': 'Un hámster saluda la computadora.', 'sentence_bad': 'Un hámster bostezan la computadora.'}
+{'sentence_good': 'Un proyector pesca los cactus.', 'sentence_bad': 'Un proyector pescan los cactus.'}
+{'sentence_good': 'Los diagnósticos cazan unos serpientes.', 'sentence_bad': 'Los diagnósticos pinta unos serpientes.'}
+{'sentence_good': 'Las personas preocupan un folleto.', 'sentence_bad': 'Las personas cocina un folleto.'}
+{'sentence_good': 'Un núcleo reúne la adulta.', 'sentence_bad': 'Un núcleo compiten la adulta.'}
+{'sentence_good': 'Los ojos pintan un perro.', 'sentence_bad': 'Los ojos preocupa un perro.'}
+{'sentence_good': 'Unas medicas tosen unas blusas.', 'sentence_bad': 'Unas medicas come unas blusas.'}
+{'sentence_good': 'Monserrat concurre el pollo.', 'sentence_bad': 'Monserrat comprometen el pollo.'}
+{'sentence_good': 'Clara testifica la adulta.', 'sentence_bad': 'Clara suspiran la adulta.'}
+{'sentence_good': 'Los pepinos mueren la ex alumna.', 'sentence_bad': 'Los pepinos queja la ex alumna.'}
+{'sentence_good': 'Aarón sienta un pez.', 'sentence_bad': 'Aarón negocian un pez.'}
+{'sentence_good': 'Las conductoras benefician las bananas.', 'sentence_bad': 'Las conductoras queja las bananas.'}
+{'sentence_good': 'Unas peatonas negocian Valentina.', 'sentence_bad': 'Unas peatonas pesca Valentina.'}
+{'sentence_good': 'El pollo come Emiliano.', 'sentence_bad': 'El pollo reaccionan Emiliano.'}
+{'sentence_good': 'Ariana queja la senador.', 'sentence_bad': 'Ariana rascan la senador.'}
+{'sentence_good': 'La invitada corresponde un ratón.', 'sentence_bad': 'La invitada pierden un ratón.'}
+{'sentence_good': 'La peatona corresponde Alexa.', 'sentence_bad': 'La peatona quejan Alexa.'}
+{'sentence_good': 'Las personas charlan los camareros.', 'sentence_bad': 'Las personas pinta los camareros.'}
+{'sentence_good': 'Unas actrices mueren Diego.', 'sentence_bad': 'Unas actrices concurre Diego.'}
+{'sentence_good': 'Unos descapotable murmuran los pimientos.', 'sentence_bad': 'Unos descapotable parpadea los pimientos.'}
+{'sentence_good': 'Gabriela debate Juliana.', 'sentence_bad': 'Gabriela contraatacan Juliana.'}
+{'sentence_good': 'Los calcetines contraatacan las síntesis.', 'sentence_bad': 'Los calcetines preocupa las síntesis.'}
+{'sentence_good': 'Unas profesoras comprometen los glaciares.', 'sentence_bad': 'Unas profesoras sufre los glaciares.'}
+{'sentence_good': 'Las señoras conspiran unos paréntesis.', 'sentence_bad': 'Las señoras queja unos paréntesis.'}
+{'sentence_good': 'Las senadoras sientan el cerdo.', 'sentence_bad': 'Las senadoras rasca el cerdo.'}
+{'sentence_good': 'Sofía pierde el piojo.', 'sentence_bad': 'Sofía preocupan el piojo.'}
+{'sentence_good': 'Amelia supera unas bicicletas.', 'sentence_bad': 'Amelia compiten unas bicicletas.'}
+{'sentence_good': 'Clara negocia Miguel Ángel.', 'sentence_bad': 'Clara preocupan Miguel Ángel.'}
+{'sentence_good': 'Carolina parpadea unas montañas.', 'sentence_bad': 'Carolina parpadean unas montañas.'}
+{'sentence_good': 'Los sofás cazan la persona.', 'sentence_bad': 'Los sofás coquetea la persona.'}
+{'sentence_good': 'Unas bailarinas pescan el especies.', 'sentence_bad': 'Unas bailarinas chilla el especies.'}
+{'sentence_good': 'Kiara supera el hospital.', 'sentence_bad': 'Kiara cazan el hospital.'}
+{'sentence_good': 'Alejandro rasca Fernando.', 'sentence_bad': 'Alejandro tosen Fernando.'}
+{'sentence_good': 'Juan Felipe pinta unos platos.', 'sentence_bad': 'Juan Felipe murmuran unos platos.'}
+{'sentence_good': 'Juan José charla las fotografías.', 'sentence_bad': 'Juan José comen las fotografías.'}
+{'sentence_good': 'Los ciervo contraatacan los chicos.', 'sentence_bad': 'Los ciervo sufre los chicos.'}
+{'sentence_good': 'Olivia conspira María.', 'sentence_bad': 'Olivia pintan María.'}
+{'sentence_good': 'La adolescente conspira unas bufandas.', 'sentence_bad': 'La adolescente colaboran unas bufandas.'}
+{'sentence_good': 'Unos gobiernos susurran unas velas.', 'sentence_bad': 'Unos gobiernos colabora unas velas.'}
+{'sentence_good': 'Andrés sonríe unas escuelas.', 'sentence_bad': 'Andrés pescan unas escuelas.'}
+{'sentence_good': 'Unas invitadas compiten las cazuelas.', 'sentence_bad': 'Unas invitadas beneficia las cazuelas.'}
+{'sentence_good': 'Las senadoras debaten unas patinetas.', 'sentence_bad': 'Las senadoras come unas patinetas.'}
+{'sentence_good': 'Unos estímulos aceptan las crisis.', 'sentence_bad': 'Unos estímulos practica las crisis.'}
+{'sentence_good': 'El museo consigue Alejandra.', 'sentence_bad': 'El museo mueren Alejandra.'}
+{'sentence_good': 'Unos hongos sientan los caballos.', 'sentence_bad': 'Unos hongos consulta los caballos.'}
+{'sentence_good': 'Las medicas pierden Facundo.', 'sentence_bad': 'Las medicas rinde Facundo.'}
+{'sentence_good': 'El estímulo testifica los pantalones.', 'sentence_bad': 'El estímulo aceptan los pantalones.'}
+{'sentence_good': 'Unas mujeres susurran una nariz.', 'sentence_bad': 'Unas mujeres suspira una nariz.'}
+{'sentence_good': 'Unas personas concurren un invitado.', 'sentence_bad': 'Unas personas susurra un invitado.'}
+{'sentence_good': 'Unas personas contraatacan los libros.', 'sentence_bad': 'Unas personas sufre los libros.'}
+{'sentence_good': 'Un médico rasca los ciervo.', 'sentence_bad': 'Un médico parpadean los ciervo.'}
+{'sentence_good': 'Manuela come el hielo.', 'sentence_bad': 'Manuela quejan el hielo.'}
+{'sentence_good': 'Unos pimientos rascan un parque público.', 'sentence_bad': 'Unos pimientos come un parque público.'}
+{'sentence_good': 'Unos actores cocinan el cactus.', 'sentence_bad': 'Unos actores telefonea el cactus.'}
+{'sentence_good': 'Las invitadas coquetean las organizaciones.', 'sentence_bad': 'Las invitadas come las organizaciones.'}
+{'sentence_good': 'Mia sienta los conejos.', 'sentence_bad': 'Mia trabajan los conejos.'}
+{'sentence_good': 'Michelle come las personas.', 'sentence_bad': 'Michelle rascan las personas.'}
+{'sentence_good': 'Un bistec coquetea unas peatonas.', 'sentence_bad': 'Un bistec cazan unas peatonas.'}
+{'sentence_good': 'Bautista cabecea Ana.', 'sentence_bad': 'Bautista cocinan Ana.'}
+{'sentence_good': 'Unas personas compiten unos invitados.', 'sentence_bad': 'Unas personas reacciona unos invitados.'}
+{'sentence_good': 'Unas medicas rinden una asociación.', 'sentence_bad': 'Unas medicas sufre una asociación.'}
+{'sentence_good': 'Las muchachas reúnen una montaña.', 'sentence_bad': 'Las muchachas anima una montaña.'}
+{'sentence_good': 'Las camareras concurren la tesis.', 'sentence_bad': 'Las camareras pinta la tesis.'}
+{'sentence_good': 'Los carruajes murmuran las medicas.', 'sentence_bad': 'Los carruajes sonríe las medicas.'}
+{'sentence_good': 'Las camareras cabecean un bistec.', 'sentence_bad': 'Las camareras compite un bistec.'}
+{'sentence_good': 'Unas peatonas cocinan Isabella.', 'sentence_bad': 'Unas peatonas pierde Isabella.'}
+{'sentence_good': 'Unos guantes casan unos coches.', 'sentence_bad': 'Unos guantes colabora unos coches.'}
+{'sentence_good': 'Las peatonas parpadean Santino.', 'sentence_bad': 'Las peatonas conspira Santino.'}
+{'sentence_good': 'Unos colegios aceptan unas universidades.', 'sentence_bad': 'Unos colegios consigue unas universidades.'}
+{'sentence_good': 'Juliana muere unos informes.', 'sentence_bad': 'Juliana reaccionan unos informes.'}
+{'sentence_good': 'Unas peatonas casan unas alfombras.', 'sentence_bad': 'Unas peatonas corresponde unas alfombras.'}
+{'sentence_good': 'Renata reacciona unas sillas.', 'sentence_bad': 'Renata charlan unas sillas.'}
+{'sentence_good': 'La adolescente come unas mujeres.', 'sentence_bad': 'La adolescente practican unas mujeres.'}
+{'sentence_good': 'Paulina contraataca unos análisis.', 'sentence_bad': 'Paulina aceptan unos análisis.'}
+{'sentence_good': 'El hombre casa un carruaje.', 'sentence_bad': 'El hombre cocinan un carruaje.'}
+{'sentence_good': 'Los campus universitarios testifican el pájaro.', 'sentence_bad': 'Los campus universitarios preocupa el pájaro.'}
+{'sentence_good': 'Las bailarinas colaboran Olivia.', 'sentence_bad': 'Las bailarinas queja Olivia.'}
+{'sentence_good': 'Las actrices superan Martina.', 'sentence_bad': 'Las actrices murmura Martina.'}
+{'sentence_good': 'Los invitados saludan unos suéteres.', 'sentence_bad': 'Los invitados cabecea unos suéteres.'}
+{'sentence_good': 'Unos camareros susurran unos restaurantes.', 'sentence_bad': 'Unos camareros pesca unos restaurantes.'}
+{'sentence_good': 'Unos pájaros contraatacan un paréntesis.', 'sentence_bad': 'Unos pájaros murmura un paréntesis.'}
+{'sentence_good': 'Los pimientos conspiran el descapotable.', 'sentence_bad': 'Los pimientos murmura el descapotable.'}
+{'sentence_good': 'Mateo charla unas medicas.', 'sentence_bad': 'Mateo reúnen unas medicas.'}
+{'sentence_good': 'Unas señoras pierden un profesor.', 'sentence_bad': 'Unas señoras conspira un profesor.'}
+{'sentence_good': 'Un suéter rasca un parque público.', 'sentence_bad': 'Un suéter practican un parque público.'}
+{'sentence_good': 'Bruno compite Elena.', 'sentence_bad': 'Bruno casan Elena.'}
+{'sentence_good': 'Unas profesoras pescan las peatonas.', 'sentence_bad': 'Unas profesoras sienta las peatonas.'}
+{'sentence_good': 'Un ex alumno responde la blusa.', 'sentence_bad': 'Un ex alumno parpadean la blusa.'}
+{'sentence_good': 'Unas actrices reúnen una paleta de hielo.', 'sentence_bad': 'Unas actrices conspira una paleta de hielo.'}
+{'sentence_good': 'Antonella susurra una lámpara.', 'sentence_bad': 'Antonella conspiran una lámpara.'}
+{'sentence_good': 'Unas conductoras reúnen unos floreros.', 'sentence_bad': 'Unas conductoras charla unos floreros.'}
+{'sentence_good': 'Las bailarinas colaboran las bananas.', 'sentence_bad': 'Las bailarinas come las bananas.'}
+{'sentence_good': 'Elena beneficia unos análisis.', 'sentence_bad': 'Elena conspiran unos análisis.'}
+{'sentence_good': 'Felipe corresponde unos tenedores.', 'sentence_bad': 'Felipe rinden unos tenedores.'}
+{'sentence_good': 'Los cajeros comen las cazuelas.', 'sentence_bad': 'Los cajeros preocupa las cazuelas.'}
+{'sentence_good': 'Las bailarinas chillan un peatón.', 'sentence_bad': 'Las bailarinas preocupa un peatón.'}
+{'sentence_good': 'Unas bailarinas saludan unos armarios.', 'sentence_bad': 'Unas bailarinas pinta unos armarios.'}
+{'sentence_good': 'Unas peatonas saludan las copias.', 'sentence_bad': 'Unas peatonas come las copias.'}
+{'sentence_good': 'El pastel parpadea un hospital.', 'sentence_bad': 'El pastel pintan un hospital.'}
+{'sentence_good': 'Florencia compromete un especies.', 'sentence_bad': 'Florencia practican un especies.'}
