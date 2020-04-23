@@ -1,0 +1,10 @@
+{'sentence_good': 'Hay unas muchachas explorando unos lagos.', 'sentence_bad': 'Hay cada muchachas explorando unos lagos.'}
+{'sentence_good': 'Hay una senadora siguiendo los folletos.', 'sentence_bad': 'Hay todas senadora siguiendo los folletos.'}
+{'sentence_good': 'Hay unos peatones llevando unos conductores.', 'sentence_bad': 'Hay todos peatones llevando unos conductores.'}
+{'sentence_good': 'Hay unos medicos insultando la tortuga.', 'sentence_bad': 'Hay cada medicos insultando la tortuga.'}
+{'sentence_good': 'Hay una adulta molestando los hongos.', 'sentence_bad': 'Hay todos adulta molestando los hongos.'}
+{'sentence_good': 'Hay pocos profesores moviendo unos bocetos.', 'sentence_bad': 'Hay todas profesores moviendo unos bocetos.'}
+{'sentence_good': 'Hay pocas adultas andando una nariz.', 'sentence_bad': 'Hay todos adultas andando una nariz.'}
+{'sentence_good': 'Hay pocos cajeros molestando el chico.', 'sentence_bad': 'Hay todas cajeros molestando el chico.'}
+{'sentence_good': 'Hay unos actores teniendo el núcleo.', 'sentence_bad': 'Hay todas actores teniendo el núcleo.'}
+{'sentence_good': 'Hay pocos camareros ensayando unos ensayos.', 'sentence_bad': 'Hay todos camareros ensayando unos ensayos.'}
