@@ -1,9 +1,11 @@
-from utils import data_generator
-from utils.constituent_building import *
-from utils.conjugate import *
-from utils.randomize import choice
-
-
+import numpy as np
+import pandas as pd
+from Spanish_Utils.vocab_sets import *
+from Spanish_Utils.randomize import *
+from Spanish_Utils.string_utils import * 
+import random
+import sys
+#all_adj_sg_masc,all_adj_sg_neuter
 class DetNGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="morphology",
