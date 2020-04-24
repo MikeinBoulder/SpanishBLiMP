@@ -1,0 +1,100 @@
+{'sentence_good': 'Carlos quemó una manzana naranjas y Martín quemó casi la misma cantidad.', 'sentence_bad': 'Carlos quemó una manzana y Martín quemó casi la misma cantidad naranjas.'}
+{'sentence_good': 'Antonia volvió muchas asociaciones no tan graciosas y música volvió unas.', 'sentence_bad': 'Antonia volvió muchas asociaciones y música volvió unas no tan graciosas.'}
+{'sentence_good': 'Valeria pescó tres gatos aptos y Antonia pescó menos.', 'sentence_bad': 'Valeria pescó tres gatos y Antonia pescó menos aptos.'}
+{'sentence_good': 'Regina se quedó cinco gobiernos baratas y Juan Manuel se quedó quatro.', 'sentence_bad': 'Regina se quedó cinco gobiernos y Juan Manuel se quedó quatro baratas.'}
+{'sentence_good': 'política chilló tres pájaros emocionados y Camilo chilló menos.', 'sentence_bad': 'política chilló tres pájaros y Camilo chilló menos emocionados.'}
+{'sentence_good': 'Adrián vaporizó una patineta empleadas y Universidad de Harvard vaporizó dos.', 'sentence_bad': 'Adrián vaporizó una patineta y Universidad de Harvard vaporizó dos empleadas.'}
+{'sentence_good': 'Carlos rindió muchos platos perdida y Miranda rindió pocos.', 'sentence_bad': 'Carlos rindió muchos platos y Miranda rindió pocos perdida.'}
+{'sentence_good': 'Martina admiró tres ventanas una pena y Lorenzo admiró al menos tantas.', 'sentence_bad': 'Martina admiró tres ventanas y Lorenzo admiró al menos tantas una pena.'}
+{'sentence_good': 'Valentino comisionó uno cilantro inusual y Emilio comisionó few.', 'sentence_bad': 'Valentino comisionó uno cilantro y Emilio comisionó few inusual.'}
+{'sentence_good': 'Juan Pablo testificó una banana disgustadas y Emily testificó unas.', 'sentence_bad': 'Juan Pablo testificó una banana y Emily testificó unas disgustadas.'}
+{'sentence_good': 'Elena abrió uno serpiente sorprendentes y los Clinton abrió tres.', 'sentence_bad': 'Elena abrió uno serpiente y los Clinton abrió tres sorprendentes.'}
+{'sentence_good': 'Alexander visitó cinco galerías de arte asustada y Valentina visitó quatro.', 'sentence_bad': 'Alexander visitó cinco galerías de arte y Valentina visitó quatro asustada.'}
+{'sentence_good': 'Gabriel tentó muchas tazas extraña y Luna tentó unas.', 'sentence_bad': 'Gabriel tentó muchas tazas y Luna tentó unas extraña.'}
+{'sentence_good': 'Kiara creció pocos cines ocupados y Alex creció muchos.', 'sentence_bad': 'Kiara creció pocos cines y Alex creció muchos ocupados.'}
+{'sentence_good': 'Samuel movió tres colegios antiguos y Sebastián movió menos.', 'sentence_bad': 'Samuel movió tres colegios y Sebastián movió menos antiguos.'}
+{'sentence_good': 'Matías vendió una galería de arte enferma y Manuel vendió pocas.', 'sentence_bad': 'Matías vendió una galería de arte y Manuel vendió pocas enferma.'}
+{'sentence_good': 'Gonzalo volcó muchas organizaciones lleno de alegría y Adriana volcó unas.', 'sentence_bad': 'Gonzalo volcó muchas organizaciones y Adriana volcó unas lleno de alegría.'}
+{'sentence_good': 'Valery comió dos sillas demasiada y Manuel comió tres.', 'sentence_bad': 'Valery comió dos sillas y Manuel comió tres demasiada.'}
+{'sentence_good': 'Carolina quemó tres escuelas rápidos y Lucia quemó menos.', 'sentence_bad': 'Carolina quemó tres escuelas y Lucia quemó menos rápidos.'}
+{'sentence_good': 'Valentino obligó tres cuestas disgustada y Martina obligó casi la misma cantidad de.', 'sentence_bad': 'Valentino obligó tres cuestas y Martina obligó casi la misma cantidad de disgustada.'}
+{'sentence_good': 'Sofía recordó tres ríos más nuevos y Jacobo recordó casi la misma cantidad de.', 'sentence_bad': 'Sofía recordó tres ríos y Jacobo recordó casi la misma cantidad de más nuevos.'}
+{'sentence_good': 'Lucia respetó uno pollo ligadas y Sebastián respetó unos.', 'sentence_bad': 'Lucia respetó uno pollo y Sebastián respetó unos ligadas.'}
+{'sentence_good': 'Antonella curó cinco lamparas enteras y Melissa curó quatro.', 'sentence_bad': 'Antonella curó cinco lamparas y Melissa curó quatro enteras.'}
+{'sentence_good': 'política reparó una manzana divertida y Emiliano reparó dos.', 'sentence_bad': 'política reparó una manzana y Emiliano reparó dos divertida.'}
+{'sentence_good': 'Constanza reveló una biblioteca pocas convencidas y Paola reveló casi la misma cantidad.', 'sentence_bad': 'Constanza reveló una biblioteca y Paola reveló casi la misma cantidad pocas convencidas.'}
+{'sentence_good': 'Dylan supo una carretilla mayor y Ana Sofía supo unas.', 'sentence_bad': 'Dylan supo una carretilla y Ana Sofía supo unas mayor.'}
+{'sentence_good': 'Elisa resultó dos hospitales llenos de alegría y Mariana resultó tres.', 'sentence_bad': 'Elisa resultó dos hospitales y Mariana resultó tres llenos de alegría.'}
+{'sentence_good': 'Catalina suspiró uno vaso no tan gracioso y Ariana suspiró tres.', 'sentence_bad': 'Catalina suspiró uno vaso y Ariana suspiró tres no tan gracioso.'}
+{'sentence_good': 'Sofía benefició dos computadoras reacia y Rebeca benefició tres.', 'sentence_bad': 'Sofía benefició dos computadoras y Rebeca benefició tres reacia.'}
+{'sentence_good': 'Valeria dijo uno vaso molestas y Winston Churchill dijo más.', 'sentence_bad': 'Valeria dijo uno vaso y Winston Churchill dijo más molestas.'}
+{'sentence_good': 'Paulina predijo dos camisas ocultado y Valentino predijo tres.', 'sentence_bad': 'Paulina predijo dos camisas y Valentino predijo tres ocultado.'}
+{'sentence_good': 'Alicia saludó una montaña no tan divertido y los Clinton saludó más.', 'sentence_bad': 'Alicia saludó una montaña y los Clinton saludó más no tan divertido.'}
+{'sentence_good': 'Ivanna presumió tres tomates ciertos y Winston Churchill presumió menos.', 'sentence_bad': 'Ivanna presumió tres tomates y Winston Churchill presumió menos ciertos.'}
+{'sentence_good': 'María Paula sufrió cinco bananas nuevos y Melissa sufrió quatro.', 'sentence_bad': 'María Paula sufrió cinco bananas y Melissa sufrió quatro nuevos.'}
+{'sentence_good': 'Amy se sentó una silla escondidas y Winston Churchill se sentó quatro.', 'sentence_bad': 'Amy se sentó una silla y Winston Churchill se sentó quatro escondidas.'}
+{'sentence_good': 'Alicia aflojó una vela interesantes y Antonio aflojó unas.', 'sentence_bad': 'Alicia aflojó una vela y Antonio aflojó unas interesantes.'}
+{'sentence_good': 'Facundo arrugó uno abrigo aburrido y María Alejandra arrugó quatro.', 'sentence_bad': 'Facundo arrugó uno abrigo y María Alejandra arrugó quatro aburrido.'}
+{'sentence_good': 'España se abrió una cara desempleados y Gonzalo se abrió muchas.', 'sentence_bad': 'España se abrió una cara y Gonzalo se abrió muchas desempleados.'}
+{'sentence_good': 'Alessandra declaró una seta pronto y Antonella declaró pocas.', 'sentence_bad': 'Alessandra declaró una seta y Antonella declaró pocas pronto.'}
+{'sentence_good': 'Valentino pinchó tres cuentos menor y Juan José pinchó menos.', 'sentence_bad': 'Valentino pinchó tres cuentos y Juan José pinchó menos menor.'}
+{'sentence_good': 'Martina continuó una boca inesperada y Galileo continuó quatro.', 'sentence_bad': 'Martina continuó una boca y Galileo continuó quatro inesperada.'}
+{'sentence_good': 'Juliana reveló uno centro comercial intactos y Juan Pablo reveló few.', 'sentence_bad': 'Juliana reveló uno centro comercial y Juan Pablo reveló few intactos.'}
+{'sentence_good': 'Alexa consiguió uno cilantro rápidos y Miguel Ángel consiguió cinco.', 'sentence_bad': 'Alexa consiguió uno cilantro y Miguel Ángel consiguió cinco rápidos.'}
+{'sentence_good': 'Andrea se sintió una imagen perdido y Benjamín se sintió unas.', 'sentence_bad': 'Andrea se sintió una imagen y Benjamín se sintió unas perdido.'}
+{'sentence_good': 'Patricio ascendió uno cerdo confidente y Rafael ascendió quatro.', 'sentence_bad': 'Patricio ascendió uno cerdo y Rafael ascendió quatro confidente.'}
+{'sentence_good': 'Victoria tomó una agua poco interesantes y Carlos tomó casi la misma cantidad.', 'sentence_bad': 'Victoria tomó una agua y Carlos tomó casi la misma cantidad poco interesantes.'}
+{'sentence_good': 'Antonia se paró tres lagos más barata que y Isabella se paró casi la misma cantidad de.', 'sentence_bad': 'Antonia se paró tres lagos y Isabella se paró casi la misma cantidad de más barata que.'}
+{'sentence_good': 'Ximena/Jimena se vio tres computadoras improbable y Isaac se vio menos.', 'sentence_bad': 'Ximena/Jimena se vio tres computadoras y Isaac se vio menos improbable.'}
+{'sentence_good': 'Ana Sofía se volvió tres proyectores más grande que y Gael se volvió más.', 'sentence_bad': 'Ana Sofía se volvió tres proyectores y Gael se volvió más más grande que.'}
+{'sentence_good': 'Violeta protestó muchos abrigos extraños y Isabella protestó unos.', 'sentence_bad': 'Violeta protestó muchos abrigos y Isabella protestó unos extraños.'}
+{'sentence_good': 'Guadalupe se volvió tres luces intactos y Ximena/Jimena se volvió dos.', 'sentence_bad': 'Guadalupe se volvió tres luces y Ximena/Jimena se volvió dos intactos.'}
+{'sentence_good': 'Homero asustó uno sofá más grave que y Micaela asustó más.', 'sentence_bad': 'Homero asustó uno sofá y Micaela asustó más más grave que.'}
+{'sentence_good': 'Paulina debatió unos pocos gatos positivos y Galileo debatió varios.', 'sentence_bad': 'Paulina debatió unos pocos gatos y Galileo debatió varios positivos.'}
+{'sentence_good': 'Camilo aprendió quatro galerías de arte naranjas y Violeta aprendió cinco.', 'sentence_bad': 'Camilo aprendió quatro galerías de arte y Violeta aprendió cinco naranjas.'}
+{'sentence_good': 'Emily balanceó tres pimientos más rápida que y Isabella balanceó menos.', 'sentence_bad': 'Emily balanceó tres pimientos y Isabella balanceó menos más rápida que.'}
+{'sentence_good': 'Adrián preocupó una agua más mayor que y Alex preocupó varias.', 'sentence_bad': 'Adrián preocupó una agua y Alex preocupó varias más mayor que.'}
+{'sentence_good': 'Valentino vaporizó una pimienta agradables y Juan Esteban vaporizó unas.', 'sentence_bad': 'Valentino vaporizó una pimienta y Juan Esteban vaporizó unas agradables.'}
+{'sentence_good': 'los Clinton charló uno restaurante más barato que y Sebastián charló muchos.', 'sentence_bad': 'los Clinton charló uno restaurante y Sebastián charló muchos más barato que.'}
+{'sentence_good': 'María Alejandra suplicó pocos ojos predecible y Juan suplicó muchos.', 'sentence_bad': 'María Alejandra suplicó pocos ojos y Juan suplicó muchos predecible.'}
+{'sentence_good': 'Paula olvidó una vela claro y Zoe olvidó quatro.', 'sentence_bad': 'Paula olvidó una vela y Zoe olvidó quatro claro.'}
+{'sentence_good': 'Abril se consideró dos escuelas no tan bueno y Renata se consideró tres.', 'sentence_bad': 'Abril se consideró dos escuelas y Renata se consideró tres no tan bueno.'}
+{'sentence_good': 'Bianca observó uno caballo preocupadas y Matías observó casi la misma cantidad.', 'sentence_bad': 'Bianca observó uno caballo y Matías observó casi la misma cantidad preocupadas.'}
+{'sentence_good': 'Pablo obligó uno lago no tan importante y Dylan obligó varios.', 'sentence_bad': 'Pablo obligó uno lago y Dylan obligó varios no tan importante.'}
+{'sentence_good': 'Francisco añoró uno museo inesperadas y Aarón añoró varios.', 'sentence_bad': 'Francisco añoró uno museo y Aarón añoró varios inesperadas.'}
+{'sentence_good': 'Vicente contrató varios documentales no tan gracioso y Monet contrató unos pocos.', 'sentence_bad': 'Vicente contrató varios documentales y Monet contrató unos pocos no tan gracioso.'}
+{'sentence_good': 'Alessandra aceptó una imagen seguras y Allison aceptó unas.', 'sentence_bad': 'Alessandra aceptó una imagen y Allison aceptó unas seguras.'}
+{'sentence_good': 'Amanda negoció dos artículos del periódico sana y Fiorella negoció tres.', 'sentence_bad': 'Amanda negoció dos artículos del periódico y Fiorella negoció tres sana.'}
+{'sentence_good': 'Julia vaporizó una pintura amarillo y Juan Ignacio vaporizó quatro.', 'sentence_bad': 'Julia vaporizó una pintura y Juan Ignacio vaporizó quatro amarillo.'}
+{'sentence_good': 'Gerónimo rajó tres cuestas verde y Victoria rajó más.', 'sentence_bad': 'Gerónimo rajó tres cuestas y Victoria rajó más verde.'}
+{'sentence_good': 'María Camila movió uno boceto ocupadas y Gael movió quatro.', 'sentence_bad': 'María Camila movió uno boceto y Gael movió quatro ocupadas.'}
+{'sentence_good': 'Rebeca pintó una banana más baratos y Emilia pintó tres.', 'sentence_bad': 'Rebeca pintó una banana y Emilia pintó tres más baratos.'}
+{'sentence_good': 'Monserrat perdió tres pimientos más rápido y Fabiana perdió más.', 'sentence_bad': 'Monserrat perdió tres pimientos y Fabiana perdió más más rápido.'}
+{'sentence_good': 'Los Borgia cuidó una taza amarillas y Luciano cuidó muchas.', 'sentence_bad': 'Los Borgia cuidó una taza y Luciano cuidó muchas amarillas.'}
+{'sentence_good': 'Camila salió una pasta rotos y Juan Manuel salió pocas.', 'sentence_bad': 'Camila salió una pasta y Juan Manuel salió pocas rotos.'}
+{'sentence_good': 'Regina motivó cinco cajas intactos y literatura motivó quatro.', 'sentence_bad': 'Regina motivó cinco cajas y literatura motivó quatro intactos.'}
+{'sentence_good': 'Amalia chocó varias cajas limpiadas y Fabiana chocó unas cuantas.', 'sentence_bad': 'Amalia chocó varias cajas y Fabiana chocó unas cuantas limpiadas.'}
+{'sentence_good': 'Josefina superó una silla limpiadas y Ana Paula superó cinco.', 'sentence_bad': 'Josefina superó una silla y Ana Paula superó cinco limpiadas.'}
+{'sentence_good': 'Bruno confundió quatro tortugas no tan agradables y Jacobo confundió cinco.', 'sentence_bad': 'Bruno confundió quatro tortugas y Jacobo confundió cinco no tan agradables.'}
+{'sentence_good': 'Javier cuidó una fotografía poco interesante y Gael cuidó casi la misma cantidad.', 'sentence_bad': 'Javier cuidó una fotografía y Gael cuidó casi la misma cantidad poco interesante.'}
+{'sentence_good': 'Micaela añoró uno pez satisfechas y Gael añoró unos.', 'sentence_bad': 'Micaela añoró uno pez y Gael añoró unos satisfechas.'}
+{'sentence_good': 'María Paula cayó uno supermercado más nuevas y Rebeca cayó casi la misma cantidad.', 'sentence_bad': 'María Paula cayó uno supermercado y Rebeca cayó casi la misma cantidad más nuevas.'}
+{'sentence_good': 'Manuel superó una chaqueta no es tan sorprendente y Rodrigo superó muchas.', 'sentence_bad': 'Manuel superó una chaqueta y Rodrigo superó muchas no es tan sorprendente.'}
+{'sentence_good': 'Julia bajó una puerta importante y Joaquín bajó dos.', 'sentence_bad': 'Julia bajó una puerta y Joaquín bajó dos importante.'}
+{'sentence_good': 'Damián cocinó tres pinturas llenas de alegría y Juliana cocinó al menos tantas.', 'sentence_bad': 'Damián cocinó tres pinturas y Juliana cocinó al menos tantas llenas de alegría.'}
+{'sentence_good': 'Natalia comió varios proyectores más largas y Maximiliano comió unos pocos.', 'sentence_bad': 'Natalia comió varios proyectores y Maximiliano comió unos pocos más largas.'}
+{'sentence_good': 'Facundo persuadió dos copias suaves y Mia persuadió tres.', 'sentence_bad': 'Facundo persuadió dos copias y Mia persuadió tres suaves.'}
+{'sentence_good': 'Luciano aconsejó muchos focos más baratos que y Ángel aconsejó unos.', 'sentence_bad': 'Luciano aconsejó muchos focos y Ángel aconsejó unos más baratos que.'}
+{'sentence_good': 'Alan negoció cinco camiones emocionantes y Máximo negoció quatro.', 'sentence_bad': 'Alan negoció cinco camiones y Máximo negoció quatro emocionantes.'}
+{'sentence_good': 'Julia comisionó una escalera sorprendentes y eventos actuales comisionó dos.', 'sentence_bad': 'Julia comisionó una escalera y eventos actuales comisionó dos sorprendentes.'}
+{'sentence_good': 'Facundo siguió una boca confiados y los luteranos siguió quatro.', 'sentence_bad': 'Facundo siguió una boca y los luteranos siguió quatro confiados.'}
+{'sentence_good': 'Alex pasó una pasta no tan interesante y Melissa pasó dos.', 'sentence_bad': 'Alex pasó una pasta y Melissa pasó dos no tan interesante.'}
+{'sentence_good': 'Florencia ordenó uno monociclo no tan claras y Guadalupe ordenó muchos.', 'sentence_bad': 'Florencia ordenó uno monociclo y Guadalupe ordenó muchos no tan claras.'}
+{'sentence_good': 'Dylan siguió una paleta de hielo fria y los Clinton siguió más.', 'sentence_bad': 'Dylan siguió una paleta de hielo y los Clinton siguió más fria.'}
+{'sentence_good': 'Facundo agravó uno sombrero no tan raro y Amy agravó few.', 'sentence_bad': 'Facundo agravó uno sombrero y Amy agravó few no tan raro.'}
+{'sentence_good': 'Alejandra pudrió uno cerdo preocupadas y Jorge pudrió casi la misma cantidad.', 'sentence_bad': 'Alejandra pudrió uno cerdo y Jorge pudrió casi la misma cantidad preocupadas.'}
+{'sentence_good': 'Juan Ignacio correspondió una bufanda más importante que y Cristóbal correspondió unas.', 'sentence_bad': 'Juan Ignacio correspondió una bufanda y Cristóbal correspondió unas más importante que.'}
+{'sentence_good': 'arte ordenó una carretilla inesperadas y Juana ordenó casi la misma cantidad.', 'sentence_bad': 'arte ordenó una carretilla y Juana ordenó casi la misma cantidad inesperadas.'}
+{'sentence_good': 'Santino siguió unos pocos museos frescos y Salome siguió varios.', 'sentence_bad': 'Santino siguió unos pocos museos y Salome siguió varios frescos.'}
+{'sentence_good': 'Gerónimo reaccionó uno sofá gris y Melanie reaccionó casi la misma cantidad.', 'sentence_bad': 'Gerónimo reaccionó uno sofá y Melanie reaccionó casi la misma cantidad gris.'}
+{'sentence_good': 'los Balcanes necesitó tres galerías de arte difíciles y Emmanuel necesitó menos.', 'sentence_bad': 'los Balcanes necesitó tres galerías de arte y Emmanuel necesitó menos difíciles.'}
