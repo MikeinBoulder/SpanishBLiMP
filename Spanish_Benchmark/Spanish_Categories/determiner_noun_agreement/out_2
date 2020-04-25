@@ -1,0 +1,10 @@
+{'sentence_good': 'Fabiana ayuda esta silla.', 'sentence_bad': 'Fabiana ayuda un silla.'}
+{'sentence_good': 'Natalia asombra estas bufandas.', 'sentence_bad': 'Natalia asombra este bufandas.'}
+{'sentence_good': 'Jorge trae esas tesis.', 'sentence_bad': 'Jorge trae ese tesis.'}
+{'sentence_good': 'Alessandra oculta muchas copias.', 'sentence_bad': 'Alessandra oculta aquellos copias.'}
+{'sentence_good': 'Tomás se sienta una pantalla.', 'sentence_bad': 'Tomás se sienta esas pantalla.'}
+{'sentence_good': 'Amy cuestiona las parálisis.', 'sentence_bad': 'Amy cuestiona el parálisis.'}
+{'sentence_good': 'Rafael se pasa muchas velas.', 'sentence_bad': 'Rafael se pasa aquellos velas.'}
+{'sentence_good': 'Benjamín admira esa ex alumna.', 'sentence_bad': 'Benjamín admira este ex alumna.'}
+{'sentence_good': 'Valeria corretea la berenjena.', 'sentence_bad': 'Valeria corretea aquellos berenjena.'}
+{'sentence_good': 'Elena ataca aquellas mujeres.', 'sentence_bad': 'Elena ataca el mujeres.'}
