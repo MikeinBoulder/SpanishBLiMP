@@ -4,14 +4,15 @@ from Spanish_Utils.string_utils import *
 import pandas as pd
 import numpy as np
 import random
+import sys
 
 
 a_verbs=['abraza', 'abrazan', 'aburre','aburren','se acerca','se acercan', 'admira', 'admiran', 'agracece', 'agracecen', 'alarma', 'alarman','asombra','asombran', 'asusta', 'asustan', 'ataca', 'atacan', 'ayuda', 'ayudan', 'besa', 'besan', 'boicotea', 'boicotean', 'compra', 'compran', 'confunde', 'confunden', 'conmociona', 'conmocionan', 'conoce', 'conocen', 'corretea', 'corretean', 'cuestiona', 'cuestionan', 'cuida', 'cuidan', 'nota', 'notan', 'observa', 'observan', 'oculta', 'ocultan', 'odia', 'odia', 'ojea', 'ojean', 'pasa', 'pasan', 'se pasa', 'se pasan', 'se pinta', 'se pintan', 'se queja','se quejan', 'sale', 'salen', 'trae', 'traen', 'vende', 'venden', 'se vende', 'se venden', 'se ve', 'se ven', 'vuelve', 'vuelven']
 
 
 
-def sample(max_iter):
-    for i in range(max_iter):
+def sample(iter,out):
+    for i in range(iter):
         # def sample(self):
         # John      talked to the boy
         # N1_good   V1        N2
@@ -111,6 +112,12 @@ def sample(max_iter):
                             }
                             
 
-        print(data)    
-sample(100)
+        out.write(str(data)+'\n')    
+try:
+    iter = int(sys.argv[1])
+    out = open(sys.argv[2], 'w')
+    sample(iter,out)
+except IndexError:
+    print('To run this file:\npython animate_subject_transitive.py <# sentences> <output path>')
+    sys.exit()
 

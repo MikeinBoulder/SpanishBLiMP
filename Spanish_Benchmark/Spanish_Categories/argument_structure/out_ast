@@ -1,0 +1,100 @@
+{'sentence_good': 'Unos invitados visitan unas mujeres.', 'sentence_bad': 'Unos platos visitan unas mujeres.'}
+{'sentence_good': 'Las muchachas asombran a Bruno.', 'sentence_bad': 'Las cazuelas asombran a Bruno.'}
+{'sentence_good': 'Los serpientes cuestionan a Gonzalo.', 'sentence_bad': 'Los glaciares cuestionan a Gonzalo.'}
+{'sentence_good': 'Unas peatonas admiran a Antonia.', 'sentence_bad': 'Unas tortugas admiran a Antonia.'}
+{'sentence_good': 'Los peces alarman a los conductores.', 'sentence_bad': 'Los comentarios alarman a los conductores.'}
+{'sentence_good': 'Melissa besa a Dante.', 'sentence_bad': 'Seta besa a Dante.'}
+{'sentence_good': 'Abigail odia a Ana Sofía.', 'sentence_bad': 'Galería de arte odia a Ana Sofía.'}
+{'sentence_good': 'Las camareras odian Magdalena.', 'sentence_bad': 'Las carretillas odian Magdalena.'}
+{'sentence_good': 'Las mujeres conmocionan a Michelle.', 'sentence_bad': 'Las pantallas conmocionan a Michelle.'}
+{'sentence_good': 'Un médico cuida a unas medicas.', 'sentence_bad': 'Un florero cuida a unas medicas.'}
+{'sentence_good': 'Los conejos se ven a los pájaros.', 'sentence_bad': 'Los camiones se ven a los pájaros.'}
+{'sentence_good': 'Unas tortugas alarman a las actrices.', 'sentence_bad': 'Unas carretillas alarman a las actrices.'}
+{'sentence_good': 'Unas señoras se acercan a Emma.', 'sentence_bad': 'Unas tortugas se acercan a Emma.'}
+{'sentence_good': 'Una tortuga cuida a las señoras.', 'sentence_bad': 'Una copia cuida a las señoras.'}
+{'sentence_good': 'Gabriela visita Mateo.', 'sentence_bad': 'Patineta visita Mateo.'}
+{'sentence_good': 'Dante se ve a Carlos.', 'sentence_bad': 'Comentario se ve a Carlos.'}
+{'sentence_good': 'Nicole nota a Adrián.', 'sentence_bad': 'Fotografía nota a Adrián.'}
+{'sentence_good': 'La invitada cuestiona a los hombres.', 'sentence_bad': 'La montaña cuestiona a los hombres.'}
+{'sentence_good': 'Un médico admira a unos cajeros.', 'sentence_bad': 'Un café admira a unos cajeros.'}
+{'sentence_good': 'Un camarero nota a Lucia.', 'sentence_bad': 'Un glaciar nota a Lucia.'}
+{'sentence_good': 'Felipe se ve a los cajeros.', 'sentence_bad': 'Ensayo se ve a los cajeros.'}
+{'sentence_good': 'Los camareros observan a unos caballos.', 'sentence_bad': 'Los bocetos observan a unos caballos.'}
+{'sentence_good': 'Unos chicos ayudan a Francisco.', 'sentence_bad': 'Unos pasos ayudan a Francisco.'}
+{'sentence_good': 'Unas actrices ayudan a Carolina.', 'sentence_bad': 'Unas escuelas ayudan a Carolina.'}
+{'sentence_good': 'Las camareras odian Manuel.', 'sentence_bad': 'Las cazuelas odian Manuel.'}
+{'sentence_good': 'Los invitados atacan a Valentina.', 'sentence_bad': 'Los pimientos atacan a Valentina.'}
+{'sentence_good': 'Antonio vuelve a Florencia.', 'sentence_bad': 'Tenedor vuelve a Florencia.'}
+{'sentence_good': 'Camilo confunde a unas muchachas.', 'sentence_bad': 'Caballo confunde a unas muchachas.'}
+{'sentence_good': 'Unos peatones se acercan a unas bailarinas.', 'sentence_bad': 'Unos comités se acercan a unas bailarinas.'}
+{'sentence_good': 'Unos actores ayudan a Rodrigo.', 'sentence_bad': 'Unos hamsters ayudan a Rodrigo.'}
+{'sentence_good': 'Un caballo confunde a la invitada.', 'sentence_bad': 'Un arroz confunde a la invitada.'}
+{'sentence_good': 'Guadalupe conoce a los profesores.', 'sentence_bad': 'Paleta de hielo conoce a los profesores.'}
+{'sentence_good': 'El perro se acerca a unos peatones.', 'sentence_bad': 'El gobierno se acerca a unos peatones.'}
+{'sentence_good': 'Una invitada besa a Damián.', 'sentence_bad': 'Una galería de arte besa a Damián.'}
+{'sentence_good': 'Unos conductores se ven a unos cajeros.', 'sentence_bad': 'Unos comentarios se ven a unos cajeros.'}
+{'sentence_good': 'Valery odia a Alejandra.', 'sentence_bad': 'Luz odia a Alejandra.'}
+{'sentence_good': 'Pablo asombra a Isaac.', 'sentence_bad': 'Caballo asombra a Isaac.'}
+{'sentence_good': 'Juan José vuelve a las conductoras.', 'sentence_bad': 'Brócoli vuelve a las conductoras.'}
+{'sentence_good': 'Las peatonas se ven a una mujer.', 'sentence_bad': 'Las luces se ven a una mujer.'}
+{'sentence_good': 'Juan Esteban conmociona a Paula.', 'sentence_bad': 'Serpiente conmociona a Paula.'}
+{'sentence_good': 'Unos cajeros besan a Fernanda.', 'sentence_bad': 'Unos cafés besan a Fernanda.'}
+{'sentence_good': 'Las actrices se ven a Maximiliano.', 'sentence_bad': 'Las tazas se ven a Maximiliano.'}
+{'sentence_good': 'Rafaella admira a Abigail.', 'sentence_bad': 'Falda admira a Abigail.'}
+{'sentence_good': 'Las personas alarman a Elena.', 'sentence_bad': 'Las faldas alarman a Elena.'}
+{'sentence_good': 'Una dama alarma a las invitadas.', 'sentence_bad': 'Una biblioteca alarma a las invitadas.'}
+{'sentence_good': 'Unas tortugas agravan los peces.', 'sentence_bad': 'Unas universidades agravan los peces.'}
+{'sentence_good': 'Renata odia a Rebeca.', 'sentence_bad': 'Nariz odia a Rebeca.'}
+{'sentence_good': 'Las actrices ayudan a las camareras.', 'sentence_bad': 'Las bibliotecas ayudan a las camareras.'}
+{'sentence_good': 'Unas bailarinas atacan a Camilo.', 'sentence_bad': 'Unas colinas atacan a Camilo.'}
+{'sentence_good': 'Los camareros confunden a las senadoras.', 'sentence_bad': 'Los glaciares confunden a las senadoras.'}
+{'sentence_good': 'Amy asusta a Julieta.', 'sentence_bad': 'Ventana asusta a Julieta.'}
+{'sentence_good': 'Los serpientes cuidan a Ana Paula.', 'sentence_bad': 'Los sofás cuidan a Ana Paula.'}
+{'sentence_good': 'Unas actrices conocen a las camareras.', 'sentence_bad': 'Unas fotografías conocen a las camareras.'}
+{'sentence_good': 'Julieta cuestiona a Alejandra.', 'sentence_bad': 'Lámpara cuestiona a Alejandra.'}
+{'sentence_good': 'Unos pájaros conocen a Antonella.', 'sentence_bad': 'Unos armarios conocen a Antonella.'}
+{'sentence_good': 'Unas bailarinas conmocionan a unas peatonas.', 'sentence_bad': 'Unas pinturas conmocionan a unas peatonas.'}
+{'sentence_good': 'Los adultos conmocionan a Carolina.', 'sentence_bad': 'Los pájaros conmocionan a Carolina.'}
+{'sentence_good': 'Un conductor observa a Melissa.', 'sentence_bad': 'Un documental observa a Melissa.'}
+{'sentence_good': 'Vicente se ve a los actores.', 'sentence_bad': 'Artículo de periódico se ve a los actores.'}
+{'sentence_good': 'Los senadores odian Ana.', 'sentence_bad': 'Los carruajes odian Ana.'}
+{'sentence_good': 'Los senadores observan a unos gatos.', 'sentence_bad': 'Los parques públicos observan a unos gatos.'}
+{'sentence_good': 'Las adultas confunden a Juan Diego.', 'sentence_bad': 'Las berenjenas confunden a Juan Diego.'}
+{'sentence_good': 'Ashley ayuda a Paulina.', 'sentence_bad': 'Lámpara ayuda a Paulina.'}
+{'sentence_good': 'Miguel Ángel nota a los serpientes.', 'sentence_bad': 'Campus universitario nota a los serpientes.'}
+{'sentence_good': 'Unas actrices ayudan a los niños.', 'sentence_bad': 'Unas escaleras ayudan a los niños.'}
+{'sentence_good': 'Jazmín visita Gerónimo.', 'sentence_bad': 'Legislatura visita Gerónimo.'}
+{'sentence_good': 'Agustín se acerca a Regina.', 'sentence_bad': 'Armario se acerca a Regina.'}
+{'sentence_good': 'Las muchachas se acercan a una senadora.', 'sentence_bad': 'Las bocas se acercan a una senadora.'}
+{'sentence_good': 'Los adultos alarman a Ashley.', 'sentence_bad': 'Los lagos alarman a Ashley.'}
+{'sentence_good': 'Las medicas asombran a Micaela.', 'sentence_bad': 'Las galerías de arte asombran a Micaela.'}
+{'sentence_good': 'Ariana se ve a el pez.', 'sentence_bad': 'Cazuela se ve a el pez.'}
+{'sentence_good': 'Las peatonas confunden a Jacobo.', 'sentence_bad': 'Las legislaturas confunden a Jacobo.'}
+{'sentence_good': 'Unos caballos observan a unos conejos.', 'sentence_bad': 'Unos aviones observan a unos conejos.'}
+{'sentence_good': 'Unos camareros notan a unas adultas.', 'sentence_bad': 'Unos pepinos notan a unas adultas.'}
+{'sentence_good': 'Las actrices se ven a unos medicos.', 'sentence_bad': 'Las cuestas se ven a unos medicos.'}
+{'sentence_good': 'Amelia se acerca a unos peatones.', 'sentence_bad': 'Puerta se acerca a unos peatones.'}
+{'sentence_good': 'Los medicos alarman a Jacobo.', 'sentence_bad': 'Los focos alarman a Jacobo.'}
+{'sentence_good': 'Los camareros atacan a el pájaro.', 'sentence_bad': 'Los ríos atacan a el pájaro.'}
+{'sentence_good': 'La senador conmociona a Luna.', 'sentence_bad': 'La universidad conmociona a Luna.'}
+{'sentence_good': 'Los bailarines se acercan a la cajera.', 'sentence_bad': 'Los cines se acercan a la cajera.'}
+{'sentence_good': 'Thiago asusta a Jorge.', 'sentence_bad': 'Hámster asusta a Jorge.'}
+{'sentence_good': 'Thiago besa a unos chicos.', 'sentence_bad': 'Suéter besa a unos chicos.'}
+{'sentence_good': 'Unas camareras visitan las adultas.', 'sentence_bad': 'Unas empresas visitan las adultas.'}
+{'sentence_good': 'Mauricio observa a las mujeres.', 'sentence_bad': 'Zapato observa a las mujeres.'}
+{'sentence_good': 'Pedro ataca a los bailarines.', 'sentence_bad': 'Comité ataca a los bailarines.'}
+{'sentence_good': 'Un profesor se ve a Bautista.', 'sentence_bad': 'Un hámster se ve a Bautista.'}
+{'sentence_good': 'Unos bailarines se ven a unas conductoras.', 'sentence_bad': 'Unos proyectores se ven a unas conductoras.'}
+{'sentence_good': 'Las personas notan a unos adultos.', 'sentence_bad': 'Las chaquetas notan a unos adultos.'}
+{'sentence_good': 'Mauricio vuelve a los gatos.', 'sentence_bad': 'Comité vuelve a los gatos.'}
+{'sentence_good': 'Unas personas cuestionan a los profesores.', 'sentence_bad': 'Unas bibliotecas cuestionan a los profesores.'}
+{'sentence_good': 'Javier asombra a unos conejos.', 'sentence_bad': 'Hámster asombra a unos conejos.'}
+{'sentence_good': 'Unas muchachas se acercan a los hamsters.', 'sentence_bad': 'Unas chaquetas se acercan a los hamsters.'}
+{'sentence_good': 'Las conductoras odian Juan Felipe.', 'sentence_bad': 'Las cajas odian Juan Felipe.'}
+{'sentence_good': 'Unos gatos conocen a unas tortugas.', 'sentence_bad': 'Unos libros conocen a unas tortugas.'}
+{'sentence_good': 'Isidora conmociona a Carla.', 'sentence_bad': 'Puerta conmociona a Carla.'}
+{'sentence_good': 'Unas peatonas ayudan a los conductores.', 'sentence_bad': 'Unas bufandas ayudan a los conductores.'}
+{'sentence_good': 'Felipe observa a Juliana.', 'sentence_bad': 'Carámbano observa a Juliana.'}
+{'sentence_good': 'La camarera observa a Alex.', 'sentence_bad': 'La computadora observa a Alex.'}
+{'sentence_good': 'Los profesores odian Laura.', 'sentence_bad': 'Los serpientes odian Laura.'}
+{'sentence_good': 'Las adultas besan a unos hombres.', 'sentence_bad': 'Las cazuelas besan a unos hombres.'}
