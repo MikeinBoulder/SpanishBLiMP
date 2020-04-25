@@ -144,8 +144,6 @@ past_pret_3p = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] ==
 all_transitive_gerunds = vocab['expression'].loc[(vocab['pos'] == "V.CVB") & (vocab['category_2'] == 'TV')]
 past_3is_ipfv_raising_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['category_2'].str.contains('V_raising_object')==True) & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['aspect'] == 'IPFV')]
 past_3is_ipfv_control_verbs= vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['category_2'].str.contains('V_control_object')==True)& (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['aspect'] == 'IPFV')]
-all_p3ip_inanim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'PL') & (vocab['category_2'] == 'TV') & (vocab['arg_2'].str.contains('inanimate=1')==True)]
-all_p3is_inanim_subj_allowing_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['tense'] == 'PRS') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['category_2'] == 'TV') & (vocab['arg_2'].str.contains('inanimate=1')==True)]
 
 
 #NOT SURE ABOUT SOME OF THESE TAGS
