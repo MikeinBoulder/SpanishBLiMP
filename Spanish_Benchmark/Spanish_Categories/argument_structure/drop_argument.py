@@ -1,10 +1,10 @@
 from Spanish_Utils.vocab_sets import *
-import numpy as np
-from Spanish_Utils.randomize import choice
+from Spanish_Utils.randomize import *
 from Spanish_Utils.string_utils import *
-from Spanish_Utils.vocab_table import *
-import random
 import pandas as pd
+import numpy as np
+import random
+
 
 
    # The bear has attacked.
@@ -18,7 +18,7 @@ all_nonstrict_transitive_verbs = vocab['expression'].loc[(vocab['category_2'] ==
 
 
 import pandas as pd
-data = pd.read_csv('./Spanish_Utils/new_combined.csv')
+data = pd.read_csv('./Spanish_Utils/vocab.csv')
 
 df_V = data[data['pos'] == 'V']
 df_non_strict_V = data[(data['category_2'] == "TV")& (data['category'] == "(S\\NP)/NP") & (data['strict_trans'] !="1")]
