@@ -17,7 +17,7 @@ def get_corresponding_pastpret(verb,number):
 
 #NOUNS
 all_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1)]
-all_singular_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['sg'] == 1)]
+all_singular_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['sg'] == 1)] 
 all_singular_count_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['sg'] == 1) & (vocab['mass'] == 0)]
 all_animate_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['frequent'] ==1) & (vocab['animate'] ==1)]
 all_animate_sg_nouns = vocab['expression'].loc[(vocab['category'] == 'N') & (vocab['sg'] ==1) & (vocab['frequent'] ==1) & (vocab['animate'] ==1)]
@@ -61,12 +61,6 @@ pl_reflexives = ["a sí mismos", "a sí mismas"]
 all_irrpl = vocab['expression'].loc[vocab['irrpl'] == 1]
 proper_nouns_fem = vocab['expression'].loc[(vocab['properNoun'] == 1 ) & (vocab['gender'] == 'f')]
 proper_nouns_masc = vocab['expression'].loc[(vocab['properNoun'] == 1 ) & (vocab['gender'] == 'm')]
-all_relational_poss_nouns = vocab['expression'].loc[(vocab['category'] == 'N\\NP[poss]') & (vocab['sg'] ==1)]
-all_relational_poss_nouns = vocab['expression'].loc[(vocab['category'] == 'N\\NP[poss]') & (vocab['sg'] ==1)]
-all_proper_nouns = vocab['expression'].loc[(vocab['properNoun'] == 1)]
-bad_emb_subj = np.union1d(all_relational_poss_nouns, all_proper_nouns)
-safe_fem_emb_subjs = np.setdiff1d(n_fem_sg, bad_emb_subj)
-safe_masc_emb_subjs = np.setdiff1d(n_masc_sg, bad_emb_subj)
 #bad_emb_subj == (all_relational_poss_nouns, all_proper_names)
 #safe_emb_subjs = np.setdiff1d(all_nominals, bad_emb_subjs)
 
@@ -142,9 +136,8 @@ all_intrans_ptcp_for_pres_perf = vocab['expression'].loc[(vocab['pos'] =='V.PTCP
 past_pret_3s = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] == 'IND') & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['number'] == 'SG') & (vocab['aspect'] == 'PFV')]
 past_pret_3p = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['mood'] == 'IND') & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['number'] == 'PL') & (vocab['aspect'] == 'PFV')]
 all_transitive_gerunds = vocab['expression'].loc[(vocab['pos'] == "V.CVB") & (vocab['category_2'] == 'TV')]
-past_3is_ipfv_raising_verbs = vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['category_2'].str.contains('V_raising_object')==True) & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['aspect'] == 'IPFV')]
-past_3is_ipfv_control_verbs= vocab['expression'].loc[(vocab['pos'] == 'V') & (vocab['category_2'].str.contains('V_control_object')==True)& (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['aspect'] == 'IPFV')]
-
+past_3is_ipfv_raising_animate_verbs= vocab['expression'].loc[(vocab['category'] == 'V') & (vocab['category_2'] == 'V_raising_object') & (vocab['animate'] ==1) & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['aspect'] == 'IPFV')]
+past_3is_ipfv_control_animate_verbs= vocab['expression'].loc[(vocab['category'] == 'V') & (vocab['category_2'] == 'V_control_object') & (vocab['animate'] ==1) & (vocab['tense'] == 'PST') & (vocab['person'] == 3) & (vocab['mood'] == 'IND') & (vocab['number'] == 'SG') & (vocab['aspect'] == 'IPFV')]
 
 #NOT SURE ABOUT SOME OF THESE TAGS
 
@@ -186,12 +179,6 @@ all_demonstratives_fem_sg = vocab['expression'].loc[(vocab['category_2'] == "D")
 all_demonstratives_fem_pl = vocab['expression'].loc[(vocab['category_2'] == 'D') & (vocab['pl'] == 1) & (vocab['gender'] == 'f')]
 # all_adjectives = np.append(get_all("category_2", "adjective"), get_all("category_2", "Adj"))
 all_adjectives = vocab['expression'].loc[(vocab['category_2'] == 'adjective') | (vocab['category_2'] == 'Adj') | (vocab['category_2'] == 'Adj-neg') | (vocab['category_2'] == 'Adj_comp') | (vocab['category_2'] == 'Adj_comp_than') | (vocab['category_2'] == 'Adj_clausal') | (vocab['category_2'] == 'Adj_control_subj') | (vocab['category_2'] == 'Adj_raising_subj') | (vocab['category_2'] == 'Adj_tough')]
-all_adj_pl_fem = vocab['expression'].loc[(vocab['category_2'] == 'adjective') | (vocab['category_2'] == 'Adj') | (vocab['category_2'] == 'Adj-neg') | (vocab['category_2'] == 'Adj_comp') | (vocab['category_2'] == 'Adj_comp_than') | (vocab['category_2'] == 'Adj_clausal') | (vocab['category_2'] == 'Adj_control_subj') | (vocab['category_2'] == 'Adj_raising_subj') | (vocab['category_2'] == 'Adj_tough') & (vocab['gender'] == 'f') & (vocab['pl'] == 1)]
-all_adj_sg_fem = vocab['expression'].loc[(vocab['category_2'] == 'adjective') | (vocab['category_2'] == 'Adj') | (vocab['category_2'] == 'Adj-neg') | (vocab['category_2'] == 'Adj_comp') | (vocab['category_2'] == 'Adj_comp_than') | (vocab['category_2'] == 'Adj_clausal') | (vocab['category_2'] == 'Adj_control_subj') | (vocab['category_2'] == 'Adj_raising_subj') | (vocab['category_2'] == 'Adj_tough') & (vocab['gender'] == 'f') & (vocab['sg'] == 1)]
-all_adj_sg_masc = vocab['expression'].loc[(vocab['category_2'] == 'adjective') | (vocab['category_2'] == 'Adj') | (vocab['category_2'] == 'Adj-neg') | (vocab['category_2'] == 'Adj_comp') | (vocab['category_2'] == 'Adj_comp_than') | (vocab['category_2'] == 'Adj_clausal') | (vocab['category_2'] == 'Adj_control_subj') | (vocab['category_2'] == 'Adj_raising_subj') | (vocab['category_2'] == 'Adj_tough') & (vocab['gender'] == 'm') & (vocab['sg'] == 1)]
-all_adj_pl_masc = vocab['expression'].loc[(vocab['category_2'] == 'adjective') | (vocab['category_2'] == 'Adj') | (vocab['category_2'] == 'Adj-neg') | (vocab['category_2'] == 'Adj_comp') | (vocab['category_2'] == 'Adj_comp_than') | (vocab['category_2'] == 'Adj_clausal') | (vocab['category_2'] == 'Adj_control_subj') | (vocab['category_2'] == 'Adj_raising_subj') | (vocab['category_2'] == 'Adj_tough') & (vocab['gender'] == 'm') & (vocab['pl'] == 1)]
-all_adj_sg_neuter = vocab['expression'].loc[(vocab['category_2'] == 'adjective') | (vocab['category_2'] == 'Adj') | (vocab['category_2'] == 'Adj-neg') | (vocab['category_2'] == 'Adj_comp') | (vocab['category_2'] == 'Adj_comp_than') | (vocab['category_2'] == 'Adj_clausal') | (vocab['category_2'] == 'Adj_control_subj') | (vocab['category_2'] == 'Adj_raising_subj') | (vocab['category_2'] == 'Adj_tough') & (vocab['gender'] == 'n') & (vocab['sg'] == 1)]
-all_adj_pl_neuter = vocab['expression'].loc[(vocab['category_2'] == 'adjective') | (vocab['category_2'] == 'Adj') | (vocab['category_2'] == 'Adj-neg') | (vocab['category_2'] == 'Adj_comp') | (vocab['category_2'] == 'Adj_comp_than') | (vocab['category_2'] == 'Adj_clausal') | (vocab['category_2'] == 'Adj_control_subj') | (vocab['category_2'] == 'Adj_raising_subj') | (vocab['category_2'] == 'Adj_tough') & (vocab['gender'] == 'n') & (vocab['pl'] == 1)]
 # all_frequent = get_all("frequent", "1")
 all_frequent = vocab['expression'].loc[vocab['frequent'] == 1]
 all_vehicles = vocab['expression'].loc[vocab['vehicle']==1]
