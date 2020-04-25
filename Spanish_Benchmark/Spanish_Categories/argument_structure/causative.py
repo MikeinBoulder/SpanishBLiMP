@@ -17,39 +17,39 @@ def sample(iter, out):
             #Subject noun fem plural
             if np.random.choice([True, False]):
                 D1 = choice(d_fem_pl)
-                Subj = choice(all_animate_pl_nouns_f)
+                Subj = choice(all_animate_pl_nouns_fem)
             else:
                 D1 = choice(d_masc_pl)
-                Subj = choice(all_animate_pl_nouns_m)
+                Subj = choice(all_animate_pl_nouns_masc)
         #Singular verb -> ha ptcp
         else:
             aux = haber[0]
             #Subject noun fem sg
             if np.random.choice([True, False]):
                 D1 = choice(d_fem_sg)
-                Subj = choice(all_animate_sg_nouns_f)
+                Subj = choice(all_animate_sg_nouns_fem)
             else:
                 D1 = choice(d_masc_sg)
-                Subj = choice(all_animate_sg_nouns_m)
+                Subj = choice(all_animate_sg_nouns_masc)
         #Now select object
         if np.random.choice([True,False]):
             #fem pl object
             if np.random.choice([True, False]):
                 D2 = choice(d_fem_pl)
-                Obj = choice(all_animate_pl_nouns_f, np.union1d(Subj,all_proper_nouns))
+                Obj = choice(all_animate_pl_nouns_fem, np.union1d(Subj,all_proper_nouns))
             else:
                 D2 = choice(d_fem_sg)
-                Obj = choice(all_animate_sg_nouns_f, np.union1d(Subj, all_proper_nouns))
+                Obj = choice(all_animate_sg_nouns_fem, np.union1d(Subj, all_proper_nouns))
         else:
             if np.random.choice([True, False]):
                 #masc pl obj
                 D2 = choice(d_masc_pl)
-                Obj = choice(all_animate_pl_nouns_m, np.union1d(Subj,all_proper_nouns))
+                Obj = choice(all_animate_pl_nouns_masc, np.union1d(Subj,all_proper_nouns))
             else:
                 D2 = choice(d_masc_sg)
-                Obj = choice(all_animate_sg_nouns_m, np.union1d(Subj,all_proper_nouns))
+                Obj = choice(all_animate_sg_nouns_masc, np.union1d(Subj,all_proper_nouns))
 
-        V_bad = verb_cleanup(aux + " " + ptcp, make_reflex = True)
+        V_bad = verb_cleanup(aux + " " + choice(all_intrans_ptcp_for_pres_perf), make_reflex = True)
         if Subj[0] >= 'A' and Subj[0] <= 'Z':
             data = {
                 'sentence_good' : '%s %s %s %s %s.' % (Subj, aux, ptcp, D2, Obj),

@@ -1,0 +1,10 @@
+{'sentence_good': 'Unos medicos han ocultado unos perros.', 'sentence_bad': 'Unos medicos se han doblado unos perros.'}
+{'sentence_good': 'Los bailarines han conocido la cajera.', 'sentence_bad': 'Los bailarines se han iluminado la cajera.'}
+{'sentence_good': 'Unos perros han comprado la mujer.', 'sentence_bad': 'Unos perros se han crecido la mujer.'}
+{'sentence_good': 'Unos niños han ensayado las personas.', 'sentence_bad': 'Unos niños se han desacelerado las personas.'}
+{'sentence_good': 'Nicole ha ayudado las bailarinas.', 'sentence_bad': 'Nicole se ha oxidado las bailarinas.'}
+{'sentence_good': 'Juan Ignacio ha confundido la bailarina.', 'sentence_bad': 'Juan Ignacio se ha ennegrecido la bailarina.'}
+{'sentence_good': 'Gonzalo ha conocido unas señoras.', 'sentence_bad': 'Gonzalo se ha madurado unas señoras.'}
+{'sentence_good': 'Valentino ha criticado los profesores.', 'sentence_bad': 'Valentino se ha movido los profesores.'}
+{'sentence_good': 'Allison ha escapado un médico.', 'sentence_bad': 'Allison se ha oscurecido un médico.'}
+{'sentence_good': 'Rafael ha vuelto unos invitados.', 'sentence_bad': 'Rafael se ha ennegrecido unos invitados.'}
