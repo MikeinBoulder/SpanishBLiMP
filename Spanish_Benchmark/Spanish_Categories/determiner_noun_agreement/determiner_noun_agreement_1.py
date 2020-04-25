@@ -10,7 +10,7 @@ import sys
 def sample(iter,out):
     for i in range(iter):
         #plural verb
-        V = choice(all_trans_p3is)
+        V = verb_cleanup(choice(all_trans_p3is))
         N1 = choice(all_proper_nouns)
         #fem sg
         n_choice = choice(['nfsg','nfpl','nmsg','nmpl'])
