@@ -1,0 +1,10 @@
+{'sentence_good': 'Vicente declaraba que había una boca.', 'sentence_bad': 'Vicente convencía que había una boca.'}
+{'sentence_good': 'Catalina prefería que había la síntesis.', 'sentence_bad': 'Catalina andaba que había la síntesis.'}
+{'sentence_good': 'Mateo aclaraba que había un portón.', 'sentence_bad': 'Mateo bajaba que había un portón.'}
+{'sentence_good': 'Lucia preveía que había una carreta.', 'sentence_bad': 'Lucia aguijoneaba que había una carreta.'}
+{'sentence_good': 'Matías preveía que había el glaciar.', 'sentence_bad': 'Matías persuadía que había el glaciar.'}
+{'sentence_good': 'Dante predecía que había un bistec.', 'sentence_bad': 'Dante prensaba que había un bistec.'}
+{'sentence_good': 'Rafael predecía que había la mujer.', 'sentence_bad': 'Rafael tentaba que había la mujer.'}
+{'sentence_good': 'Noa agradecía que había una espinica.', 'sentence_bad': 'Noa se secaba que había una espinica.'}
+{'sentence_good': 'Leonardo preveía que había el carámbano.', 'sentence_bad': 'Leonardo se secaba que había el carámbano.'}
+{'sentence_good': 'Juliana consideraba que había el núcleo.', 'sentence_bad': 'Juliana ordenaba que había el núcleo.'}
