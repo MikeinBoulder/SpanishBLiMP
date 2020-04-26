@@ -1,6 +1,6 @@
-from Spanish_Utils.vocab_table import *
+macs vfrom vocab_table import *
 from random import choice
-from Spanish_Utils.vocab_sets import *
+from vocab_sets import *
 
 def conjugate(verb, subj, allow_negated=True, require_negated=False):
     """

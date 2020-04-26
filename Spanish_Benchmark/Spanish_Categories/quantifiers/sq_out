@@ -1,0 +1,100 @@
+{'sentence_good': 'Ningún profesor conduce menos que cinco pantalones.', 'sentence_bad': 'Ningún profesor conduce como mucho cinco pantalones.'}
+{'sentence_good': 'Ningún pájaro oculta mas que dos camisas.', 'sentence_bad': 'Ningún pájaro oculta al menos dos camisas.'}
+{'sentence_good': 'Ningún adulto tiene mas que quatro bananas.', 'sentence_bad': 'Ningún adulto tiene al menos quatro bananas.'}
+{'sentence_good': 'Ningúna adulta vende menos que nueve tazas.', 'sentence_bad': 'Ningúna adulta vende como mucho nueve tazas.'}
+{'sentence_good': 'Ningún bailarín confunde menos que cinco bocas.', 'sentence_bad': 'Ningún bailarín confunde como mucho cinco bocas.'}
+{'sentence_good': 'Ningúna niña admira menos que seis portones.', 'sentence_bad': 'Ningúna niña admira como mucho seis portones.'}
+{'sentence_good': 'Ningúna médica cuida mas que nueve profesores.', 'sentence_bad': 'Ningúna médica cuida al menos nueve profesores.'}
+{'sentence_good': 'Ningúna bailarina sienta mas que siete alfombras.', 'sentence_bad': 'Ningúna bailarina sienta al menos siete alfombras.'}
+{'sentence_good': 'Ningún serpiente observa menos que nueve bananas.', 'sentence_bad': 'Ningún serpiente observa como mucho nueve bananas.'}
+{'sentence_good': 'Ningún chico alarma menos que siete los grandes Lagos.', 'sentence_bad': 'Ningún chico alarma como mucho siete los grandes Lagos.'}
+{'sentence_good': 'Ningúna invitada tiene menos que siete senadoras.', 'sentence_bad': 'Ningúna invitada tiene como mucho siete senadoras.'}
+{'sentence_good': 'Ningún invitado besa menos que ocho cajeros.', 'sentence_bad': 'Ningún invitado besa como mucho ocho cajeros.'}
+{'sentence_good': 'Ningúna actriz vende menos que ocho cuentos.', 'sentence_bad': 'Ningúna actriz vende como mucho ocho cuentos.'}
+{'sentence_good': 'Ningún médico ve mas que ocho bancos.', 'sentence_bad': 'Ningún médico ve al menos ocho bancos.'}
+{'sentence_good': 'Ningún pez acerca menos que siete galerías de arte.', 'sentence_bad': 'Ningún pez acerca como mucho siete galerías de arte.'}
+{'sentence_good': 'Ningúna médica asombra menos que quatro Los Borgia.', 'sentence_bad': 'Ningúna médica asombra como mucho quatro Los Borgia.'}
+{'sentence_good': 'Ningúna cajera boicotea menos que ocho colinas.', 'sentence_bad': 'Ningúna cajera boicotea como mucho ocho colinas.'}
+{'sentence_good': 'Ningúna invitada compra mas que ocho supermercados.', 'sentence_bad': 'Ningúna invitada compra al menos ocho supermercados.'}
+{'sentence_good': 'Ningúna profesora vende mas que tres vestidos.', 'sentence_bad': 'Ningúna profesora vende al menos tres vestidos.'}
+{'sentence_good': 'Ningúna senador nota mas que siete cajas.', 'sentence_bad': 'Ningúna senador nota al menos siete cajas.'}
+{'sentence_good': 'Ningúna invitada queja mas que tres bananas.', 'sentence_bad': 'Ningúna invitada queja al menos tres bananas.'}
+{'sentence_good': 'Ningúna mujer pasa menos que seis colinas.', 'sentence_bad': 'Ningúna mujer pasa como mucho seis colinas.'}
+{'sentence_good': 'Ningúna profesora admira menos que dos descapotable.', 'sentence_bad': 'Ningúna profesora admira como mucho dos descapotable.'}
+{'sentence_good': 'Ningún chico tiene mas que nueve escaleras.', 'sentence_bad': 'Ningún chico tiene al menos nueve escaleras.'}
+{'sentence_good': 'Ningún peatón asombra mas que ocho perros.', 'sentence_bad': 'Ningún peatón asombra al menos ocho perros.'}
+{'sentence_good': 'Ningúna adolescente conmociona menos que tres chaquetas.', 'sentence_bad': 'Ningúna adolescente conmociona como mucho tres chaquetas.'}
+{'sentence_good': 'Ningún adulto cuida mas que nueve lamparas.', 'sentence_bad': 'Ningún adulto cuida al menos nueve lamparas.'}
+{'sentence_good': 'Ningúna cajera conduce menos que siete adolescentes.', 'sentence_bad': 'Ningúna cajera conduce como mucho siete adolescentes.'}
+{'sentence_good': 'Ningúna profesora ataca mas que cinco hospitales.', 'sentence_bad': 'Ningúna profesora ataca al menos cinco hospitales.'}
+{'sentence_good': 'Ningún cajero ve menos que nueve profesores.', 'sentence_bad': 'Ningún cajero ve como mucho nueve profesores.'}
+{'sentence_good': 'Ningúna cajera ojea mas que siete medicos.', 'sentence_bad': 'Ningúna cajera ojea al menos siete medicos.'}
+{'sentence_good': 'Ningún cajero vuelve menos que quatro cafés.', 'sentence_bad': 'Ningún cajero vuelve como mucho quatro cafés.'}
+{'sentence_good': 'Ningúna cajera toma menos que nueve cazuelas.', 'sentence_bad': 'Ningúna cajera toma como mucho nueve cazuelas.'}
+{'sentence_good': 'Ningúna senador acerca menos que tres pacientes.', 'sentence_bad': 'Ningúna senador acerca como mucho tres pacientes.'}
+{'sentence_good': 'Ningúna persona odia menos que nueve lentes.', 'sentence_bad': 'Ningúna persona odia como mucho nueve lentes.'}
+{'sentence_good': 'Ningúna senadora acerca mas que ocho escaleras.', 'sentence_bad': 'Ningúna senadora acerca al menos ocho escaleras.'}
+{'sentence_good': 'Ningún adulto cuestiona menos que nueve carámbanos.', 'sentence_bad': 'Ningún adulto cuestiona como mucho nueve carámbanos.'}
+{'sentence_good': 'Ningún serpiente compra mas que dos profesores.', 'sentence_bad': 'Ningún serpiente compra al menos dos profesores.'}
+{'sentence_good': 'Ningún conductor pasa menos que cinco bailarinas.', 'sentence_bad': 'Ningún conductor pasa como mucho cinco bailarinas.'}
+{'sentence_good': 'Ningún niño queja menos que ocho caballos.', 'sentence_bad': 'Ningún niño queja como mucho ocho caballos.'}
+{'sentence_good': 'Ningún hombre consigue mas que dos caballos.', 'sentence_bad': 'Ningún hombre consigue al menos dos caballos.'}
+{'sentence_good': 'Ningúna adulta admira mas que cinco setas.', 'sentence_bad': 'Ningúna adulta admira al menos cinco setas.'}
+{'sentence_good': 'Ningúna senador sienta mas que siete peatones.', 'sentence_bad': 'Ningúna senador sienta al menos siete peatones.'}
+{'sentence_good': 'Ningúna actriz sienta mas que seis armarios.', 'sentence_bad': 'Ningúna actriz sienta al menos seis armarios.'}
+{'sentence_good': 'Ningún serpiente odia menos que cinco berenjenas.', 'sentence_bad': 'Ningún serpiente odia como mucho cinco berenjenas.'}
+{'sentence_good': 'Ningún médico asombra menos que tres platos.', 'sentence_bad': 'Ningún médico asombra como mucho tres platos.'}
+{'sentence_good': 'Ningúna conductora sienta menos que ocho chaquetas.', 'sentence_bad': 'Ningúna conductora sienta como mucho ocho chaquetas.'}
+{'sentence_good': 'Ningún peatón confunde mas que nueve pasteles.', 'sentence_bad': 'Ningún peatón confunde al menos nueve pasteles.'}
+{'sentence_good': 'Ningúna peatona alarma mas que seis ríos.', 'sentence_bad': 'Ningúna peatona alarma al menos seis ríos.'}
+{'sentence_good': 'Ningúna invitada corretea menos que dos películas.', 'sentence_bad': 'Ningúna invitada corretea como mucho dos películas.'}
+{'sentence_good': 'Ningúna bailarina besa mas que nueve carretillas.', 'sentence_bad': 'Ningúna bailarina besa al menos nueve carretillas.'}
+{'sentence_good': 'Ningúna invitada agrava mas que seis los impresionistas.', 'sentence_bad': 'Ningúna invitada agrava al menos seis los impresionistas.'}
+{'sentence_good': 'Ningún hámster admira mas que seis camareros.', 'sentence_bad': 'Ningún hámster admira al menos seis camareros.'}
+{'sentence_good': 'Ningúna senador pinta mas que seis vestidos.', 'sentence_bad': 'Ningúna senador pinta al menos seis vestidos.'}
+{'sentence_good': 'Ningúna actriz pinta menos que nueve asociaciones.', 'sentence_bad': 'Ningúna actriz pinta como mucho nueve asociaciones.'}
+{'sentence_good': 'Ningúna actriz agrava mas que ocho camareras.', 'sentence_bad': 'Ningúna actriz agrava al menos ocho camareras.'}
+{'sentence_good': 'Ningún conejo vende menos que cinco senadores.', 'sentence_bad': 'Ningún conejo vende como mucho cinco senadores.'}
+{'sentence_good': 'Ningún camarero toma mas que siete portones.', 'sentence_bad': 'Ningún camarero toma al menos siete portones.'}
+{'sentence_good': 'Ningún chico oculta menos que quatro gatos.', 'sentence_bad': 'Ningún chico oculta como mucho quatro gatos.'}
+{'sentence_good': 'Ningúna mujer observa menos que ocho los luteranos.', 'sentence_bad': 'Ningúna mujer observa como mucho ocho los luteranos.'}
+{'sentence_good': 'Ningúna invitada ojea mas que nueve pimientos.', 'sentence_bad': 'Ningúna invitada ojea al menos nueve pimientos.'}
+{'sentence_good': 'Ningún chico nota menos que ocho hombres.', 'sentence_bad': 'Ningún chico nota como mucho ocho hombres.'}
+{'sentence_good': 'Ningúna médica asusta mas que tres sombreros.', 'sentence_bad': 'Ningúna médica asusta al menos tres sombreros.'}
+{'sentence_good': 'Ningúna actriz vuelve menos que quatro los impresionistas.', 'sentence_bad': 'Ningúna actriz vuelve como mucho quatro los impresionistas.'}
+{'sentence_good': 'Ningúna adolescente boicotea mas que cinco manzanas.', 'sentence_bad': 'Ningúna adolescente boicotea al menos cinco manzanas.'}
+{'sentence_good': 'Ningún conductor ojea menos que dos tortugas.', 'sentence_bad': 'Ningún conductor ojea como mucho dos tortugas.'}
+{'sentence_good': 'Ningúna bailarina boicotea menos que dos los Balcanes.', 'sentence_bad': 'Ningúna bailarina boicotea como mucho dos los Balcanes.'}
+{'sentence_good': 'Ningún profesor tiene mas que dos bailarinas.', 'sentence_bad': 'Ningún profesor tiene al menos dos bailarinas.'}
+{'sentence_good': 'Ningúna peatona visita menos que siete bocetos.', 'sentence_bad': 'Ningúna peatona visita como mucho siete bocetos.'}
+{'sentence_good': 'Ningún adulto ojea menos que nueve caballos.', 'sentence_bad': 'Ningún adulto ojea como mucho nueve caballos.'}
+{'sentence_good': 'Ningúna profesora asusta mas que seis eventos actuales.', 'sentence_bad': 'Ningúna profesora asusta al menos seis eventos actuales.'}
+{'sentence_good': 'Ningún adulto oculta menos que quatro pantalones.', 'sentence_bad': 'Ningún adulto oculta como mucho quatro pantalones.'}
+{'sentence_good': 'Ningúna camarera corretea mas que dos puertas.', 'sentence_bad': 'Ningúna camarera corretea al menos dos puertas.'}
+{'sentence_good': 'Ningún invitado tiene menos que ocho platos.', 'sentence_bad': 'Ningún invitado tiene como mucho ocho platos.'}
+{'sentence_good': 'Ningúna invitada ojea mas que nueve cuentos.', 'sentence_bad': 'Ningúna invitada ojea al menos nueve cuentos.'}
+{'sentence_good': 'Ningúna senadora conduce menos que cinco manzanas.', 'sentence_bad': 'Ningúna senadora conduce como mucho cinco manzanas.'}
+{'sentence_good': 'Ningúna senadora tiene mas que siete cajas.', 'sentence_bad': 'Ningúna senadora tiene al menos siete cajas.'}
+{'sentence_good': 'Ningún adulto tiene mas que siete armarios.', 'sentence_bad': 'Ningún adulto tiene al menos siete armarios.'}
+{'sentence_good': 'Ningún profesor visita mas que nueve comités.', 'sentence_bad': 'Ningún profesor visita al menos nueve comités.'}
+{'sentence_good': 'Ningún gato besa menos que dos descapotable.', 'sentence_bad': 'Ningún gato besa como mucho dos descapotable.'}
+{'sentence_good': 'Ningún gato vende mas que ocho setas.', 'sentence_bad': 'Ningún gato vende al menos ocho setas.'}
+{'sentence_good': 'Ningún profesor ve menos que seis empresas.', 'sentence_bad': 'Ningún profesor ve como mucho seis empresas.'}
+{'sentence_good': 'Ningúna actriz ayuda mas que siete lagos.', 'sentence_bad': 'Ningúna actriz ayuda al menos siete lagos.'}
+{'sentence_good': 'Ningún pez odia menos que quatro colinas.', 'sentence_bad': 'Ningún pez odia como mucho quatro colinas.'}
+{'sentence_good': 'Ningúna adolescente pinta mas que seis escuelas.', 'sentence_bad': 'Ningúna adolescente pinta al menos seis escuelas.'}
+{'sentence_good': 'Ningún peatón tiene mas que siete pacientes.', 'sentence_bad': 'Ningún peatón tiene al menos siete pacientes.'}
+{'sentence_good': 'Ningúna persona sale menos que nueve camisas.', 'sentence_bad': 'Ningúna persona sale como mucho nueve camisas.'}
+{'sentence_good': 'Ningún perro vuelve menos que ocho bailarines.', 'sentence_bad': 'Ningún perro vuelve como mucho ocho bailarines.'}
+{'sentence_good': 'Ningúna conductora sienta mas que ocho actores.', 'sentence_bad': 'Ningúna conductora sienta al menos ocho actores.'}
+{'sentence_good': 'Ningúna persona acerca mas que seis adultos.', 'sentence_bad': 'Ningúna persona acerca al menos seis adultos.'}
+{'sentence_good': 'Ningún adulto corretea menos que seis cajeros.', 'sentence_bad': 'Ningún adulto corretea como mucho seis cajeros.'}
+{'sentence_good': 'Ningúna persona trae mas que tres estudiantes.', 'sentence_bad': 'Ningúna persona trae al menos tres estudiantes.'}
+{'sentence_good': 'Ningún bailarín confunde mas que dos carretillas.', 'sentence_bad': 'Ningún bailarín confunde al menos dos carretillas.'}
+{'sentence_good': 'Ningún niño consigue mas que nueve senadores.', 'sentence_bad': 'Ningún niño consigue al menos nueve senadores.'}
+{'sentence_good': 'Ningúna profesora odia mas que dos los Clinton.', 'sentence_bad': 'Ningúna profesora odia al menos dos los Clinton.'}
+{'sentence_good': 'Ningún invitado confunde mas que siete pinturas.', 'sentence_bad': 'Ningún invitado confunde al menos siete pinturas.'}
+{'sentence_good': 'Ningún bailarín vende mas que cinco libros.', 'sentence_bad': 'Ningún bailarín vende al menos cinco libros.'}
+{'sentence_good': 'Ningún serpiente corretea mas que tres pacientes.', 'sentence_bad': 'Ningún serpiente corretea al menos tres pacientes.'}
+{'sentence_good': 'Ningúna adulta compra menos que quatro ventanas.', 'sentence_bad': 'Ningúna adulta compra como mucho quatro ventanas.'}
+{'sentence_good': 'Ningún profesor pasa mas que ocho serpientes.', 'sentence_bad': 'Ningún profesor pasa al menos ocho serpientes.'}

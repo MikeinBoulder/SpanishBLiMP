@@ -4,10 +4,9 @@ from Spanish_Utils.vocab_sets import *
 import numpy as np
 import sys
 
-#all_transitive_gerunds
 good_quantifiers_pl_masc = np.union1d(d_masc_pl,['pocos','muchos'])
 good_quantifiers_pl_fem = np.union1d(d_fem_pl,['pocas','muchas']) 
-bad_quantifiers = ['todos','todas','cada', 'no']
+bad_quantifiers_gen = ['muy','bastante']#, 'no','cada']
 
 def sample(iter, out):
     for i in range(iter):
@@ -15,21 +14,21 @@ def sample(iter, out):
         if choice([True,False]):
             if choice([True,False]):
                 q_good = choice(good_quantifiers_pl_fem, ['las'])
-                q_bad = choice(bad_quantifiers)
+                q_bad = choice(np.union1d(bad_quantifiers_gen, ['todas']))
                 N = choice(all_animate_pl_nouns_fem)
             else:
                 q_good = choice(good_quantifiers_pl_masc, ['los'])
-                q_bad = choice(bad_quantifiers)
+                q_bad = choice(np.union1d(bad_quantifiers_gen, ['todos']))
                 N = choice(all_animate_pl_nouns_masc)
         #Singular noun
         else:
             if choice([True,False]):
                 q_good = choice(d_fem_sg,['la'])
-                q_bad = choice(bad_quantifiers)
+                q_bad = choice(np.union1d(bad_quantifiers_gen, ['toda']))
                 N = choice(all_animate_sg_nouns_fem, all_proper_nouns)
             else:
                 q_good = choice(d_masc_sg,['el'])
-                q_bad = choice(bad_quantifiers)
+                q_bad = choice(np.union1d(bad_quantifiers_gen, ['todo']))
                 N = choice(all_animate_sg_nouns_masc, all_proper_nouns)
         V = verb_cleanup(choice(all_transitive_gerunds), remove_se_inf = True)
         #Same as above for object
