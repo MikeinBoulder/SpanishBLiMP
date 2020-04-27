@@ -74,7 +74,7 @@ def sample(iter, out):
                 Adj = choice(np.union1d(all_adj_pl_fem,all_adj_pl_neuter))
                 D1, D2 = random.choice(plural_dets_fem)
             else:
-                Obj = choice(all_inanimate_pl_nouns_m)
+                Obj = choice(all_inanimate_pl_nouns_masc)
                 Adj = choice(np.union1d(all_adj_pl_masc, all_adj_pl_neuter))
                 D1, D2 = random.choice(plural_dets_masc)
         else:
