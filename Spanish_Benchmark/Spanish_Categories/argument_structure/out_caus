@@ -1,10 +1,100 @@
-{'sentence_good': 'Unos medicos han ocultado unos perros.', 'sentence_bad': 'Unos medicos se han doblado unos perros.'}
-{'sentence_good': 'Los bailarines han conocido la cajera.', 'sentence_bad': 'Los bailarines se han iluminado la cajera.'}
-{'sentence_good': 'Unos perros han comprado la mujer.', 'sentence_bad': 'Unos perros se han crecido la mujer.'}
-{'sentence_good': 'Unos niños han ensayado las personas.', 'sentence_bad': 'Unos niños se han desacelerado las personas.'}
-{'sentence_good': 'Nicole ha ayudado las bailarinas.', 'sentence_bad': 'Nicole se ha oxidado las bailarinas.'}
-{'sentence_good': 'Juan Ignacio ha confundido la bailarina.', 'sentence_bad': 'Juan Ignacio se ha ennegrecido la bailarina.'}
-{'sentence_good': 'Gonzalo ha conocido unas señoras.', 'sentence_bad': 'Gonzalo se ha madurado unas señoras.'}
-{'sentence_good': 'Valentino ha criticado los profesores.', 'sentence_bad': 'Valentino se ha movido los profesores.'}
-{'sentence_good': 'Allison ha escapado un médico.', 'sentence_bad': 'Allison se ha oscurecido un médico.'}
-{'sentence_good': 'Rafael ha vuelto unos invitados.', 'sentence_bad': 'Rafael se ha ennegrecido unos invitados.'}
+{'sentence_good': 'Máximo ha disgustado el niño.', 'sentence_bad': 'Máximo ha deshilachado el niño.'}
+{'sentence_good': 'Los invitados han impresionada un hámster.', 'sentence_bad': 'Los invitados han acelerado un hámster.'}
+{'sentence_good': 'Unos camareros han escuchados una adulta.', 'sentence_bad': 'Unos camareros han iluminado una adulta.'}
+{'sentence_good': 'Los chicos han sentado las bailarinas.', 'sentence_bad': 'Los chicos han condensado las bailarinas.'}
+{'sentence_good': 'Alexa ha huida unas profesoras.', 'sentence_bad': 'Alexa ha dirigido unas profesoras.'}
+{'sentence_good': 'Unas medicas han sentados unas invitadas.', 'sentence_bad': 'Unas medicas han preocupado unas invitadas.'}
+{'sentence_good': 'Juana ha asustada unos pájaros.', 'sentence_bad': 'Juana ha cerrado unos pájaros.'}
+{'sentence_good': 'Ximena/Jimena ha mirado los senadores.', 'sentence_bad': 'Ximena/Jimena ha desaparecido los senadores.'}
+{'sentence_good': 'Los hombres han encubiertas unos bailarines.', 'sentence_bad': 'Los hombres han iluminado unos bailarines.'}
+{'sentence_good': 'Unas peatonas han besados las invitadas.', 'sentence_bad': 'Unas peatonas han deshilachado las invitadas.'}
+{'sentence_good': 'Los peatones han levantado la persona.', 'sentence_bad': 'Los peatones han deshilachado la persona.'}
+{'sentence_good': 'Las senadoras han conseguidas unos actores.', 'sentence_bad': 'Las senadoras han oxidado unos actores.'}
+{'sentence_good': 'Unas muchachas han distraídos la niña.', 'sentence_bad': 'Unas muchachas han ennegrecido la niña.'}
+{'sentence_good': 'Unas muchachas han distraídas unos perros.', 'sentence_bad': 'Unas muchachas han deformado unos perros.'}
+{'sentence_good': 'Unos serpientes han acercadas los chicos.', 'sentence_bad': 'Unos serpientes han carbonizado los chicos.'}
+{'sentence_good': 'Los actores han levantada la mujer.', 'sentence_bad': 'Los actores han dirigido la mujer.'}
+{'sentence_good': 'Las medicas han odiado el hombre.', 'sentence_bad': 'Las medicas han deformado el hombre.'}
+{'sentence_good': 'Las bailarinas han odiados las conductoras.', 'sentence_bad': 'Las bailarinas han desmoronado las conductoras.'}
+{'sentence_good': 'Una tortuga ha mirada los peces.', 'sentence_bad': 'Una tortuga ha acelerado los peces.'}
+{'sentence_good': 'Las mujeres han irritadas las invitadas.', 'sentence_bad': 'Las mujeres han crecido las invitadas.'}
+{'sentence_good': 'Los caballos han heridos unos camareros.', 'sentence_bad': 'Los caballos han dirigido unos camareros.'}
+{'sentence_good': 'Un niño ha odiados unos peces.', 'sentence_bad': 'Un niño ha despertado unos peces.'}
+{'sentence_good': 'Las tortugas han atacadas una mujer.', 'sentence_bad': 'Las tortugas han deshilachado una mujer.'}
+{'sentence_good': 'Romina ha ocultada un serpiente.', 'sentence_bad': 'Romina ha deformado un serpiente.'}
+{'sentence_good': 'La dama ha impresionadas los hamsters.', 'sentence_bad': 'La dama ha ennegrecido los hamsters.'}
+{'sentence_good': 'Un médico ha visitada los actores.', 'sentence_bad': 'Un médico ha atenuado los actores.'}
+{'sentence_good': 'Jazmín ha cuestionadas los profesores.', 'sentence_bad': 'Jazmín ha oscurecido los profesores.'}
+{'sentence_good': 'Las peatonas han divorciada un pájaro.', 'sentence_bad': 'Las peatonas han acelerado un pájaro.'}
+{'sentence_good': 'Las medicas han despedida un conejo.', 'sentence_bad': 'Las medicas han desplegado un conejo.'}
+{'sentence_good': 'El pájaro ha notada las invitadas.', 'sentence_bad': 'El pájaro ha condensado las invitadas.'}
+{'sentence_good': 'Bianca ha conducida unas invitadas.', 'sentence_bad': 'Bianca ha podrido unas invitadas.'}
+{'sentence_good': 'Los cajeros han pasadas la cajera.', 'sentence_bad': 'Los cajeros han carbonizado la cajera.'}
+{'sentence_good': 'Leonardo ha miradas el hombre.', 'sentence_bad': 'Leonardo ha dirigido el hombre.'}
+{'sentence_good': 'Los invitados han boicoteados unos senadores.', 'sentence_bad': 'Los invitados han preocupado unos senadores.'}
+{'sentence_good': 'Gabriela ha ayudada los gatos.', 'sentence_bad': 'Gabriela ha oscurecido los gatos.'}
+{'sentence_good': 'Unas camareras han quejado los hombres.', 'sentence_bad': 'Unas camareras han preocupado los hombres.'}
+{'sentence_good': 'Jesús ha escapado unas conductoras.', 'sentence_bad': 'Jesús ha desplegado unas conductoras.'}
+{'sentence_good': 'Guadalupe ha despedidas un peatón.', 'sentence_bad': 'Guadalupe ha entrenado un peatón.'}
+{'sentence_good': 'Una camarera ha disgustado una médica.', 'sentence_bad': 'Una camarera ha volcado una médica.'}
+{'sentence_good': 'Unas senadoras han herido los perros.', 'sentence_bad': 'Unas senadoras han deshilachado los perros.'}
+{'sentence_good': 'Unas medicas han cuidadas las invitadas.', 'sentence_bad': 'Unas medicas han crecido las invitadas.'}
+{'sentence_good': 'Las actrices han sentadas la médica.', 'sentence_bad': 'Las actrices han deformado la médica.'}
+{'sentence_good': 'Las adultas han dolidas unas actrices.', 'sentence_bad': 'Las adultas han cerrado unas actrices.'}
+{'sentence_good': 'Unas conductoras han mirado unas actrices.', 'sentence_bad': 'Unas conductoras han oxidado unas actrices.'}
+{'sentence_good': 'Los gatos han besados el actor.', 'sentence_bad': 'Los gatos han desaparecido el actor.'}
+{'sentence_good': 'Las adultas han admirados las invitadas.', 'sentence_bad': 'Las adultas han deformado las invitadas.'}
+{'sentence_good': 'Los bailarines han conducidas un conductor.', 'sentence_bad': 'Los bailarines han atenuado un conductor.'}
+{'sentence_good': 'El pez ha observada un profesor.', 'sentence_bad': 'El pez ha oxidado un profesor.'}
+{'sentence_good': 'Unas tortugas han distraídos la adulta.', 'sentence_bad': 'Unas tortugas han podrido la adulta.'}
+{'sentence_good': 'Jazmín ha ayudada unas mujeres.', 'sentence_bad': 'Jazmín ha maniobrado unas mujeres.'}
+{'sentence_good': 'Las actrices han examinados un pájaro.', 'sentence_bad': 'Las actrices han madurado un pájaro.'}
+{'sentence_good': 'Las señoras han impresionados el camarero.', 'sentence_bad': 'Las señoras han desmoronado el camarero.'}
+{'sentence_good': 'Olivia ha llevada una conductora.', 'sentence_bad': 'Olivia ha desplegado una conductora.'}
+{'sentence_good': 'Ana Paula ha sentado el chico.', 'sentence_bad': 'Ana Paula ha ennegrecido el chico.'}
+{'sentence_good': 'Los conductores han admiradas unos perros.', 'sentence_bad': 'Los conductores han despertado unos perros.'}
+{'sentence_good': 'Unas peatonas han encubierto un adulto.', 'sentence_bad': 'Unas peatonas han cerrado un adulto.'}
+{'sentence_good': 'Unas actrices han pintado una adolescente.', 'sentence_bad': 'Unas actrices han chocado una adolescente.'}
+{'sentence_good': 'El pez ha alarmadas las tortugas.', 'sentence_bad': 'El pez ha vaporizado las tortugas.'}
+{'sentence_good': 'Unos perros han examinados unos camareros.', 'sentence_bad': 'Unos perros han quemado unos camareros.'}
+{'sentence_good': 'Alonso ha llegada unos conejos.', 'sentence_bad': 'Alonso ha entrenado unos conejos.'}
+{'sentence_good': 'Unas señoras han escapado la actriz.', 'sentence_bad': 'Unas señoras han preocupado la actriz.'}
+{'sentence_good': 'Fernando ha encontradas unos conductores.', 'sentence_bad': 'Fernando ha despertado unos conductores.'}
+{'sentence_good': 'Los conejos han besadas los invitados.', 'sentence_bad': 'Los conejos han desplegado los invitados.'}
+{'sentence_good': 'Máximo ha pasadas el peatón.', 'sentence_bad': 'Máximo ha desacelerado el peatón.'}
+{'sentence_good': 'Fabiana ha conocida un peatón.', 'sentence_bad': 'Fabiana ha desmoronado un peatón.'}
+{'sentence_good': 'Rodrigo ha tomadas unas senadoras.', 'sentence_bad': 'Rodrigo ha ennegrecido unas senadoras.'}
+{'sentence_good': 'Los hombres han escuchada la actriz.', 'sentence_bad': 'Los hombres han volcado la actriz.'}
+{'sentence_good': 'María Paula ha encubierta unas personas.', 'sentence_bad': 'María Paula ha oscurecido unas personas.'}
+{'sentence_good': 'Alejandro ha heridas un serpiente.', 'sentence_bad': 'Alejandro ha deshilachado un serpiente.'}
+{'sentence_good': 'Los invitados han explorados las invitadas.', 'sentence_bad': 'Los invitados han desplegado las invitadas.'}
+{'sentence_good': 'Alexander ha escapada unos conejos.', 'sentence_bad': 'Alexander ha crecido unos conejos.'}
+{'sentence_good': 'Unas adultas han encubiertas la peatona.', 'sentence_bad': 'Unas adultas han chocado la peatona.'}
+{'sentence_good': 'Las personas han notadas la invitada.', 'sentence_bad': 'Las personas han atenuado la invitada.'}
+{'sentence_good': 'Cristóbal ha escuchado un médico.', 'sentence_bad': 'Cristóbal ha podrido un médico.'}
+{'sentence_good': 'Los peces han boicoteada una senadora.', 'sentence_bad': 'Los peces han desplegado una senadora.'}
+{'sentence_good': 'Un invitado ha despedidos la conductora.', 'sentence_bad': 'Un invitado ha preocupado la conductora.'}
+{'sentence_good': 'Unos adultos han conocida unos niños.', 'sentence_bad': 'Unos adultos han volcado unos niños.'}
+{'sentence_good': 'Unas medicas han cuestionadas la mujer.', 'sentence_bad': 'Unas medicas han abierto la mujer.'}
+{'sentence_good': 'Elisa ha quejada unas muchachas.', 'sentence_bad': 'Elisa ha podrido unas muchachas.'}
+{'sentence_good': 'Unos serpientes han miradas unos caballos.', 'sentence_bad': 'Unos serpientes han doblado unos caballos.'}
+{'sentence_good': 'Renata ha llevado las tortugas.', 'sentence_bad': 'Renata ha quemado las tortugas.'}
+{'sentence_good': 'Martín ha conocida la adolescente.', 'sentence_bad': 'Martín ha abierto la adolescente.'}
+{'sentence_good': 'Las señoras han cuestionado el niño.', 'sentence_bad': 'Las señoras han vaporizado el niño.'}
+{'sentence_good': 'Santiago ha pintadas unas peatonas.', 'sentence_bad': 'Santiago ha desaparecido unas peatonas.'}
+{'sentence_good': 'El perro ha vuelto unas señoras.', 'sentence_bad': 'El perro ha iluminado unas señoras.'}
+{'sentence_good': 'Isidora ha distraída el conductor.', 'sentence_bad': 'Isidora ha dirigido el conductor.'}
+{'sentence_good': 'Unas medicas han tenida la niña.', 'sentence_bad': 'Unas medicas han vaporizado la niña.'}
+{'sentence_good': 'Jacobo ha salidas la camarera.', 'sentence_bad': 'Jacobo ha madurado la camarera.'}
+{'sentence_good': 'Unos senadores han explorados las camareras.', 'sentence_bad': 'Unos senadores han movido las camareras.'}
+{'sentence_good': 'Unas conductoras han impresionadas el actor.', 'sentence_bad': 'Unas conductoras han desaparecido el actor.'}
+{'sentence_good': 'Luna ha asombrada las señoras.', 'sentence_bad': 'Luna ha chocado las señoras.'}
+{'sentence_good': 'Unas tortugas han tenido unas personas.', 'sentence_bad': 'Unas tortugas han deshilachado unas personas.'}
+{'sentence_good': 'Benjamín ha llegada los medicos.', 'sentence_bad': 'Benjamín ha entrenado los medicos.'}
+{'sentence_good': 'Las camareras han odiado un bailarín.', 'sentence_bad': 'Las camareras han doblado un bailarín.'}
+{'sentence_good': 'Mateo ha besado la médica.', 'sentence_bad': 'Mateo ha abierto la médica.'}
+{'sentence_good': 'Los chicos han despedidas los gatos.', 'sentence_bad': 'Los chicos han ennegrecido los gatos.'}
+{'sentence_good': 'Los niños han tenida las profesoras.', 'sentence_bad': 'Los niños han entrenado las profesoras.'}
+{'sentence_good': 'Jazmín ha traídos un conejo.', 'sentence_bad': 'Jazmín ha maniobrado un conejo.'}
+{'sentence_good': 'Mauricio ha ojeado un camarero.', 'sentence_bad': 'Mauricio ha quemado un camarero.'}
+{'sentence_good': 'Un gato ha comprados las medicas.', 'sentence_bad': 'Un gato ha chocado las medicas.'}

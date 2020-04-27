@@ -9,7 +9,7 @@ haber = ['ha', 'han']
 
 def sample(iter, out):
     for i in range(iter):
-        ptcp = choice(all_trans_ptcp_for_pres_perf)
+        ptcp = choice(all_p3is_anim_subj_allowing_verbs_ptcp)
         #ptcp_bad = choice(all_intrans_ptcp_for_pres_perf)
         #plural verb -> han ptcp
         if np.random.choice([True, False]):
@@ -49,7 +49,7 @@ def sample(iter, out):
                 D2 = choice(d_masc_sg)
                 Obj = choice(all_animate_sg_nouns_masc, np.union1d(Subj,all_proper_nouns))
 
-        V_bad = verb_cleanup(aux + " " + choice(all_intrans_ptcp_for_pres_perf), make_reflex = True)
+        V_bad = verb_cleanup(aux + " " + choice(all_intrans_ptcp_for_pres_perf), make_reflex = False)
         if Subj[0] >= 'A' and Subj[0] <= 'Z':
             data = {
                 'sentence_good' : '%s %s %s %s %s.' % (Subj, aux, ptcp, D2, Obj),
