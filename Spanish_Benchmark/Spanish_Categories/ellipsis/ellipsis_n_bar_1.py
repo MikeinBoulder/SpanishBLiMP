@@ -70,7 +70,7 @@ def sample(iter, out):
         if choice([True,False]):
             #Plural Obj
             if choice([True,False]):
-                Obj = choice(all_inanimate_pl_nouns_f)
+                Obj = choice(all_inanimate_pl_nouns_fem)
                 Adj = choice(np.union1d(all_adj_pl_fem,all_adj_pl_neuter))
                 D1, D2 = random.choice(plural_dets_fem)
             else:
@@ -80,11 +80,11 @@ def sample(iter, out):
         else:
             #Singular Obj
             if choice([True,False]):
-                Obj = choice(all_inanimate_sg_nouns_f)
+                Obj = choice(all_inanimate_sg_nouns_fem)
                 Adj = choice(np.union1d(all_adj_sg_fem, all_adj_sg_neuter))
                 D1, D2 = random.choice(singular_dets_fem)
             else:
-                Obj = choice(all_inanimate_sg_nouns_m)
+                Obj = choice(all_inanimate_sg_nouns_masc)
                 Adj = choice(np.union1d(all_adj_sg_masc,all_adj_sg_neuter))
                 D1, D2 = random.choice(singular_dets_masc)
 
